@@ -1,0 +1,318 @@
+INFO:root:-- operations started at Mon May 30 13:34:35 2022 (test time = 2015 Jan 2 11:00) --
+INFO:root: oauth generation at Mon May 30 13:34:35 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- response to oauth request at <built-in function ctime> --- 
+ {"access_token":"1000.db509c4082586452810d4da0f6d5429e.320e578bc6b64b79711ef9a43e95ee5e","refresh_token":"1000.80a538a9c85a7becda4d5644f1383d20.9c163a844d6db0b8d042804ddc57bd1b","api_domain":"https://www.zohoapis.in","token_type":"Bearer","expires_in":3600}
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root: -> refreshing tokens at Mon May 30 13:34:41 2022 
+INFO:root: writing refresh token request response at Mon May 30 13:34:41 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- response to refresh request at Mon May 30 13:34:42 2022 --- 
+ {"access_token":"1000.73d1a161b2247aff7833ef9cbad29c7c.8b841e0a313f79447779216a440bd2b2","api_domain":"https://www.zohoapis.in","token_type":"Bearer","expires_in":3600}
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root: --connection successful at 'Mon May 30 13:34:42 2022' --
+INFO:root:-> no records created between '2015-01-02 11:00:00' and '2015-01-02 11:10:00' 
+INFO:root:-> no records created between '2015-01-02 11:10:00' and '2015-01-02 11:20:00' 
+INFO:root:-> no records created between '2015-01-02 11:20:00' and '2015-01-02 11:30:00' 
+INFO:root:-> no records created between '2015-01-02 11:30:00' and '2015-01-02 11:40:00' 
+INFO:root:-> no records created between '2015-01-02 11:40:00' and '2015-01-02 11:50:00' 
+INFO:root:-> no records created between '2015-01-02 11:50:00' and '2015-01-02 12:00:00' 
+INFO:root:-> no records created between '2015-01-02 12:00:00' and '2015-01-02 12:10:00' 
+INFO:root:-> no records created between '2015-01-02 12:10:00' and '2015-01-02 12:20:00' 
+INFO:root:-> no records created between '2015-01-02 12:20:00' and '2015-01-02 12:30:00' 
+INFO:root:-> no records created between '2015-01-02 12:30:00' and '2015-01-02 12:40:00' 
+INFO:root:-> 1 records created between '2015-01-02 12:40:00' and '2015-01-02 12:50:00' 
+INFO:root:
+
+
+
+
+>>>calling leads api at Mon May 30 13:36:32 2022
+INFO:root:
+ ------------------------------------ 
+
+INFO:root:
+ -- reponse recieved at Mon May 30 13:36:32 2022 -- 
+ {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2022-05-30T13:36:32+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-30T13:36:32+05:30","id":"348488000000261035","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"}]} 
+INFO:root:
+ ------------------------------------ 
+
+INFO:root: -> refreshing tokens at Mon May 30 13:36:41 2022 
+INFO:root: writing refresh token request response at Mon May 30 13:36:41 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- response to refresh request at Mon May 30 13:36:42 2022 --- 
+ {"access_token":"1000.cc046d368572f77ef084a3b61ff78efc.b98e8c1738039fbba545782bbf8db483","api_domain":"https://www.zohoapis.in","token_type":"Bearer","expires_in":3600}
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:-> no records created between '2015-01-02 12:50:00' and '2015-01-02 13:00:00' 
+INFO:root:-> no records created between '2015-01-02 13:00:00' and '2015-01-02 13:10:00' 
+INFO:root:-> no records created between '2015-01-02 13:10:00' and '2015-01-02 13:20:00' 
+INFO:root:-> no records created between '2015-01-02 13:20:00' and '2015-01-02 13:30:00' 
+INFO:root:-> 1 records created between '2015-01-02 13:30:00' and '2015-01-02 13:40:00' 
+INFO:root:
+
+
+
+
+>>>calling leads api at Mon May 30 13:37:22 2022
+INFO:root:
+ ------------------------------------ 
+
+INFO:root:
+ -- reponse recieved at Mon May 30 13:37:23 2022 -- 
+ {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2022-05-30T13:37:23+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-30T13:37:23+05:30","id":"348488000000261040","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"}]} 
+INFO:root:
+ ------------------------------------ 
+
+INFO:root:-> 1 records created between '2015-01-02 13:40:00' and '2015-01-02 13:50:00' 
+INFO:root:
+
+
+
+
+>>>calling leads api at Mon May 30 13:37:33 2022
+INFO:root:
+ ------------------------------------ 
+
+INFO:root:
+ -- reponse recieved at Mon May 30 13:37:35 2022 -- 
+ {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2022-05-30T13:37:34+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-30T13:37:34+05:30","id":"348488000000268001","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"}]} 
+INFO:root:
+ ------------------------------------ 
+
+INFO:root:-> no records created between '2015-01-02 13:50:00' and '2015-01-02 14:00:00' 
+INFO:root:-> no records created between '2015-01-02 14:00:00' and '2015-01-02 14:10:00' 
+INFO:root:-> no records created between '2015-01-02 14:10:00' and '2015-01-02 14:20:00' 
+INFO:root:-> no records created between '2015-01-02 14:20:00' and '2015-01-02 14:30:00' 
+INFO:root:-> no records created between '2015-01-02 14:30:00' and '2015-01-02 14:40:00' 
+INFO:root:-> no records created between '2015-01-02 14:40:00' and '2015-01-02 14:50:00' 
+INFO:root: -> refreshing tokens at Mon May 30 13:38:41 2022 
+INFO:root: writing refresh token request response at Mon May 30 13:38:41 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- response to refresh request at Mon May 30 13:38:42 2022 --- 
+ {"access_token":"1000.f445464106a1282fdc9842fc540ed688.c124abc535a0c6f49a9fe81733ca15e8","api_domain":"https://www.zohoapis.in","token_type":"Bearer","expires_in":3600}
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:-> no records created between '2015-01-02 14:50:00' and '2015-01-02 15:00:00' 
+INFO:root:-> no records created between '2015-01-02 15:00:00' and '2015-01-02 15:10:00' 
+INFO:root:-> no records created between '2015-01-02 15:10:00' and '2015-01-02 15:20:00' 
+INFO:root:-> no records created between '2015-01-02 15:20:00' and '2015-01-02 15:30:00' 
+INFO:root:-> 1 records created between '2015-01-02 15:30:00' and '2015-01-02 15:40:00' 
+INFO:root:
+
+
+
+
+>>>calling leads api at Mon May 30 13:39:25 2022
+INFO:root:
+ ------------------------------------ 
+
+INFO:root:
+ -- reponse recieved at Mon May 30 13:39:27 2022 -- 
+ {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2022-05-30T13:39:26+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-30T13:39:26+05:30","id":"348488000000269001","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"}]} 
+INFO:root:
+ ------------------------------------ 
+
+INFO:root:-> 1 records created between '2015-01-02 15:40:00' and '2015-01-02 15:50:00' 
+INFO:root:
+
+
+
+
+>>>calling leads api at Mon May 30 13:39:37 2022
+INFO:root:
+ ------------------------------------ 
+
+INFO:root:
+ -- reponse recieved at Mon May 30 13:39:38 2022 -- 
+ {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2022-05-30T13:39:38+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-30T13:39:38+05:30","id":"348488000000270001","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"}]} 
+INFO:root:
+ ------------------------------------ 
+
+INFO:root:-> 1 records created between '2015-01-02 15:50:00' and '2015-01-02 16:00:00' 
+INFO:root:
+
+
+
+
+>>>calling leads api at Mon May 30 13:39:48 2022
+INFO:root:
+ ------------------------------------ 
+
+INFO:root:
+ -- reponse recieved at Mon May 30 13:39:49 2022 -- 
+ {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2022-05-30T13:39:48+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-30T13:39:48+05:30","id":"348488000000264006","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"}]} 
+INFO:root:
+ ------------------------------------ 
+
+INFO:root:-> no records created between '2015-01-02 16:00:00' and '2015-01-02 16:10:00' 
+INFO:root:-> 1 records created between '2015-01-02 16:10:00' and '2015-01-02 16:20:00' 
+INFO:root:
+
+
+
+
+>>>calling leads api at Mon May 30 13:40:09 2022
+INFO:root:
+ ------------------------------------ 
+
+INFO:root:
+ -- reponse recieved at Mon May 30 13:40:24 2022 -- 
+ {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2022-05-30T13:40:19+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-30T13:40:19+05:30","id":"348488000000271001","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"}]} 
+INFO:root:
+ ------------------------------------ 
+
+INFO:root:-> no records created between '2015-01-02 16:20:00' and '2015-01-02 16:30:00' 
+INFO:root: -> refreshing tokens at Mon May 30 13:40:41 2022 
+INFO:root: writing refresh token request response at Mon May 30 13:40:41 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- response to refresh request at Mon May 30 13:40:41 2022 --- 
+ {"access_token":"1000.616782bdbfb87cb3ed5e7c5217f37ae8.95315dfb45d47828e5901a4b99da7261","api_domain":"https://www.zohoapis.in","token_type":"Bearer","expires_in":3600}
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:-> no records created between '2015-01-02 16:30:00' and '2015-01-02 16:40:00' 
+INFO:root:-> no records created between '2015-01-02 16:40:00' and '2015-01-02 16:50:00' 
+INFO:root:-> 2 records created between '2015-01-02 16:50:00' and '2015-01-02 17:00:00' 
+INFO:root:
+
+
+
+
+>>>calling leads api at Mon May 30 13:41:04 2022
+INFO:root:
+ ------------------------------------ 
+
+INFO:root:
+ -- reponse recieved at Mon May 30 13:41:05 2022 -- 
+ {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2022-05-30T13:41:05+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-30T13:41:05+05:30","id":"348488000000263006","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"},{"code":"SUCCESS","details":{"Modified_Time":"2022-05-30T13:41:05+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-30T13:41:05+05:30","id":"348488000000263007","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"}]} 
+INFO:root:
+ ------------------------------------ 
+
+INFO:root:-> no records created between '2015-01-02 17:00:00' and '2015-01-02 17:10:00' 
+INFO:root:-> no records created between '2015-01-02 17:10:00' and '2015-01-02 17:20:00' 
+INFO:root:-> no records created between '2015-01-02 17:20:00' and '2015-01-02 17:30:00' 
+INFO:root:-> 2 records created between '2015-01-02 17:30:00' and '2015-01-02 17:40:00' 
+INFO:root:
+
+
+
+
+>>>calling leads api at Mon May 30 13:41:45 2022
+INFO:root:
+ ------------------------------------ 
+
+INFO:root:
+ -- reponse recieved at Mon May 30 13:41:46 2022 -- 
+ {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2022-05-30T13:41:46+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-30T13:41:46+05:30","id":"348488000000272001","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"},{"code":"SUCCESS","details":{"Modified_Time":"2022-05-30T13:41:46+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-30T13:41:46+05:30","id":"348488000000272002","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"}]} 
+INFO:root:
+ ------------------------------------ 
+
+INFO:root:-> 5 records created between '2015-01-02 17:40:00' and '2015-01-02 17:50:00' 
+INFO:root:
+
+
+
+
+>>>calling leads api at Mon May 30 13:41:56 2022
+INFO:root:
+ ------------------------------------ 
+
+INFO:root:
+ -- reponse recieved at Mon May 30 13:41:57 2022 -- 
+ {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2022-05-30T13:41:57+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-30T13:41:57+05:30","id":"348488000000273001","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"},{"code":"SUCCESS","details":{"Modified_Time":"2022-05-30T13:41:57+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-30T13:41:57+05:30","id":"348488000000273002","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"},{"code":"SUCCESS","details":{"Modified_Time":"2022-05-30T13:41:57+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-30T13:41:57+05:30","id":"348488000000273003","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"},{"code":"SUCCESS","details":{"Modified_Time":"2022-05-30T13:41:57+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-30T13:41:57+05:30","id":"348488000000273004","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"},{"code":"SUCCESS","details":{"Modified_Time":"2022-05-30T13:41:57+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-30T13:41:57+05:30","id":"348488000000273005","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"}]} 
+INFO:root:
+ ------------------------------------ 
+
+INFO:root:-> no records created between '2015-01-02 17:50:00' and '2015-01-02 18:00:00' 
+INFO:root:-> 1 records created between '2015-01-02 18:00:00' and '2015-01-02 18:10:00' 
+INFO:root:
+
+
+
+
+>>>calling leads api at Mon May 30 13:42:17 2022
+INFO:root:
+ ------------------------------------ 
+
+INFO:root:
+ -- reponse recieved at Mon May 30 13:42:18 2022 -- 
+ {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2022-05-30T13:42:18+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-30T13:42:18+05:30","id":"348488000000269006","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"}]} 
+INFO:root:
+ ------------------------------------ 
+
+INFO:root:-> no records created between '2015-01-02 18:10:00' and '2015-01-02 18:20:00' 
+INFO:root:-> 3 records created between '2015-01-02 18:20:00' and '2015-01-02 18:30:00' 
+INFO:root:
+
+
+
+
+>>>calling leads api at Mon May 30 13:42:38 2022
+INFO:root:
+ ------------------------------------ 
+
+INFO:root:
+ -- reponse recieved at Mon May 30 13:42:39 2022 -- 
+ {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2022-05-30T13:42:38+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-30T13:42:38+05:30","id":"348488000000263015","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"},{"code":"SUCCESS","details":{"Modified_Time":"2022-05-30T13:42:38+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-30T13:42:38+05:30","id":"348488000000263016","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"},{"code":"SUCCESS","details":{"Modified_Time":"2022-05-30T13:42:38+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-30T13:42:38+05:30","id":"348488000000263017","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"}]} 
+INFO:root:
+ ------------------------------------ 
+
+INFO:root: -> refreshing tokens at Mon May 30 13:42:41 2022 
+INFO:root: writing refresh token request response at Mon May 30 13:42:41 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- response to refresh request at Mon May 30 13:42:42 2022 --- 
+ {"access_token":"1000.73ab9e4f10b1bf932bc67dd405fbca90.1f310765cf553bec85d7d43775ef53e1","api_domain":"https://www.zohoapis.in","token_type":"Bearer","expires_in":3600}
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:-> no records created between '2015-01-02 18:30:00' and '2015-01-02 18:40:00' 
+INFO:root:-> no records created between '2015-01-02 18:40:00' and '2015-01-02 18:50:00' 
+INFO:root:-> no records created between '2015-01-02 18:50:00' and '2015-01-02 19:00:00' 
+INFO:root:--MySQL connection is closed at Mon May 30 13:43:09 2022--
+INFO:root: -> refreshing tokens at Mon May 30 13:44:41 2022 
+INFO:root: writing refresh token request response at Mon May 30 13:44:41 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- response to refresh request at Mon May 30 13:44:42 2022 --- 
+ {"access_token":"1000.b91da786683f09743f20ecfc3d9cf46d.b458c656b3c941bed2c0b6dcb51b0e0b","api_domain":"https://www.zohoapis.in","token_type":"Bearer","expires_in":3600}
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root: -> refreshing tokens at Mon May 30 13:46:41 2022 
+INFO:root: writing refresh token request response at Mon May 30 13:46:41 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- response to refresh request at Mon May 30 13:46:42 2022 --- 
+ {"access_token":"1000.7e0e5aa9ea9e896438c55f572991171b.2a6977d5256cb1c39e2c2094744497b8","api_domain":"https://www.zohoapis.in","token_type":"Bearer","expires_in":3600}
+INFO:root:
+ --------------------------------------------------- 
+

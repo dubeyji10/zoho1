@@ -1,0 +1,9 @@
+    
+set @json_file5 = ( select group_concat(table1.data1,table1.data2,table1.data3) from  (  select concat('{"','clients_user_id','"',':','"',user_id,'",') as data1 ,concat('"','Name','"',':','"',company_name,'",') as data2 ,concat('"','added_on','"',':',concat('"',CONCAT(replace(DATE_FORMAT(added_on,'%Y-%m-%d %T'),' ','T'),"+05:30"),'"') ,'}') as data3 from clients ) table1 );
+
+#Query OK, 0 rows affected (0.003 sec)
+
+select @json_file5 into outfile 'test_json_5.json';
+
+
+

@@ -1,0 +1,53 @@
+SELECT 
+  concat(
+    '{', 
+    '"', 
+    'data', 
+    '"', 
+    ':', 
+    '[', 
+    REGEXP_REPLACE(
+      GROUP_CONCAT(
+        json_object (
+          'Name', 
+          CAST(s_n as CHAR), 
+          's_n', 
+          s_n, 
+          'with_email', 
+          with_email, 
+          'user_id', 
+          user_id, 
+          'msg', 
+          msg, 
+          'followup_on', 
+          concat(
+            CONCAT(
+              replace(
+                DATE_FORMAT(followup_on, '%Y-%m-%d %T'), 
+                ' ', 
+                'T'
+              ), 
+              "+05:30"
+            )
+          ), 
+          'added_on', 
+          concat(
+            CONCAT(
+              replace(
+                DATE_FORMAT(added_on, '%Y-%m-%d %T'), 
+                ' ', 
+                'T'
+              ), 
+              "+05:30"
+            )
+          )
+        )
+      ), 
+      '(})', 
+      concat('}', '')
+    ), 
+    ']', 
+    '}'
+  ) 
+from 
+  `conversation`

@@ -1,0 +1,62 @@
+SELECT 
+  concat(
+    '{', 
+    '"', 
+    'data', 
+    '"', 
+    ':', 
+    '[', 
+    REGEXP_REPLACE(
+      GROUP_CONCAT(
+        json_object (
+          'Name', 
+          CAST(id as CHAR), 
+          'local_id', 
+          id, 
+          'user_id', 
+          user_id, 
+          'data_status', 
+          data_status, 
+          'for_customization', 
+          for_customization, 
+          'payment_status', 
+          payment_status, 
+          'Amount', 
+          Amount, 
+          'Total_Months', 
+          Total_Months, 
+          'country', 
+          country, 
+          'direction', 
+          direction, 
+          'status', 
+          invoice_items.status, 
+          'invoice_id', 
+          invoice_id, 
+          'Mode_Of_Delivery', 
+          Mode_Of_Delivery, 
+          'Date_To', 
+          DATE_FORMAT(Date_To, '%Y-%m-%d'), 
+          'Date_From', 
+          DATE_FORMAT(Date_From, '%Y-%m-%d'), 
+          'added_on', 
+          concat(
+            CONCAT(
+              replace(
+                DATE_FORMAT(added_on, '%Y-%m-%d %T'), 
+                ' ', 
+                'T'
+              ), 
+              "+05:30"
+            )
+          )
+        )
+      ), 
+      '(})', 
+      concat('}', '')
+    ), 
+    ']', 
+    '}'
+  ) 
+from 
+  invoice_items

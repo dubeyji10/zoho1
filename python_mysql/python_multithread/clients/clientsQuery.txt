@@ -1,0 +1,98 @@
+SELECT
+  concat(
+    '{',
+    '"',
+    'data',
+    '"',
+    ':',
+    '[',
+    regexp_replace(
+      group_concat(
+        json_object(
+          'Name',
+          `clients`.`company_name`,
+          'website',
+          `clients`.`website`,
+          'contact_person1',
+          `clients`.`contact_person1`,
+          'contact_person2',
+          `clients`.`contact_person2`,
+          'designation',
+          `clients`.`designation`,
+          'company_grade',
+          `clients`.`company_grade`,
+          'mobile_no1',
+          `clients`.`mobile_no1`,
+          'mobile_no2',
+          `clients`.`mobile_no2`,
+          'last_conversation',
+          `clients`.`last_conversation`,
+          'user_id',
+          `clients`.`user_id`,
+          'local_id',
+          `clients`.`id`,
+          'phonecode',
+          `clients`.`phonecode`,
+          'Country',
+          `clients`.`Country`,
+          'last_mail_no',
+          `clients`.`last_mail_no`,
+          'last_sms_no',
+          `clients`.`last_sms_no`,
+          'phone_no',
+          (
+            select
+              case when ifnull(`clients`.`phone_no`, '') <> 0 then `clients`.`phone_no` else '' end
+          ),
+          'last_mail_on',
+          concat(
+            concat(
+              replace(
+                date_format(
+                  `clients`.`last_mail_on`,
+                  '%Y-%m-%d %T'
+                ),
+                ' ',
+                'T'
+              ),
+              '+05:30'
+            )
+          ),
+          'last_sms_on',
+          concat(
+            concat(
+              replace(
+                date_format(
+                  `clients`.`last_sms_on`,
+                  '%Y-%m-%d %T'
+                ),
+                ' ',
+                'T'
+              ),
+              '+05:30'
+            )
+          ),
+          'added_on',
+          concat(
+            concat(
+              replace(
+                date_format(
+                  `clients`.`added_on`,
+                  '%Y-%m-%d %T'
+                ),
+                ' ',
+                'T'
+              ),
+              '+05:30'
+            )
+          )
+        ) separator ','
+      ),
+      '(})',
+      concat('}', '')
+    ),
+    ']',
+    '}'
+  ) 
+from
+  `clients`

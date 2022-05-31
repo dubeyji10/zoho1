@@ -1,0 +1,40 @@
+INFO:root: --connection successful at 'Mon May 30 11:30:53 2022' --
+INFO:root: oauth generation at Mon May 30 11:30:53 2022 
+INFO:root:
+ --------- response to oauth request ---------------- 
+
+INFO:root: -> refreshing tokens at Mon May 30 11:30:58 2022 
+INFO:root: writing refresh token request response at Mon May 30 11:30:58 2022 
+INFO:root:
+ --------- response to refresh request ---------------- 
+
+INFO:root: -> refreshing tokens at Mon May 30 11:31:03 2022 
+INFO:root: writing refresh token request response at Mon May 30 11:31:03 2022 
+INFO:root:
+ --------- response to refresh request ---------------- 
+
+INFO:root: -> refreshing tokens at Mon May 30 11:31:08 2022 
+INFO:root: writing refresh token request response at Mon May 30 11:31:08 2022 
+INFO:root:
+ --------- response to refresh request ---------------- 
+
+INFO:root: -> refreshing tokens at Mon May 30 11:31:13 2022 
+INFO:root: writing refresh token request response at Mon May 30 11:31:13 2022 
+INFO:root:
+ --------- response to refresh request ---------------- 
+
+INFO:root: -> refreshing tokens at Mon May 30 11:31:18 2022 
+INFO:root: writing refresh token request response at Mon May 30 11:31:18 2022 
+INFO:root:
+ --------- response to refresh request ---------------- 
+
+INFO:root: -> refreshing tokens at Mon May 30 11:31:23 2022 
+INFO:root: writing refresh token request response at Mon May 30 11:31:23 2022 
+INFO:root:
+ --------- response to refresh request ---------------- 
+
+INFO:root: -> refreshing tokens at Mon May 30 11:31:28 2022 
+INFO:root: writing refresh token request response at Mon May 30 11:31:28 2022 
+INFO:root:
+ --------- response to refresh request ---------------- 
+

@@ -1,0 +1,35 @@
+24 May
+
+1000.8bf4dddefcfe503762b5f21bd8bb9cb6.59a67f17c205471eb36da6e30b9064c7
+
+ at 13:06
+
+{
+    "access_token": "1000.b595e84d77fc83243b87d686bda1c48b.8a3f27241e569ecf953654a652911787",
+    "refresh_token": "1000.7d3194efb08bd106e07d12e86d5b2a2e.7af20344e35425881b7147c2f1d01c76",
+    "api_domain": "https://www.zohoapis.in",
+    "token_type": "Bearer",
+    "expires_in": 3600
+}
+
+ran get conversation --- success
+
+
+at 16:07
+
+{
+    "access_token": "1000.b447f4a24fa337c07d9a2ef4e1d416d1.fbc9218dd313df22da9865413ffd7f50",
+    "refresh_token": "1000.95c519627b894f061b0789035badb50b.483d31a2dd490a2725681e0fead8867f",
+    "api_domain": "https://www.zohoapis.in",
+    "token_type": "Bearer",
+    "expires_in": 3600
+}
+
+token refreshed at 17:21
+
+{
+    "access_token": "1000.9a4153f75fe91fc504c7e660ee4ca824.03fe43195a75010c7f83c00463b59608",
+    "api_domain": "https://www.zohoapis.in",
+    "token_type": "Bearer",
+    "expires_in": 3600
+}

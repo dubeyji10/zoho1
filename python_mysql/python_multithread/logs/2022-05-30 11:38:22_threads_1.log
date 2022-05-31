@@ -1,0 +1,255 @@
+INFO:root: --connection successful at 'Mon May 30 11:38:22 2022' --
+INFO:root: oauth generation at Mon May 30 11:38:22 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --------- response to oauth request ---------------- 
+
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root: -> refreshing tokens at Mon May 30 11:38:27 2022 
+INFO:root: writing refresh token request response at Mon May 30 11:38:27 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --------- response to refresh request ---------------- 
+
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:| ------------------------------------------- |
+INFO:root: fetched records at Mon May 30 11:38:27 2022
+INFO:root: making api request to push data at Mon May 30 11:38:27 2022
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- writing reponse to api --- 
+
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:| ------------------------------------------- |
+INFO:root: -> refreshing tokens at Mon May 30 11:38:32 2022 
+INFO:root:| ------------------------------------------- |
+INFO:root: writing refresh token request response at Mon May 30 11:38:32 2022 
+INFO:root: fetched records at Mon May 30 11:38:32 2022
+INFO:root: making api request to push data at Mon May 30 11:38:32 2022
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- writing reponse to api --- 
+
+INFO:root:
+ --------- response to refresh request ---------------- 
+
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:| ------------------------------------------- |
+INFO:root: -> refreshing tokens at Mon May 30 11:38:37 2022 
+INFO:root: writing refresh token request response at Mon May 30 11:38:37 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --------- response to refresh request ---------------- 
+
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:| ------------------------------------------- |
+INFO:root: fetched records at Mon May 30 11:38:37 2022
+INFO:root: making api request to push data at Mon May 30 11:38:37 2022
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- writing reponse to api --- 
+
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:| ------------------------------------------- |
+INFO:root: -> refreshing tokens at Mon May 30 11:38:42 2022 
+INFO:root: writing refresh token request response at Mon May 30 11:38:42 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --------- response to refresh request ---------------- 
+
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:| ------------------------------------------- |
+INFO:root: fetched records at Mon May 30 11:38:43 2022
+INFO:root: making api request to push data at Mon May 30 11:38:43 2022
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- writing reponse to api --- 
+
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:| ------------------------------------------- |
+INFO:root: -> refreshing tokens at Mon May 30 11:38:47 2022 
+INFO:root: writing refresh token request response at Mon May 30 11:38:47 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --------- response to refresh request ---------------- 
+
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:| ------------------------------------------- |
+INFO:root: fetched records at Mon May 30 11:38:48 2022
+INFO:root: making api request to push data at Mon May 30 11:38:48 2022
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- writing reponse to api --- 
+
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:| ------------------------------------------- |
+INFO:root: -> refreshing tokens at Mon May 30 11:38:52 2022 
+INFO:root: writing refresh token request response at Mon May 30 11:38:52 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --------- response to refresh request ---------------- 
+
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:| ------------------------------------------- |
+INFO:root: fetched records at Mon May 30 11:38:53 2022
+INFO:root: making api request to push data at Mon May 30 11:38:53 2022
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- writing reponse to api --- 
+
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:| ------------------------------------------- |
+INFO:root: -> refreshing tokens at Mon May 30 11:38:57 2022 
+INFO:root: writing refresh token request response at Mon May 30 11:38:57 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --------- response to refresh request ---------------- 
+
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:| ------------------------------------------- |
+INFO:root: fetched records at Mon May 30 11:38:58 2022
+INFO:root: making api request to push data at Mon May 30 11:38:58 2022
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- writing reponse to api --- 
+
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:| ------------------------------------------- |
+INFO:root: -> refreshing tokens at Mon May 30 11:39:02 2022 
+INFO:root: writing refresh token request response at Mon May 30 11:39:02 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --------- response to refresh request ---------------- 
+
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:| ------------------------------------------- |
+INFO:root: fetched records at Mon May 30 11:39:03 2022
+INFO:root: making api request to push data at Mon May 30 11:39:03 2022
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- writing reponse to api --- 
+
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:| ------------------------------------------- |
+INFO:root: -> refreshing tokens at Mon May 30 11:39:07 2022 
+INFO:root: writing refresh token request response at Mon May 30 11:39:07 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --------- response to refresh request ---------------- 
+
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:| ------------------------------------------- |
+INFO:root: fetched records at Mon May 30 11:39:08 2022
+INFO:root: making api request to push data at Mon May 30 11:39:08 2022
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- writing reponse to api --- 
+
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:| ------------------------------------------- |
+INFO:root: -> refreshing tokens at Mon May 30 11:39:13 2022 
+INFO:root: writing refresh token request response at Mon May 30 11:39:13 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --------- response to refresh request ---------------- 
+
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:| ------------------------------------------- |
+INFO:root: fetched records at Mon May 30 11:39:13 2022
+INFO:root: making api request to push data at Mon May 30 11:39:13 2022
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- writing reponse to api --- 
+
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:| ------------------------------------------- |
+INFO:root:-- done for today -- 
+INFO:root: -- stopped generating refresh tokens at Mon May 30 11:39:18 2022--
+INFO:root:-- done for today -- 
+INFO:root: -- MySQL connection is closed at Mon May 30 11:39:18 2022--

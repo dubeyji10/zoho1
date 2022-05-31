@@ -1,0 +1,51 @@
+local_id,contact_person1,contact_person2,company_name,company_grade,phone_no,mobile_no1,mobile_no2,email,designation,address,website,user_id,,last_conversation,followup_on,last_mail_no,last_mail_on,last_sms_no,last_sms_on,email2,Country,phonecode,Name
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+15,Rajaram,,Hospira Healthcare,C,NULL,8754421797,NULL,Rajaram.Natarajan@Hospira.com,GM,,www.hospira.com,vishal,,NULL,NULL,0,NULL,0,NULL,NULL,India,91,Hospira Healthcare
+17,D.Vinaykumar,prashant,Privi Organics Ltd,C,2266023500,9820803656,8879228875,p.agarwal@privi.co.in,Dy. Manager,"Privi House, A-71, TTC, Thane Belapur Road, Near Kopar Khairane Railway Station, Navi Mumbai - 400 709, ",www.privi.com,vishal,,NULL,NULL,0,NULL,0,NULL,NULL,India,91,Privi Organics Ltd
+18,Michael Gleeson,,UniGrain Pvt. Ltd,C,NULL,,NULL,mgleeson@unigrain.com.au,,Australia,,vishal,,NULL,NULL,0,NULL,0,NULL,NULL,Australia,61,UniGrain Pvt. Ltd
+19,Sanjay ,Pandya,Simoncera,B,NULL,9825467644,NULL,smarch89@yahoo.com,CEO,,simoncera.com,pankaj,,NULL,2014-09-14 18:40:32,0,NULL,0,NULL,NULL,India,91,Simoncera
+20,Deb Sankar Rana,,Clariant,B,2225868884,9920712647,NULL,debsankar.rana@clariant.com,GM,Mumbai,,vishal,,NULL,NULL,0,NULL,0,NULL,NULL,India,91,Clariant
+21,S.M.IMRAN,,Din Farm Products ,C,4253523611,,NULL,smimran@dingroup.com,,Pakistan,,vishal,,NULL,NULL,0,NULL,0,NULL,NULL,Pakistan,92,Din Farm Products 
+22,CHANDRA ,SEKHAR,SAI EXPORTERS,B,NULL,9224689219,NULL,tc_sekhar@yahoo.com,,,not available,pankaj,,NULL,NULL,0,NULL,0,NULL,NULL,India,91,SAI EXPORTERS
+24,Akshat,,Ananta Trading Co,D,NULL,7940039511,NULL,akshatchudgar@gmail.com,CEO,,,pankaj,,NULL,NULL,0,NULL,0,NULL,NULL,India,91,Ananta Trading Co
+29,Moeen Khan ,,NTL Logistics,D,NULL,8376831374,NULL,moeen.khan01@gmail.com,,Okhla New Delhi,,vishal,,NULL,NULL,0,NULL,0,NULL,NULL,India,91,NTL Logistics
+30,Lavish Sharma,,Sita Shree Food Product Ltd,C,NULL,9755440965,NULL,lavish1211@gmail.com,Manager,,,vishal,,NULL,NULL,0,NULL,0,NULL,NULL,India,91,Sita Shree Food Product Ltd
+31,swapnil,,Asian Paints,A,2239818251,9167196062,NULL,swapnil.bengali@asianpaints.com,Purchase Manager,,asianpaints.com,nitisha70701,,"payment received , data sent",2018-09-03 10:34:09,21292,2018-07-19 13:22:48,0,NULL,NULL,India,91,Asian Paints
+32,Rosa  Lago,,Delta Data Group,B,160404670166,,,research@deltadatagroup.com,,,http://deltadatagroup.com/,nitisha70701,,under process,2019-04-12 12:07:35,21292,2018-07-19 13:22:49,0,NULL,,Canada,1,Delta Data Group
+33,Irshad Adamjee,,pacific multi products pvt ltd,B,3008238779,,NULL,iradamjee@gmail.com,Director,Pakistan,http://www.pmp.com.pk/,vishal,,NULL,NULL,0,NULL,0,NULL,NULL,Pakistan,92,pacific multi products pvt ltd
+34,Irshad Adamjee,,pacific multi products pvt ltd,B,3008238779,,NULL,iradamjee@gmail.com,Director,Pakistan,http://www.pmp.com.pk/,vishal,,NULL,NULL,0,NULL,0,NULL,NULL,Pakistan,92,pacific multi products pvt ltd
+35,Vikramjit Singh,,Fiori Creations Pvt Ltd,C,NULL,9811053993,NULL,vikram@vr4clothes.com,,India,http://www.vr4clothes.com/,vishal,,NULL,NULL,0,NULL,0,NULL,NULL,India,91,Fiori Creations Pvt Ltd
+36,Keiji Obata ,,MITSUBISHI RAYON AMERICA INC,B,212)2233043(Ext.106),,NULL,obata-keiji@mrany.com,,"655 Third Avenue, 15th Fl.  New York, NY 10017 ",www.mrany.com ,vishal,,NULL,NULL,0,NULL,0,NULL,NULL,United States,1,MITSUBISHI RAYON AMERICA INC
+37,sebastian,villages,premex,B,3127231488,,NULL,sebastian.villegas@premexcorp.com,,colombia,premexcorp.com,pankaj,,NULL,NULL,0,NULL,0,NULL,NULL,Colombia,57,premex
+38,Udham ,Singh,Nectar Lifescience Limited,B,911723938749,9356691472,NULL,udham.singh@neclife.com,,,www.neclife.com,pankaj,,NULL,2014-09-14 18:40:32,0,NULL,0,NULL,NULL,India,91,Nectar Lifescience Limited
+39,Sadik,Hussain,Brick Work India,B,NULL,8040409999,NULL,sadik.h@brickworkindia.com,,,brickworkindia.com,Hemlata04,,NULL,NULL,9001,2016-10-27 15:35:11,0,NULL,NULL,India,91,Brick Work India
+40,Swetha,,Variety Insulators,B,NULL,9949045858,NULL,swethadh@gmail.com,,,,Priyanka,,Revised Sample shared,2017-12-18 11:47:20,0,NULL,0,NULL,NULL,India,91,Variety Insulators
+41,Deep ,Shah,Marcegaglia India Pvt.Ltd.,B,020 41500411,9011096550,NULL,deep.shah@marcegaglia.com,VP - Sales,,www.marcegaglia.com,Kawanpreet,,NULL,NULL,11054,2017-06-28 13:15:06,0,NULL,NULL,India,91,Marcegaglia India Pvt.Ltd.
+42,meher,,Meher Export,B,NULL,9032891075,NULL,mehernarose@gmail.com,,,meherexim.in,pankaj,,NULL,NULL,0,NULL,0,NULL,NULL,India,91,Meher Export
+43,Nilesh ,,ABN paddy drier,B,NULL,9620004097,NULL,abnpaddydrier@gmail.com,,,,pankaj,,NULL,NULL,0,NULL,0,NULL,NULL,India,91,ABN paddy drier
+44,Anuj,Kumar,Unique Technology,B,NULL,9816185020,NULL,uniquetechindia@gmail.com,,,,Hina,,call him tomorrow,2017-02-22 11:00:38,21204,2018-03-21 13:46:25,0,NULL,NULL,India,91,Unique Technology
+45,Ajay,,JUSHI ( I ) FRP ACC PVT LTD,B,912240335333,,NULL,ajay@jushifrp.com,,,jushifrp.com,pankaj,,NULL,NULL,0,NULL,0,NULL,NULL,India,91,JUSHI ( I ) FRP ACC PVT LTD
+46,Mahendra,Mehta,Kushalchand Sons,B,66182113,9322597043,NULL,mahendra@indcheminternational.com,,,ksons.in,Kawanpreet,,not responding,2018-09-05 10:57:17,30007,2018-10-12 15:01:56,0,NULL,NULL,India,91,Kushalchand Sons
+47,Nilesh,Patil,khosla engineering pvt ltd,B,2135678403,,NULL,gm@khoslaengineering.com,,,khoslaengineering.com,pankaj,,NULL,NULL,0,NULL,0,NULL,NULL,NULL,NULL,khosla engineering pvt ltd
+48,Dharmesh ,Damani,ChemoPlast,B,24044,9820610300,NULL,dharmesh.damani@gmail.com,,,,Priyanka,,"Again enquiry dropped, reverted with samples and cost",2019-06-01 11:45:58,21291,2018-07-17 13:48:49,0,NULL,NULL,India,91,ChemoPlast
+49,PROSAD BHATTACHERJEE,,JBS LOGISTICS,B,33760591,,NULL,koljbs@gmail.com,,,http://www.jbstrans.com/,pankaj,,NULL,NULL,0,NULL,0,NULL,NULL,India,91,JBS LOGISTICS
+50,Ravi M. Macker,,Technical Sales Manager,B,+91(011)25551385,9810183259,NULL,ravi.macker@dfepharma.com,,"Delhi Office: A-2/ 41, Janakpuri, New Delhi- 110058.        Bangalore office : Plot No. 148, Prestige Featherlite Tech Park 2nd Phase EPIP Zone, Whitefield, Bangalore  560066   ",www.dfepharma.com ,pankaj,,NULL,NULL,0,NULL,0,NULL,NULL,India,91,Technical Sales Manager
+51,KHYATI,,ISO AUDITOR,B,NULL,9825000956,NULL,isoauditor@live.in,CEO,,,Aashita_8,,NULL,2014-09-14 18:40:32,0,NULL,0,NULL,NULL,India,91,ISO AUDITOR
+54,Miss Kani,,credera intl. pvt. ltd,B,NULL,9841687477,NULL,kani@meridianapparels.com,,,www.meridianapparels.com,Aashita_8,,NULL,2014-09-14 18:40:32,0,NULL,0,NULL,NULL,India,91,credera intl. pvt. ltd
+56,CHANDERBHAN DEMBLA,,SHIVA BIIOCHEM INDUSTRIES,B,NULL,9423124285,NULL,shivabioindia@gmail.com,,,,Aashita_8,,NULL,NULL,0,NULL,0,NULL,NULL,India,91,SHIVA BIIOCHEM INDUSTRIES
+57,NILESH SHAH,,PRESTO IMPEX,B,2266375429,9833175429,NULL,prestoimpex@gmail.co,PATNER,"No.6, Ashish Building, Gr Floor, 40,Babu Genu Road,Princess Street,Mumbai-400 002.INDIA",,Aashita_8,,NULL,NULL,0,NULL,0,NULL,NULL,India,91,PRESTO IMPEX
+58,Anil,,Excel Eltech,C,NULL,9299657076,NULL,anil@exceleltechindia.com,,,,vishal,,NULL,2014-09-14 18:40:32,0,NULL,0,NULL,NULL,India,91,Excel Eltech
+59,kamal lalwani,,newstep international co. ltd.,C,NULL,9909512121,NULL,newstepintlltd@gmail.com,,,,pankaj,,NULL,NULL,0,NULL,0,NULL,NULL,India,91,newstep international co. ltd.
+60,Zulfikar,,Apex Tarmac Pvt Ltd,C,NULL,9825817656,NULL,zulfikarinternational@gmail.com,Director,,www.apextarmac.com,Hina,,.,2016-05-05 13:22:46,30001,2018-09-13 13:38:19,0,NULL,NULL,India,91,Apex Tarmac Pvt Ltd
+61,Mohit Mathur,,Jumps Auto Industries Limited,C,NULL,9910446680,NULL,mathurmohit99@gmail.com,Director,,,vishal,,NULL,2014-09-14 18:40:32,0,NULL,0,NULL,NULL,India,91,Jumps Auto Industries Limited
+62,shreyanssh,,L D creation,C,NULL,9829025431,NULL,shreyanssh.daga@gmail.com,,,,pankaj,,NULL,NULL,0,NULL,0,NULL,NULL,India,91,L D creation
+63,vilas patil,,Kalyani Steels limited,C,2066215028,,NULL,vilaspatil@kalyanisteels.com,Manager,,,vishal,,NULL,NULL,0,NULL,0,NULL,NULL,NULL,NULL,Kalyani Steels limited
+64,Ashish,,Maharshi Badri Pharma,B,911412342402,,NULL,exports@maharshibari.com,,,,pankaj,,NULL,NULL,0,NULL,0,NULL,NULL,India,91,Maharshi Badri Pharma
+65,Alex Olive,,Cales de Llierca,C,NULL,6490795153497,NULL,aolive@calcinor.com,Director,Spain,www.calcinor.com,vishal,,NULL,NULL,0,NULL,0,NULL,NULL,Spain,34,Cales de Llierca
+66,Pankaj Sharma,,Business Co-ordination House (BCH) ,C,1.1233281304152E+017,,NULL,pankaj@bch.in,,Delhi,,vishal,,NULL,NULL,0,NULL,0,NULL,NULL,India,91,Business Co-ordination House (BCH) 
+67,Deepak Swami,,Gimpex limited,D,NULL,9979875519,NULL,sales.bhuj@gimpex.co.in,Manager,,,vishal,,NULL,2014-09-14 18:40:32,0,NULL,0,NULL,NULL,India,91,Gimpex limited
+68,BELINDA,,Hong kong Zhong Sheng,B,NULL,15120969826080,NULL,belinda@jinyingie.com.cn,,CHINA,,aashita_8,,NULL,2014-09-14 18:40:32,0,NULL,0,NULL,NULL,China,86,Hong kong Zhong Sheng
+69,KISHORE KUMAR,,KALPANA AGENCIES,B,4424329472,9884003557,NULL,kalpana_agengies@yahoo.com,,,,aashita_8,,NULL,NULL,0,NULL,0,NULL,NULL,India,91,KALPANA AGENCIES
+70,YAGNESH SETH,,NEEL EXPORTS,B,NULL,9820059535,NULL,yagnesh@neelexports.in,Chief Executive,,,aashita_8,,NULL,2014-09-14 18:40:32,0,NULL,0,NULL,NULL,India,91,NEEL EXPORTS
+71,djanaur chalid,,PT. Kao Indonesia Chemicals,B,88324454,,NULL,djanuar@kaochem.co.id,,INDONESIA,,aashita_8,,NULL,NULL,0,NULL,0,NULL,NULL,Indonesia,62,PT. Kao Indonesia Chemicals

@@ -1,0 +1,51 @@
+Id,invoice_id,Data_Type,Query,Date_From,Date_To,Total_Months,Amount,Mode_Of_Delivery,Currency,status,added_on,user_id,payment_status,data_status,for_customization,country,direction
+1,2,"chennai , mundra export","25291010,25291020 ,26061010,25061020",2014-10-01,2014-10-31,1,3500,"by Email",0,Canceled,"2014-09-13 00:00:00",aashita_8,"Not Recieved","Not Sent",0,NULL,NULL
+2,6,"JNPT export ",8448,2014-05-01,2014-05-31,1,1200,Email,0,Processed,"2014-09-11 00:00:00",vithika.solanki,"Payment Recieved","Data Sent",0,NULL,NULL
+3,6,"JNPT export ",8448,2014-07-01,2014-07-31,1,1200,Email,0,Processed,"2014-09-11 00:00:00",vithika.solanki,"Payment Recieved","Data Sent",0,NULL,NULL
+4,8,"JNPT, PPG, TKD Export Data","HS Code  8708  ",2014-05-01,2014-07-31,3,13500,Email,0,Processed,"2014-09-15 14:59:23",ankur,"Payment Recieved","Data Sent",0,NULL,NULL
+5,9,"Russia Import","Chap 9031",2012-07-01,2013-06-30,12,28000,Email,0,Processed,"2013-08-13 00:00:00",vishal,"Payment Recieved","Data Sent",0,NULL,NULL
+6,9,"JNPT Export(SP)","Chap 3808",2013-07-01,2013-07-31,1,4000,email,0,Processed,"2013-08-13 00:00:00",vishal,"Payment Recieved","Data Sent",0,NULL,NULL
+7,11,"India import Partial all ports ",76072090,2012-01-01,2014-03-31,27,86000,Email,0,Processed,"2014-09-15 14:29:25",nitisha70701,"Payment Recieved","Data Sent",0,NULL,NULL
+8,12,"Mumbai Custom House Import (BPT) ",Ch-72,2014-04-01,2014-08-31,5,8900,Email,0,Processed,"2014-09-11 00:00:00",nitisha70701,"Payment Recieved","Data Sent",0,NULL,NULL
+9,13,"JNPT export ",32041761,2014-07-01,2015-05-31,11,16000,Email,0,Processed,"2014-08-27 00:00:00",nitisha70701,"Payment Recieved","Data Sent",0,NULL,NULL
+10,16,"JNPT Export SP.","HS code 7615",2013-07-01,2013-07-31,1,5000,Email,0,Processed,"2013-08-19 00:00:00",vishal,"Payment Recieved","Data Sent",0,NULL,NULL
+11,17,"India import all ports ","Ch-85 (CCTV CAMERA & LED TELEVISION/TV)",2014-03-01,2015-02-28,12,40000,Email,0,Processed,"2014-06-17 00:00:00",nitisha70701,"Payment Recieved","Data Sent",0,NULL,NULL
+12,18,"India import ","27131100 & 271312000",2014-05-01,2015-04-30,12,45000,Email,0,Processed,"2014-06-30 00:00:00",nitisha70701,"Payment Recieved","Data Sent",0,NULL,NULL
+13,19,"india import ",3207,2014-01-01,2014-12-31,12,1100,Email,1,Processed,"2014-04-28 00:00:00",nitisha70701,"Payment Recieved","Data Sent",0,NULL,NULL
+14,19,"China import ",32071000,2014-01-01,2014-12-31,12,1100,Email,1,Processed,"2014-04-28 00:00:00",nitisha70701,"Payment Recieved","Data Sent",0,NULL,NULL
+15,22,"Ahmdebad ICD Exports",8448,2014-08-01,2014-08-31,1,1200,Email,0,Canceled,"2014-09-18 13:44:06",vithika.solanki,"Not Recieved","Not Sent",0,NULL,NULL
+16,25,"Tuticorin Exports(IEC)","2 shipments",2014-05-01,2014-05-31,1,1000,Email,0,cancled,"2014-09-05 00:00:00",vithika.solanki,"Not Recieved","Not Sent",0,NULL,NULL
+17,26,"China Export","company name: Binco Housewares Industry Co. Ltd",2014-07-01,2014-07-31,1,14000,Email,0,Processed,"2014-09-16 00:00:00",vithika.solanki,"Payment Recieved","Data Sent",0,NULL,NULL
+18,26,"China Export","company name: Fujian Kembo Textile Industrial Co. Ltd",2014-07-01,2014-07-31,1,14000,Email,0,Processed,"2014-09-16 00:00:00",vithika.solanki,"Payment Recieved","Data Sent",0,NULL,NULL
+19,27,"India export statitical","HS 3003 & 3004 ",2012-01-01,2014-07-31,21,18000,Email,0,Canceled,"2014-09-18 14:52:42",nitisha70701,"Not Recieved","Not Sent",0,NULL,NULL
+20,27,"India export statitical","HS 3003 & 3004 ",2012-01-01,2014-07-31,21,18000,Email,0,Processed,"2014-09-18 15:09:36",nitisha70701,"Payment Recieved","Data Sent",0,NULL,NULL
+21,31,"Vietnam Import Intelligence Report",76012000,2014-01-01,2014-01-31,1,100,Email,1,Processed,"2014-03-11 00:00:00",Anuj09,"Payment Recieved","Data Sent",0,NULL,NULL
+22,31,"India Import Intelligence Report",76012010,2013-10-01,2014-02-28,5,300,Email,1,Processed,"2014-03-11 00:00:00",Anuj09,"Payment Recieved","Data Sent",0,NULL,NULL
+23,31,"Vietnam Import Intelligence Report",76012000,2014-02-01,2014-12-31,11,500,Email,1,Processed,"2014-03-11 00:00:00",Anuj09,"Payment Recieved","Data Sent",0,NULL,NULL
+24,31,"India Import Intelligence Report",76012010,2014-03-01,2014-12-31,10,800,Email,1,Processed,"2014-03-11 00:00:00",Anuj09,"Payment Recieved","Data Sent",0,NULL,NULL
+25,32,"India Import Intelligence Report",3904,2014-07-01,2015-06-30,12,50000,Email/CD,0,Processed,"2014-08-07 00:00:00",Anuj09,"Payment Recieved","Data Sent",0,NULL,NULL
+26,32,"JNPT Import BothSide Report",3904,2014-07-01,2015-06-30,12,10000,Email/CD,0,Processed,"2014-08-07 00:00:00",Anuj09,"Payment Recieved","Data Sent",0,NULL,NULL
+28,34,"Mundra And Chennai Sea Export data","25291020 & 25291010",2014-08-01,2014-08-31,1,2400,Email,0,Processed,"2014-09-18 15:54:49",anuj09,"Payment Recieved","Data Sent",0,NULL,NULL
+29,35,"Chennai Sea Export Intelligence Report","8484 ",2014-01-01,2014-12-31,12,12000,"Email and CD",0,Canceled,"2014-04-21 00:00:00",Anuj09,"Not Recieved","Not Sent",0,NULL,NULL
+30,35,"Chennai Air Export Intelligence Report",8484,2014-01-01,2014-12-31,12,12000,"Email and CD",0,Canceled,"2014-04-21 00:00:00",Anuj09,"Not Recieved","Not Sent",0,NULL,NULL
+31,35,"3 Companies Export data",,2014-01-01,2014-12-31,12,12000,"Email and CD",0,Canceled,"2014-04-21 00:00:00",Anuj09,"Not Recieved","Not Sent",0,NULL,NULL
+32,36,"Mumbai Custom House Import Data","Chapter 27",2014-04-01,2015-03-31,12,12000,"Email and CD",0,Processed,"2014-04-21 00:00:00",Anuj09,"Payment Recieved","Data Sent",0,NULL,NULL
+33,36,"JNPT Export Intelligence Report","Chapter 27",2013-09-01,2014-02-28,6,8000,"Email and CD",0,Processed,"2014-04-21 00:00:00",Anuj09,"Payment Recieved","Data Sent",0,NULL,NULL
+35,38,"India Export Intelligence Report","Chapter 29 & 30",2014-06-01,2015-05-31,12,180000,Email/CD,0,Processed,"2014-07-09 00:00:00",Anuj09,"Payment Recieved","Data Sent",0,NULL,NULL
+36,38,"India Import Intelligence Report","Chapter 29 & 30",2014-06-01,2015-05-31,12,170000,Email/CD,0,Processed,"2014-07-09 00:00:00",Anuj09,"Payment Recieved","Data Sent",0,NULL,NULL
+38,43,"JNPT and Mundra Export Data","29054400 ",2014-07-01,2014-08-31,2,4800,Email,0,Processed,"2014-09-16 13:24:06",anuj09,"Payment Recieved","Data Sent",0,NULL,NULL
+39,46,"JNPT, Chennai Sea, Mundra, Tuticorin Sea, Ahmedabad ICD & Delhi TKD",15,2014-06-01,2014-08-31,3,31500,Email,0,Canceled,"2014-09-16 14:24:06",anuj09,"Not Recieved","Not Sent",0,NULL,NULL
+40,47,"Mundra Export Intelligence Report",11010000,2014-07-01,2015-06-30,12,9000,Email,0,Processed,"2014-08-07 00:00:00",Anuj09,"Payment Recieved","Data Sent",0,NULL,NULL
+41,47,"JNPT Export Intelligence Report",11010000,2014-07-01,2015-06-30,12,9000,Email,0,Processed,"2014-08-07 00:00:00",Anuj09,"Payment Recieved","Data Sent",0,NULL,NULL
+42,48,"India Import Data ","HS 230630",2014-04-01,2015-03-31,12,23000,Email,0,Processed,"2014-04-04 00:00:00",pankaj,"Payment Recieved","Data Sent",0,NULL,NULL
+43,49,"India import custom database ","Order Number 4282",2014-04-01,2015-03-31,12,250000,Email,0,Processed,"2014-05-21 00:00:00",pankaj,"Payment Recieved","Data Sent",0,NULL,NULL
+44,50,"Chennai,Delhi,Mundra","Chap 24",2014-01-01,2014-12-31,12,48000,Email,0,Processed,"2014-01-16 00:00:00",vishal,"Payment Recieved","Data Sent",0,NULL,NULL
+45,50,"JNPT Export Report","Chap 24",2014-01-01,2014-12-31,12,60000,Email,0,Processed,"2014-01-16 00:00:00",vishal,"Payment Recieved","Data Sent",0,NULL,NULL
+46,51,"India Export Report","Chap 3402",2014-01-01,2014-12-31,12,40000,Email,0,Processed,"2014-02-04 00:00:00",vishal,"Payment Recieved","Data Sent",0,NULL,NULL
+47,52,"JNPT & Chennai Sea Export","2710, 271210",2014-03-01,2015-03-31,13,57000,Email,0,Processed,"2014-06-23 00:00:00",vishal,"Payment Recieved","Data Sent",0,NULL,NULL
+48,52,"Mumbai Custom & Chennai Sea Import",2710,2014-03-01,2015-03-31,13,38000,Email,0,Processed,"2014-06-23 00:00:00",vishal,"Payment Recieved","Data Sent",0,NULL,NULL
+49,54,"India Export Statistical Report",28332940,2011-01-01,2014-12-31,48,600,Email,1,Processed,"2014-08-20 00:00:00",Anuj09,"Payment Recieved","Data Sent",0,NULL,NULL
+50,54,"JNPT Export Intelligence Report",28332940,2013-01-01,2014-07-31,19,1400,Email,1,Processed,"2014-08-20 00:00:00",Anuj09,"Payment Recieved","Data Sent",0,NULL,NULL
+51,55,"India Import Intelligence Report","Chapter 29",2014-07-01,2015-06-30,12,260000,Email,0,Processed,"2014-08-07 00:00:00",Anuj09,"Payment Recieved","Data Sent",0,NULL,NULL
+52,55,,"Chapter 39",2014-07-01,2015-06-30,12,0,"12 Months",0,Processed,"2014-08-07 00:00:00",Anuj09,"Payment Recieved","Data Sent",0,NULL,NULL
+53,55,"India Import Intelligence Report","27073000 27101990 27075000",2014-07-01,2015-06-30,12,0,Email/CD,0,Processed,"2014-08-07 00:00:00",Anuj09,"Payment Recieved","Data Sent",0,NULL,NULL

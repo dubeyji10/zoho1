@@ -1,0 +1,85 @@
+set @json_ob_2 = ( select REGEXP_REPLACE( GROUP_CONCAT(json_object ( 'clients_user_id' , user_id , 'local_id' , id, 'phone_no' , (select case when ifnull(phone_no,'') <> 0 then phone_no  else '' end), 'added_on' , concat(CONCAT(replace(DATE_FORMAT(added_on,'%Y-%m-%d %T'),' ','T'),"+05:30")))), '(})', concat('}','')) from clients );
+select concat('{','"','data','"',':','[',@json_ob_2,']','}') into outfile 'clients_sample_2.json';
+
+
+
+
+
+set @json_ob_2 = (
+    select REGEXP_REPLACE( 
+        GROUP_CONCAT(json_object ( 'user_id' , user_id , 'Company' , CAST(id AS CHAR),'Last_Name','(lead)', 'added_on' , concat(CONCAT(replace(DATE_FORMAT(added_on,'%Y-%m-%d %T'),' ','T'),"+05:30")))), '(})', concat('}','')
+        ) from leads 
+    );
+
+
+
+set @json_ob_3 = (
+    select REGEXP_REPLACE( 
+        GROUP_CONCAT(json_object ( 'user_id' , user_id,'lead_source1' ,lead_source ,'importance',importance,'invoice_id',CAST(invoice_id as CHAR), 'Company' , CAST(id AS CHAR),'Last_Name','(lead)', 'requirement',requirement ,'status',status,'temp', temp ,'added_on' , concat(CONCAT(replace(DATE_FORMAT(added_on,'%Y-%m-%d %T'),' ','T'),"+05:30")))), '(})', concat('}','')
+        ) from leads 
+    );
+
+SELECT concat('{','"','data','"',':','[',@json_ob_3,']','}') into outfile 'sample_leads_json_3.json';
+
+
+set @json_ob_4 = (
+    select REGEXP_REPLACE( 
+        GROUP_CONCAT(json_object (
+             'Name',CAST(s_n as CHAR),
+             's_n' , s_n,
+             'with_email' ,with_email ,
+             'user_id',user_id,
+             'followup_on', concat(CONCAT(replace(DATE_FORMAT(followup_on,'%Y-%m-%d %T'),' ','T'),"+05:30")),
+             'added_on' , concat(CONCAT(replace(DATE_FORMAT(added_on,'%Y-%m-%d %T'),' ','T'),"+05:30")))), '(})', concat('}','')
+        ) from conversation 
+    );
+
+
+SELECT concat('{','"','data','"',':','[',@json_ob_4,']','}') into outfile 'sample_conversation_1.json';
+
+SELECT '-DONE-' ;
+
+set @json_ob_9 = (
+    select REGEXP_REPLACE( 
+        GROUP_CONCAT(json_object (
+             'Name',CAST(id as CHAR),
+             'Address' , REGEXP_REPLACE(invoice_info.Address, '([\"/])', ' '),
+             'Email' ,invoice_info.Email ,
+             'user_id',user_id,
+             'Company_name',Company_name,
+             'Customer_name',Customer_name,
+             'Customer_Designation',Customer_Designation,
+             'City',City,
+             'State',invoice_info.State,
+             'immediate',invoice_info.immediate,
+             'Tel_No',Tel_No,
+          	 'invoice_no',invoice_no,
+          	 'invoice_of',invoice_of,
+          	 'data_detail',data_detail,
+             'amount_recieved',amount_recieved,
+             'Mob',Mob,
+             'payment_detail',payment_detail,
+             'payment_on',DATE_FORMAT(payment_on,'%Y-%m-%d'),
+             'payment_in', payment_in, 
+             'tds_percentage',tds_percentage,
+             'sale_rule',sale_rule,
+             'sale_amount',sale_amount,              
+             'data_sent_on', concat(CONCAT(replace(DATE_FORMAT(data_sent_on,'%Y-%m-%d %T'),' ','T'),"+05:30")),
+             'added_on' , concat(CONCAT(replace(DATE_FORMAT(added_on,'%Y-%m-%d %T'),' ','T'),"+05:30")))), '(})', concat('}','')
+        ) from invoice_info 
+    );
+
+  
+SELECT concat('{','"','data','"',':','[',@json_ob_9,']','}') into outfile 'sample_invoiceInfo_3.json';
+SELECT '--DONE--';
+
+
+SELECT REGEXP_REPLACE("dasdasdas""""dsad12321 / wqwewq   \213 ", '([\ " /])', ' ');
+
+
+
+
+
+response to invoice_info
+
+at 16:11 - success - -user_id and Address added 

@@ -1,0 +1,14 @@
+{
+    "data": [
+        {
+            "Amount": 1000,
+            "Name": "832",
+            "added_on": "2014-04-01+05:30",
+            "invoice_id": 601,
+            "local_id": 832,
+            "payment_status": "Payment Recieved",
+            "query": "2014-04-01",
+            "user_id": "barkha"
+        }
+    ]
+}

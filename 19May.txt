@@ -1,0 +1,79 @@
+for sandbox env testing
+
+token created at 12:09
+{
+    "access_token": "1000.de6e8f3f7bbc756e92591ede16f7a689.e7600d2b668b069cf519fb0ac4b5adb5",
+    "refresh_token": "1000.a11525418207ef98e678a9a9fc59e203.fd230a8e623fe7d52bf628986108bc09",
+    "api_domain": "https://www.zohoapis.in",
+    "token_type": "Bearer",
+    "expires_in": 3600
+}
+
+new token for sandbox env at 14:13
+
+{
+    "access_token": "1000.0cc093183440b69da71105212e58d57b.97c93d20b9cf9459ec73cbeb74780a8a",
+    "refresh_token": "1000.befb619d5d592f5ce536cac6526696b0.ed8ce8975049df94cb2763fcf5b6d295",
+    "api_domain": "https://www.zohoapis.in",
+    "token_type": "Bearer",
+    "expires_in": 3600
+}
+
+new token for sandbox at 15:05
+{
+    "access_token": "1000.cb060ea2e8cdd7d6dedbfbeba64db05e.4872750d4c39bc179e311e66e2bf95c8",
+    "api_domain": "https://www.zohoapis.in",
+    "token_type": "Bearer",
+    "expires_in": 3600
+}
+
+new access_token for sandbox at 15:53
+{
+    "access_token": "1000.ba1d5819e11179a577385913edae78f9.bec90cf240a2c04da789f9ea49fbe05c",
+    "api_domain": "https://www.zohoapis.in",
+    "token_type": "Bearer",
+    "expires_in": 3600
+}
+new access_token for sandbox at 16:32
+
+{
+    "access_token": "1000.56d0491d0167ff688540e3dd9350ba32.63312d7297530311ab8a6ce30ee3f0f3",
+    "api_domain": "https://www.zohoapis.in",
+    "token_type": "Bearer",
+    "expires_in": 3600
+}
+new access_token for sandbox at 17:42
+
+{
+    "access_token": "1000.9039011e22cf72c590d5966e424c4a94.9552b962b0b9aca16ed5824dc98db9b2",
+    "refresh_token": "1000.d455e36d969e7673bf477421511339d8.7c72e39a3134f75e2badfed1388e26a6",
+    "api_domain": "https://www.zohoapis.in",
+    "token_type": "Bearer",
+    "expires_in": 3600
+}
+_____________________________________________________________________________________
+
+for sandbox
+
+
+            "Owner": {
+                "name": "Jitendra Kumar",
+                "id": "348201000000229001",
+                "email": "jitendra.seo@exportgenius.in"
+            },
+
+            "Owner": {
+                "name": "Rajat Gupta",
+                "id": "348201000000231176",
+                "email": "info@exportgenius.in"
+            },
+
+
+_____________________________________________________________________________________
+
+
+
+remove follow up on , added on from clients
+can't convert to zoho crm date time
+
+then try pushing data into it

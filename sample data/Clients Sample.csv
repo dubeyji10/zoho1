@@ -1,0 +1,51 @@
+id,contact_person1,contact_person2,company_name,company_grade,phone_no,mobile_no1,mobile_no2,email,designation,address,website,user_id,added_on,last_conversation,followup_on,last_mail_no,last_mail_on,last_sms_no,last_sms_on,email2,Country,phonecode
+13,Krishan,,"Global Medikit Ltd",B,1127662182,9811119219,NULL,ksharma@globalmedikit.in,Director,"No.3, Dr. G.C. Narang Marg,New Delhi – 110 007, India",http://www.medikitglobal.com/,vishal,"2013-07-24 19:10:58",NULL,NULL,0,NULL,0,NULL,NULL,India,91
+14,"Ajay Laddha",,"Neha Collection",D,NULL,7567369544,NULL,apyash@gmail.com,N/A,,,vishal,"2013-07-25 11:57:49",NULL,NULL,0,NULL,0,NULL,NULL,India,91
+15,Rajaram,,"Hospira Healthcare",C,NULL,8754421797,NULL,Rajaram.Natarajan@Hospira.com,GM,,www.hospira.com,vishal,"2013-07-25 12:38:37",NULL,NULL,0,NULL,0,NULL,NULL,India,91
+17,D.Vinaykumar,prashant,"Privi Organics Ltd",C,2266023500,9820803656,8879228875,p.agarwal@privi.co.in,"Dy. Manager","Privi House, A-71, TTC, Thane Belapur Road, Near Kopar Khairane Railway Station, Navi Mumbai - 400 709, ",www.privi.com,vishal,"2013-07-26 13:22:42",NULL,NULL,0,NULL,0,NULL,NULL,India,91
+18,"Michael Gleeson",,"UniGrain Pvt. Ltd",C,NULL,,NULL,mgleeson@unigrain.com.au,,Australia,,vishal,"2013-07-26 13:24:27",NULL,NULL,0,NULL,0,NULL,NULL,Australia,61
+19,"Sanjay ",Pandya,Simoncera,B,NULL,9825467644,NULL,smarch89@yahoo.com,CEO,,simoncera.com,pankaj,"2013-07-26 14:09:01",NULL,"2014-09-14 18:40:32",0,NULL,0,NULL,NULL,India,91
+20,"Deb Sankar Rana",,Clariant,B,2225868884,9920712647,NULL,debsankar.rana@clariant.com,GM,Mumbai,,vishal,"2013-07-26 14:09:04",NULL,NULL,0,NULL,0,NULL,NULL,India,91
+21,S.M.IMRAN,,"Din Farm Products ",C,4253523611,,NULL,smimran@dingroup.com,,Pakistan,,vishal,"2013-07-26 14:11:40",NULL,NULL,0,NULL,0,NULL,NULL,Pakistan,92
+22,"CHANDRA ",SEKHAR,"SAI EXPORTERS",B,NULL,9224689219,NULL,tc_sekhar@yahoo.com,,,"not available",pankaj,"2013-07-26 14:33:15",NULL,NULL,0,NULL,0,NULL,NULL,India,91
+24,Akshat,,"Ananta Trading Co",D,NULL,7940039511,NULL,akshatchudgar@gmail.com,CEO,,,pankaj,"2013-07-26 16:48:20",NULL,NULL,0,NULL,0,NULL,NULL,India,91
+29,"Moeen Khan ",,"NTL Logistics",D,NULL,8376831374,NULL,moeen.khan01@gmail.com,,"Okhla New Delhi",,vishal,"2013-07-26 17:52:34",NULL,NULL,0,NULL,0,NULL,NULL,India,91
+30,"Lavish Sharma",,"Sita Shree Food Product Ltd",C,NULL,9755440965,NULL,lavish1211@gmail.com,Manager,,,vishal,"2013-07-26 18:41:40",NULL,NULL,0,NULL,0,NULL,NULL,India,91
+31,swapnil,,"Asian Paints",A,2239818251,9167196062,NULL,swapnil.bengali@asianpaints.com,"Purchase Manager",,asianpaints.com,nitisha70701,"2013-07-30 13:14:21","payment received , data sent","2018-09-03 10:34:09",21292,"2018-07-19 13:22:48",0,NULL,NULL,India,91
+32,"Rosa  Lago",,"Delta Data Group",B,160404670166,,,research@deltadatagroup.com,,,http://deltadatagroup.com/,nitisha70701,"2013-07-30 15:51:09","under process","2019-04-12 12:07:35",21292,"2018-07-19 13:22:49",0,NULL,,Canada,1
+33,"Irshad Adamjee",,"pacific multi products pvt ltd",B,3008238779,,NULL,iradamjee@gmail.com,Director,Pakistan,http://www.pmp.com.pk/,vishal,"2013-07-30 16:18:53",NULL,NULL,0,NULL,0,NULL,NULL,Pakistan,92
+34,"Irshad Adamjee",,"pacific multi products pvt ltd",B,3008238779,,NULL,iradamjee@gmail.com,Director,Pakistan,http://www.pmp.com.pk/,vishal,"2013-07-30 16:31:22",NULL,NULL,0,NULL,0,NULL,NULL,Pakistan,92
+35,"Vikramjit Singh",,"Fiori Creations Pvt Ltd",C,NULL,9811053993,NULL,vikram@vr4clothes.com,,India,http://www.vr4clothes.com/,vishal,"2013-07-30 17:02:45",NULL,NULL,0,NULL,0,NULL,NULL,India,91
+36,"Keiji Obata ",,"MITSUBISHI RAYON AMERICA INC",B,212)2233043(Ext.106),,NULL,obata-keiji@mrany.com,,"655 Third Avenue, 15th Fl.  New York, NY 10017 ","www.mrany.com ",vishal,"2013-07-31 17:17:08",NULL,NULL,0,NULL,0,NULL,NULL,"United States",1
+37,sebastian,villages,premex,B,3127231488,,NULL,sebastian.villegas@premexcorp.com,,colombia,premexcorp.com,pankaj,"2013-08-02 11:10:33",NULL,NULL,0,NULL,0,NULL,NULL,Colombia,57
+38,"Udham ",Singh,"Nectar Lifescience Limited",B,+911723938749  ,9356691472,NULL,udham.singh@neclife.com,,,www.neclife.com,pankaj,"2013-08-02 11:12:02",NULL,"2014-09-14 18:40:32",0,NULL,0,NULL,NULL,India,91
+39,Sadik,Hussain,"Brick Work India",B,NULL,8040409999,NULL,sadik.h@brickworkindia.com,,,brickworkindia.com,Hemlata04,"2013-08-02 11:13:30",NULL,NULL,9001,"2016-10-27 15:35:11",0,NULL,NULL,India,91
+40,Swetha,,"Variety Insulators",B,NULL,9949045858,NULL,swethadh@gmail.com,,,,Priyanka,"2013-08-02 11:14:28","Revised Sample shared","2017-12-18 11:47:20",0,NULL,0,NULL,NULL,India,91
+41,"Deep ",Shah,"Marcegaglia India Pvt.Ltd.",B,020 41500411,9011096550,NULL,deep.shah@marcegaglia.com,"VP - Sales",,www.marcegaglia.com,Kawanpreet,"2013-08-02 11:15:56",NULL,NULL,11054,"2017-06-28 13:15:06",0,NULL,NULL,India,91
+42,meher,,"Meher Export",B,NULL,9032891075,NULL,mehernarose@gmail.com,,,meherexim.in,pankaj,"2013-08-03 13:16:15",NULL,NULL,0,NULL,0,NULL,NULL,India,91
+43,"Nilesh ",,"ABN paddy drier",B,NULL,9620004097,NULL,abnpaddydrier@gmail.com,,,,pankaj,"2013-08-03 13:17:28",NULL,NULL,0,NULL,0,NULL,NULL,India,91
+44,Anuj,Kumar,"Unique Technology",B,NULL,9816185020,NULL,uniquetechindia@gmail.com,,,,Hina,"2013-08-03 13:18:19","call him tomorrow","2017-02-22 11:00:38",21204,"2018-03-21 13:46:25",0,NULL,NULL,India,91
+45,Ajay,,"JUSHI ( I ) FRP ACC PVT LTD",B,912240335333,,NULL,ajay@jushifrp.com,,,jushifrp.com,pankaj,"2013-08-03 13:21:20",NULL,NULL,0,NULL,0,NULL,NULL,India,91
+46,Mahendra,Mehta,"Kushalchand Sons",B,66182113,9322597043,NULL,mahendra@indcheminternational.com,,,ksons.in,Kawanpreet,"2013-08-03 13:29:17","not responding","2018-09-05 10:57:17",30007,"2018-10-12 15:01:56",0,NULL,NULL,India,91
+47,Nilesh,Patil,"khosla engineering pvt ltd",B,2135678403,,NULL,gm@khoslaengineering.com,,,khoslaengineering.com,pankaj,"2013-08-03 13:30:14",NULL,NULL,0,NULL,0,NULL,NULL,NULL,NULL
+48,"Dharmesh ",Damani,ChemoPlast,B,24044,9820610300,NULL,dharmesh.damani@gmail.com,,,,Priyanka,"2013-08-03 13:31:58","Again enquiry dropped, reverted with samples and cost","2019-06-01 11:45:58",21291,"2018-07-17 13:48:49",0,NULL,NULL,India,91
+49,"PROSAD BHATTACHERJEE",,"JBS LOGISTICS",B,33760591,,NULL,koljbs@gmail.com,,,http://www.jbstrans.com/,pankaj,"2013-08-03 13:33:58",NULL,NULL,0,NULL,0,NULL,NULL,India,91
+50,"Ravi M. Macker",,"Technical Sales Manager",B,+91(011)25551385,9810183259,NULL,ravi.macker@dfepharma.com,,"Delhi Office: A-2/ 41, Janakpuri, New Delhi- 110058.        Bangalore office : Plot No. 148, Prestige Featherlite Tech Park 2nd Phase EPIP Zone, Whitefield, Bangalore  560066   ","www.dfepharma.com ",pankaj,"2013-08-03 13:38:04",NULL,NULL,0,NULL,0,NULL,NULL,India,91
+51,KHYATI,,"ISO AUDITOR",B,NULL,9825000956,NULL,isoauditor@live.in,CEO,,,Aashita_8,"2013-08-05 17:30:31",NULL,"2014-09-14 18:40:32",0,NULL,0,NULL,NULL,India,91
+54,"Miss Kani",,"credera intl. pvt. ltd",B,NULL,9841687477,NULL,kani@meridianapparels.com,,,www.meridianapparels.com,Aashita_8,"2013-08-05 17:45:55",NULL,"2014-09-14 18:40:32",0,NULL,0,NULL,NULL,India,91
+56,"CHANDERBHAN DEMBLA",,"SHIVA BIIOCHEM INDUSTRIES",B,NULL,9423124285,NULL,shivabioindia@gmail.com,,,,Aashita_8,"2013-08-06 14:42:54",NULL,NULL,0,NULL,0,NULL,NULL,India,91
+57,"NILESH SHAH",,"PRESTO IMPEX",B,2266375429   ,9833175429,NULL,prestoimpex@gmail.co,PATNER,"No.6, Ashish Building, Gr Floor, 40,Babu Genu Road,Princess Street,Mumbai-400 002.INDIA",,Aashita_8,"2013-08-06 14:45:25",NULL,NULL,0,NULL,0,NULL,NULL,India,91
+58,Anil,,"Excel Eltech",C,NULL,9299657076,NULL,anil@exceleltechindia.com,,,,vishal,"2013-08-07 11:50:26",NULL,"2014-09-14 18:40:32",0,NULL,0,NULL,NULL,India,91
+59,"kamal lalwani",,"newstep international co. ltd.",C,NULL,9909512121,NULL,newstepintlltd@gmail.com,,,,pankaj,"2013-08-07 14:47:01",NULL,NULL,0,NULL,0,NULL,NULL,India,91
+60,Zulfikar,,"Apex Tarmac Pvt Ltd",C,NULL,9825817656,NULL,zulfikarinternational@gmail.com,Director,,www.apextarmac.com,Hina,"2013-08-07 16:57:48",.,"2016-05-05 13:22:46",30001,"2018-09-13 13:38:19",0,NULL,NULL,India,91
+61,"Mohit Mathur",,"Jumps Auto Industries Limited",C,NULL,9910446680,NULL,mathurmohit99@gmail.com,Director,,,vishal,"2013-08-07 17:10:38",NULL,"2014-09-14 18:40:32",0,NULL,0,NULL,NULL,India,91
+62,shreyanssh,,"L D creation",C,NULL,9829025431,NULL,shreyanssh.daga@gmail.com,,,,pankaj,"2013-08-08 13:44:46",NULL,NULL,0,NULL,0,NULL,NULL,India,91
+63,"vilas patil",,"Kalyani Steels limited",C,2066215028,,NULL,vilaspatil@kalyanisteels.com,Manager,,,vishal,"2013-08-08 14:58:37",NULL,NULL,0,NULL,0,NULL,NULL,NULL,NULL
+64,Ashish,,"Maharshi Badri Pharma",B,911412342402,,NULL,exports@maharshibari.com,,,,pankaj,"2013-08-08 15:11:43",NULL,NULL,0,NULL,0,NULL,NULL,India,91
+65,"Alex Olive",,"Cales de Llierca",C,NULL,6490795153497,NULL,aolive@calcinor.com,Director,Spain,www.calcinor.com,vishal,"2013-08-09 11:49:03",NULL,NULL,0,NULL,0,NULL,NULL,Spain,34
+66,"Pankaj Sharma",,"Business Co-ordination House (BCH) ",C,112332813041520000,,NULL,pankaj@bch.in,,Delhi,,vishal,"2013-08-09 11:53:01",NULL,NULL,0,NULL,0,NULL,NULL,India,91
+67,"Deepak Swami",,"Gimpex limited",D,NULL,9979875519,NULL,sales.bhuj@gimpex.co.in,Manager,,,vishal,"2013-08-09 11:54:50",NULL,"2014-09-14 18:40:32",0,NULL,0,NULL,NULL,India,91
+68,BELINDA,,"Hong kong Zhong Sheng",B,NULL,15120969826080,NULL,belinda@jinyingie.com.cn,,CHINA,,aashita_8,"2013-08-13 16:25:17",NULL,"2014-09-14 18:40:32",0,NULL,0,NULL,NULL,China,86
+69,"KISHORE KUMAR",,"KALPANA AGENCIES",B,4424329472,9884003557,NULL,kalpana_agengies@yahoo.com,,,,aashita_8,"2013-08-13 16:29:06",NULL,NULL,0,NULL,0,NULL,NULL,India,91
+70,"YAGNESH SETH",,"NEEL EXPORTS",B,NULL,9820059535,NULL,yagnesh@neelexports.in,"Chief Executive",,,aashita_8,"2013-08-14 14:44:28",NULL,"2014-09-14 18:40:32",0,NULL,0,NULL,NULL,India,91
+71,"djanaur chalid",,"PT. Kao Indonesia Chemicals",B,88324454,,NULL,djanuar@kaochem.co.id,,INDONESIA,,aashita_8,"2013-08-16 17:04:52",NULL,NULL,0,NULL,0,NULL,NULL,Indonesia,62

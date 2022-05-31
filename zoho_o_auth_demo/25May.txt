@@ -1,0 +1,108 @@
+at 11:02 am
+
+{
+    "access_token": "1000.a73428b2328f624db54bc7016888e016.242b5ccba8ee72c88a2d17b254ccfc8d",
+    "refresh_token": "1000.c4102bf2f3a8c8fadd89dba087540dc0.245e888e16482f81f9c5e623c3eda925",
+    "api_domain": "https://www.zohoapis.in",
+    "token_type": "Bearer",
+    "expires_in": 3600
+}
+
+
+dummy get invoice items
+
+{
+    "data": [
+        {
+            "country": "India",
+            "Owner": {
+                "name": "Jitendra Kumar",
+                "id": "348201000000229001",
+                "email": "jitendra.seo@exportgenius.in"
+            },
+            "Total_Months": null,
+            "$currency_symbol": "₹",
+            "Query": "example",
+            "$field_states": null,
+            "$review_process": {
+                "approve": false,
+                "reject": false,
+                "resubmit": false
+            },
+            "local_currency": null,
+            "Mode_Of_Delivery": null,
+            "StatusData": "Sent",
+            "Name": "Dummy",
+            "Last_Activity_Time": null,
+            "Record_Image": null,
+            "Modified_By": {
+                "name": "Jitendra Kumar",
+                "id": "348201000000229001",
+                "email": "jitendra.seo@exportgenius.in"
+            },
+            "$review": null,
+            "Date_From": "2018-05-23",
+            "$state": "save",
+            "Data_Type": "dummy data",
+            "Unsubscribed_Mode": null,
+            "$process_flow": false,
+            "invoice_num": null,
+            "invoice_id": "213213213",
+            "for_customization": null,
+            "id": "348201000000291420",
+            "data_status": "Data Sent",
+            "added_on": null,
+            "$approved": true,
+            "direction": null,
+            "$approval": {
+                "delegate": false,
+                "approve": false,
+                "reject": false,
+                "resubmit": false
+            },
+            "Modified_Time": "2022-05-25T11:15:50+05:30",
+            "local_id": "213213213",
+            "Created_Time": "2022-05-25T11:15:50+05:30",
+            "Amount": null,
+            "payment_status": "Payment Received",
+            "Unsubscribed_Time": null,
+            "$editable": true,
+            "$orchestration": false,
+            "created_by1": null,
+            "Date_to": "2018-05-30",
+            "user_id": "vishal",
+            "$in_merge": false,
+            "Tag": [],
+            "$approval_state": "approved",
+            "status": null,
+            "StatusPayment": "Received"
+        }
+    ],
+    "info": {
+        "per_page": 200,
+        "count": 1,
+        "page": 1,
+        "more_records": false
+    }
+}
+
+
+
+refreshed at 11:27
+
+{
+    "access_token": "1000.1b22e213e19625d9a6af0c47909f6dff.c81557a8ed7da29b4ce0c6b5392aec26",
+    "api_domain": "https://www.zohoapis.in",
+    "token_type": "Bearer",
+    "expires_in": 3600
+}
+
+
+refreshed at 13:04
+
+{
+    "access_token": "1000.98136d0de1d438fd004dbcb2f5f0c13d.fcc2501e8ec4036a00c1f018d39f57b4",
+    "api_domain": "https://www.zohoapis.in",
+    "token_type": "Bearer",
+    "expires_in": 3600
+}

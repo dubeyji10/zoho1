@@ -1,0 +1,18 @@
+curl "https://content.zohoapis.com/crm/v2/upload"
+-X POST
+-H "Authorization: Zoho-oauthtoken 1000.8cb99dxxxxxxxxxxxxx9be93.9b8xxxxxxxxxxxxxxxf"
+-H "X-CRM-ORG: 56xxxx47"
+-H "feature: bulk-write"
+-F "file=@file.csv.zip"
+
+
+zoho creator tutorials
+https://www.youtube.com/watch?v=IAhA5nyRSoc
+
+deluge tutorials
+
+https://www.nuanced.it/2015/12/round-robin-lead-assignment-for-api.html
+
+
+
+

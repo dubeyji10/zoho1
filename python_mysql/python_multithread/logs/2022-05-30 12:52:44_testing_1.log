@@ -1,0 +1,153 @@
+INFO:root:-- operations started at Mon May 30 12:52:44 2022 --
+INFO:root: oauth generation at Mon May 30 12:52:44 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- response to oauth request at <built-in function ctime> --- 
+ {"access_token":"1000.78573486995b73c3c09ef3d2dfceaf62.d5be4c638a6367eb9d18a57a86afdfc3","refresh_token":"1000.615a406a9da58e19fa351642d0ccd627.d7f15d49939fe38c211001252e2ff85b","api_domain":"https://www.zohoapis.in","token_type":"Bearer","expires_in":3600}
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root: -> refreshing tokens at Mon May 30 12:52:49 2022 
+INFO:root: writing refresh token request response at Mon May 30 12:52:49 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- response to refresh request at Mon May 30 12:52:50 2022 --- 
+ {"access_token":"1000.2e41ed82662db9c58044b2c43d9d5a42.b3ff5f00b7482d4518846a613866a962","api_domain":"https://www.zohoapis.in","token_type":"Bearer","expires_in":3600}
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root: --connection successful at 'Mon May 30 12:52:50 2022' --
+INFO:root:-> no records created between '2015-01-07 10:00:00' and '2015-01-07 10:10:00' 
+INFO:root:-> no records created between '2015-01-07 10:10:00' and '2015-01-07 10:20:00' 
+INFO:root: -> refreshing tokens at Mon May 30 12:53:14 2022 
+INFO:root: writing refresh token request response at Mon May 30 12:53:14 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- response to refresh request at Mon May 30 12:53:20 2022 --- 
+ {"access_token":"1000.2713913bdfc562cd06fcd585f2327d5a.9b13918e5366355d512457727a89d863","api_domain":"https://www.zohoapis.in","token_type":"Bearer","expires_in":3600}
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:-> no records created between '2015-01-07 10:20:00' and '2015-01-07 10:30:00' 
+INFO:root:-> no records created between '2015-01-07 10:30:00' and '2015-01-07 10:40:00' 
+INFO:root: -> refreshing tokens at Mon May 30 12:53:39 2022 
+INFO:root: writing refresh token request response at Mon May 30 12:53:39 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- response to refresh request at Mon May 30 12:53:40 2022 --- 
+ {"access_token":"1000.d43ae589dbfd041734711b36d513fd9d.af3eb907165dff775de089d97a41fc3c","api_domain":"https://www.zohoapis.in","token_type":"Bearer","expires_in":3600}
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:-> no records created between '2015-01-07 10:40:00' and '2015-01-07 10:50:00' 
+INFO:root:-> no records created between '2015-01-07 10:50:00' and '2015-01-07 11:00:00' 
+INFO:root:-> 1 records created between '2015-01-07 11:00:00' and '2015-01-07 11:10:00' 
+INFO:root:calling leads api at Mon May 30 12:54:00 2022
+INFO:root:--MySQL connection is closed at Mon May 30 12:54:00 2022--
+INFO:root: -> refreshing tokens at Mon May 30 12:54:04 2022 
+INFO:root: writing refresh token request response at Mon May 30 12:54:04 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- response to refresh request at Mon May 30 12:54:05 2022 --- 
+ {"access_token":"1000.1b2e50dba7833ce9ba10acdde1cb08e4.f5e32cae87c9d330a4185bd5f51c5ae7","api_domain":"https://www.zohoapis.in","token_type":"Bearer","expires_in":3600}
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root: -> refreshing tokens at Mon May 30 12:54:29 2022 
+INFO:root: writing refresh token request response at Mon May 30 12:54:29 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- response to refresh request at Mon May 30 12:54:30 2022 --- 
+ {"access_token":"1000.ae3064198e3c052241465b7218f37398.ce3ee111090d62c79043530683171d14","api_domain":"https://www.zohoapis.in","token_type":"Bearer","expires_in":3600}
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root: -> refreshing tokens at Mon May 30 12:54:54 2022 
+INFO:root: writing refresh token request response at Mon May 30 12:54:54 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- response to refresh request at Mon May 30 12:54:55 2022 --- 
+ {"access_token":"1000.1089d28ab6b616a5ce02483c1251c494.e520b34b7cd04d3a096d4a84593ad0c8","api_domain":"https://www.zohoapis.in","token_type":"Bearer","expires_in":3600}
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root: -> refreshing tokens at Mon May 30 12:55:19 2022 
+INFO:root: writing refresh token request response at Mon May 30 12:55:19 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- response to refresh request at Mon May 30 12:55:20 2022 --- 
+ {"access_token":"1000.91af901b47177d76330032623d0076c3.3879eb70b41352780600c4df61e4c463","api_domain":"https://www.zohoapis.in","token_type":"Bearer","expires_in":3600}
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root: -> refreshing tokens at Mon May 30 12:55:44 2022 
+INFO:root: writing refresh token request response at Mon May 30 12:55:44 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- response to refresh request at Mon May 30 12:55:45 2022 --- 
+ {"access_token":"1000.ba72c3b64c3ad246fe8aa0f99cbd6b75.065e0f2a3fd9781890166accce18f696","api_domain":"https://www.zohoapis.in","token_type":"Bearer","expires_in":3600}
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root: -> refreshing tokens at Mon May 30 12:56:09 2022 
+INFO:root: writing refresh token request response at Mon May 30 12:56:09 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- response to refresh request at Mon May 30 12:56:10 2022 --- 
+ {"access_token":"1000.906848788973834bf642fd6b6f05d370.46bb57db3aa00008624e1869cf796773","api_domain":"https://www.zohoapis.in","token_type":"Bearer","expires_in":3600}
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root: -> refreshing tokens at Mon May 30 12:56:34 2022 
+INFO:root: writing refresh token request response at Mon May 30 12:56:34 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- response to refresh request at Mon May 30 12:56:42 2022 --- 
+ {"access_token":"1000.e83f016695e1cfa2a6a8a8a4acc69b7e.4ae6ced2c13f9ce1865e5a0262580f0d","api_domain":"https://www.zohoapis.in","token_type":"Bearer","expires_in":3600}
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root: -> refreshing tokens at Mon May 30 12:56:59 2022 
+INFO:root: writing refresh token request response at Mon May 30 12:56:59 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- response to refresh request at Mon May 30 12:57:04 2022 --- 
+ {"access_token":"1000.5c9d215ac5893dd8c6aef6430bffe1a9.5b00869ee8970b83e6688ad00b4d9c5c","api_domain":"https://www.zohoapis.in","token_type":"Bearer","expires_in":3600}
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root: -> refreshing tokens at Mon May 30 12:57:24 2022 
+INFO:root: writing refresh token request response at Mon May 30 12:57:24 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- response to refresh request at Mon May 30 12:57:30 2022 --- 
+ {"access_token":"1000.7ba29eeaf5f191f50252c0aa0c6b45b5.cb4dee26afc0494b7bd214d78e0d6f8b","api_domain":"https://www.zohoapis.in","token_type":"Bearer","expires_in":3600}
+INFO:root:
+ --------------------------------------------------- 
+

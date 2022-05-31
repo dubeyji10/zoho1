@@ -1,0 +1,62 @@
+{
+    "data": [
+    {
+            "Owner": {
+                "name": "Jitendra Kumar",
+                "id": "348201000000229001",
+                "email": "jitendra.seo@exportgenius.in"
+            },
+            "local_id": 14,
+            "contact_person1": "Ajay Laddha",
+            "contact_person2": "",
+            "company_name": "Neha Collection",
+            "Name": "Neha Collection",
+            "company_grade": "D",
+            "phone_no": null,
+            "mobile_no1": "7567369544",
+            "mobile_no2": null,
+            "email": "apyash@gmail.com",
+            "designation": "N/A",
+            "address": "",
+            "website": "",
+            "last_conversation": null,
+            "followup_on": null,
+            "last_mail_no": 0,
+            "last_mail_on": null,
+            "last_sms_no": 0,
+            "last_sms_on": null,
+            "email2": null,
+            "Country": "India",
+            "phonecode": "91"
+    },
+    {
+            "Owner": {
+                "name": "Rajat Gupta",
+                "id": "348201000000231176",
+                "email": "info@exportgenius.in"
+            },
+            "local_id": 15,
+            "contact_person1": "Rajaram",
+            "contact_person2": "",
+            "company_name": "Hospira Healthcare",
+            "Name": "Hospira Healthcare",
+            "company_grade": "C",
+            "phone_no": null,
+            "mobile_no1": "8754421797",
+            "mobile_no2": null,
+            "email": "Rajaram.Natarajan@Hospira.com",
+            "designation": "GM",
+            "address": "",
+            "website": "www.hospira.com",
+            "last_conversation": null,
+            "followup_on": null,
+            "last_mail_no": 0,
+            "last_mail_on": null,
+            "last_sms_no": 0,
+            "last_sms_on": null,
+            "email2": null,
+            "Country": "India",
+            "phonecode": "91"
+    }
+    ]
+}

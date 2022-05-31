@@ -1,0 +1,45 @@
+
+
+
+
+new access token at 11:30 - for sandbox sandv
+
+{
+    "access_token": "1000.93c97172281dd91999bc44f93f3dec78.a0ee8a49fa36b1cc68f239a04c6a2c3b",
+    "refresh_token": "1000.72ad07012fa6592c46e8b71c2eb626f5.29b4fe89528870737ae905bb69b66697",
+    "api_domain": "https://www.zohoapis.in",
+    "token_type": "Bearer",
+    "expires_in": 3600
+}
+
+
+new access token at 12:07
+
+{
+    "access_token": "1000.f021d6b9295079dceca8e5f4118ccfb6.81e29a4bc62d6191b7a2d343bed93a42",
+    "api_domain": "https://www.zohoapis.in",
+    "token_type": "Bearer",
+    "expires_in": 3600
+}
+
+
+new access token at 12:53
+
+{
+    "access_token": "1000.f284ab57533af26776182372251f9a8f.2db4142354095cfb85fb0367f3be5184",
+    "api_domain": "https://www.zohoapis.in",
+    "token_type": "Bearer",
+    "expires_in": 3600
+}
+
+google sheet phone number fix
+
+=ARRAYFORMULA("""" & F2:F51 & """")
+
+
+correct sql queries
+
+
+CREATE TABLE clients ( id int(11) NOT NULL DEFAULT 0, contact_person1 varchar(45) NOT NULL,contact_person2 varchar(45) DEFAULT NULL,company_name varchar(200) NOT NULL,company_grade varchar(15) DEFAULT NULL,phone_no varchar(300) DEFAULT NULL,mobile_no1 varchar(30) DEFAULT NULL,mobile_no2 varchar(30) DEFAULT NULL,email varchar(50) NOT NULL,designation varchar(45) DEFAULT NULL,website varchar(500) DEFAULT NULL,user_id varchar(45) NOT NULL,added_on datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,last_conversation varchar(1000) DEFAULT NULL,followup_on datetime DEFAULT NULL,last_mail_no smallint(6) NOT NULL DEFAULT '0',last_mail_on datetime DEFAULT NULL,last_sms_no int(6) DEFAULT '0',last_sms_on datetime DEFAULT NULL,email2 varchar(50) DEFAULT NULL,Country varchar(45) DEFAULT NULL,phonecode varchar(10) DEFAULT NULL);
+
+

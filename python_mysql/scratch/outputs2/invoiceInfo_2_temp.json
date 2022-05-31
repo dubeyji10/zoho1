@@ -1,0 +1,15 @@
+{
+    "data": [
+        {
+            "Name": "602",
+            "added_on": "2015-01-02T13:31:34+05:30",
+            "amount_recieved": "7416",
+            "invoice_id": 602,
+            "local_id": 602,
+            "payment_detail": "neft",
+            "payment_in": "PNB - ExportGenius",
+            "sale_amount": 6600.0,
+            "user_id": "nitisha70701"
+        }
+    ]
+}

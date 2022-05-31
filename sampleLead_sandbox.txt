@@ -1,0 +1,123 @@
+	
+   from test data
+  
+   "id": 10,
+   "client_id": 14,
+   "lead_source": "Email",
+   "importance": "High",
+   "added_on": "2013-07-25 11:58:25",
+   "user_id": "vishal",
+   "requirement": "Need details of importers of Unstitched Dress Material from Sri Lanka, Malesia and other Asian countries ",
+   "report_type": "",
+   "time_from": null,
+   "time_to": null,
+   "opening_price": "",
+   "closing_price": "",
+   "status": "Followup",
+   "causes": "",
+   "invoice_id": null,
+   "temp": null
+   
+   
+   note : 
+   
+   important field : Last_Name , Company
+    maybe user_id corresponds to the user who handled client
+    so details of it goes to Owner dict
+                "Owner": {
+                "name": "",
+                "id": "",
+                "email": ""
+            },
+            
+    
+   from json --- actual fields in Leads module
+   
+   
+            "Company": "Rangoni Of Florence 2",
+            "time_to": null,
+            "Email": "Example-maclead@gmail2.com",
+            "$currency_symbol": "₹",
+            "Visitor_Score": null,
+            "$field_states": null,
+            "closing_price": null,
+            "client_id": null,
+            "Industry": "Service Provider",
+            "$state": "save",
+            "Unsubscribed_Mode": null,
+            "$converted": false,
+            "$process_flow": false,
+            "Exchange_Rate": 1,
+            "Currency": "INR",
+            "invoice_id": null,
+            "Street": "postman request St Rt 17m M",
+            "Zip_Code": "01953",
+            "$approved": true,
+            "$approval": {
+                "delegate": false,
+                "approve": false,
+                "reject": false,
+                "resubmit": false
+            },
+            "local_id": null,
+            "First_Visited_URL": null,
+            "Days_Visited": null,
+            "$editable": true,
+            "report_type": null,
+            "City": "Middle Island",
+            "No_of_Employees": null,
+            "State": "NY",
+            "Country": "United States",
+            "Last_Visited_Time": null,
+            "Annual_Revenue": 850000,
+            "Secondary_Email": null,
+            "status": null,
+            "Description": null,
+            "Number_Of_Chats": null,
+            "lookup_client": null,
+            "Rating": null,
+            "$review_process": {
+                "approve": false,
+                "reject": false,
+                "resubmit": false
+            },
+            "Website": "http://www.example.com",
+            "Twitter": "example_sample",
+            "Average_Time_Spent_Minutes": null,
+            "Salutation": "Mr.",
+            "First_Name": "Christopher",
+            "Full_Name": "Mr. Christopher Maclead (POSTMAN)",
+            "Lead_Status": "Follow Up",
+            "$review": null,
+            "Skype_ID": "skypeOfexample-maclead",
+            "lead_source1": null,
+            "Phone": "555-555-5555",
+            "causes": null,
+            "Email_Opt_Out": false,
+            "opening_price": null,
+            "Designation": "VP Accounting",
+            "LeadsExportGenius": null,
+            "Modified_Time": "2022-05-19T11:52:05+05:30",
+            "temp": null,
+            "$converted_detail": {},
+            "Unsubscribed_Time": null,
+            "requirement": null,
+            "Mobile": "222-555-5555",
+            "$orchestration": false,
+            "First_Visited_Time": null,
+            "Last_Name": "Example (Sample)",
+            "Layout": {
+                "name": "LeadsExportGenius",
+                "id": "348201000000237745"
+            },
+            "time_from": null,
+            "$in_merge": false,
+            "Referrer": null,
+            "Lead_Source": "Cold Call",
+            "Tag": [],
+            "Fax": null,
+            "$approval_state": "approved"
+
+   
+   
+   

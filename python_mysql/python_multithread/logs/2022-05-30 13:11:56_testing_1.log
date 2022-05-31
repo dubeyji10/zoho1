@@ -1,0 +1,48 @@
+INFO:root:-- operations started at Mon May 30 13:11:56 2022 --
+INFO:root: oauth generation at Mon May 30 13:11:56 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- response to oauth request at <built-in function ctime> --- 
+ {"access_token":"1000.73e29192314c09921350e9fffbbe22e9.8150a714a41b5dba018a5d7a503f0112","refresh_token":"1000.9a3e89a675897f46de044a5182f40370.0bf147dc36a31cd64d31d890e80b59bb","api_domain":"https://www.zohoapis.in","token_type":"Bearer","expires_in":3600}
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root: -> refreshing tokens at Mon May 30 13:12:02 2022 
+INFO:root: writing refresh token request response at Mon May 30 13:12:02 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- response to refresh request at Mon May 30 13:12:02 2022 --- 
+ {"access_token":"1000.a5401f4659865700b0c3237ee301e4a5.36ec97d40a75ca383ad62bb5acadf34c","api_domain":"https://www.zohoapis.in","token_type":"Bearer","expires_in":3600}
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root: --connection successful at 'Mon May 30 13:12:02 2022' --
+INFO:root:-> no records created between '2015-01-07 10:00:00' and '2015-01-07 10:10:00' 
+INFO:root:-> no records created between '2015-01-07 10:10:00' and '2015-01-07 10:20:00' 
+INFO:root:-> no records created between '2015-01-07 10:20:00' and '2015-01-07 10:30:00' 
+INFO:root:-> no records created between '2015-01-07 10:30:00' and '2015-01-07 10:40:00' 
+INFO:root:-> no records created between '2015-01-07 10:40:00' and '2015-01-07 10:50:00' 
+INFO:root:-> no records created between '2015-01-07 10:50:00' and '2015-01-07 11:00:00' 
+INFO:root:-> 1 records created between '2015-01-07 11:00:00' and '2015-01-07 11:10:00' 
+INFO:root:
+
+
+
+
+>>>calling leads api at Mon May 30 13:13:12 2022
+INFO:root:
+ ------------------------------------ 
+
+INFO:root:
+ -- reponse recieved at Mon May 30 13:13:18 2022 -- 
+ {"code":"INVALID_DATA","details":{"expected_data_type":"jsonobject"},"message":"body","status":"error"}
+ 
+INFO:root:
+ ------------------------------------ 
+
+INFO:root:-> no records created between '2015-01-07 11:10:00' and '2015-01-07 11:20:00' 
+INFO:root:--MySQL connection is closed at Mon May 30 13:13:31 2022--

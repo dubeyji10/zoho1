@@ -1,0 +1,576 @@
+INFO:root:-- operations started at Tue May 31 11:13:59 2022 (test time = 2015 Jan 2 11:00) --
+INFO:root: --connection successful at 'Tue May 31 11:13:59 2022' --
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 11:00:00' and '2015-01-02 11:10:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:14:09 2022' timestamp  : 2015-01-02 11:10:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:14:09 2022' --  timestamp  : 2015-01-02 11:10:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 11:14:09 2022' -- timestamp  : 2015-01-02 11:10:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 11:14:09 2022' --  timestamp  : 2015-01-02 11:10:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:14:09 2022' -- timestamp  : 2015-01-02 11:10:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 11:10:00' and '2015-01-02 11:20:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:14:19 2022' timestamp  : 2015-01-02 11:20:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:14:19 2022' --  timestamp  : 2015-01-02 11:20:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 11:14:19 2022' -- timestamp  : 2015-01-02 11:20:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 11:14:19 2022' --  timestamp  : 2015-01-02 11:20:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:14:19 2022' -- timestamp  : 2015-01-02 11:20:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 11:20:00' and '2015-01-02 11:30:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:14:29 2022' timestamp  : 2015-01-02 11:30:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:14:29 2022' --  timestamp  : 2015-01-02 11:30:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 11:14:29 2022' -- timestamp  : 2015-01-02 11:30:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 11:14:29 2022' --  timestamp  : 2015-01-02 11:30:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:14:29 2022' -- timestamp  : 2015-01-02 11:30:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 11:30:00' and '2015-01-02 11:40:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:14:39 2022' timestamp  : 2015-01-02 11:40:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:14:39 2022' --  timestamp  : 2015-01-02 11:40:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 11:14:39 2022' -- timestamp  : 2015-01-02 11:40:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 11:14:39 2022' --  timestamp  : 2015-01-02 11:40:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:14:39 2022' -- timestamp  : 2015-01-02 11:40:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 11:40:00' and '2015-01-02 11:50:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:14:49 2022' timestamp  : 2015-01-02 11:50:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:14:49 2022' --  timestamp  : 2015-01-02 11:50:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 11:14:49 2022' -- timestamp  : 2015-01-02 11:50:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 11:14:49 2022' --  timestamp  : 2015-01-02 11:50:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:14:49 2022' -- timestamp  : 2015-01-02 11:50:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 11:50:00' and '2015-01-02 12:00:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:14:59 2022' timestamp  : 2015-01-02 12:00:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:14:59 2022' --  timestamp  : 2015-01-02 12:00:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 11:14:59 2022' -- timestamp  : 2015-01-02 12:00:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 11:14:59 2022' --  timestamp  : 2015-01-02 12:00:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:14:59 2022' -- timestamp  : 2015-01-02 12:00:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 12:00:00' and '2015-01-02 12:10:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:15:09 2022' timestamp  : 2015-01-02 12:10:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:15:09 2022' --  timestamp  : 2015-01-02 12:10:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 11:15:09 2022' -- timestamp  : 2015-01-02 12:10:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 11:15:09 2022' --  timestamp  : 2015-01-02 12:10:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:15:09 2022' -- timestamp  : 2015-01-02 12:10:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 12:10:00' and '2015-01-02 12:20:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:15:19 2022' timestamp  : 2015-01-02 12:20:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:15:19 2022' --  timestamp  : 2015-01-02 12:20:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 11:15:19 2022' -- timestamp  : 2015-01-02 12:20:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 11:15:19 2022' --  timestamp  : 2015-01-02 12:20:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:15:19 2022' -- timestamp  : 2015-01-02 12:20:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 12:20:00' and '2015-01-02 12:30:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:15:29 2022' timestamp  : 2015-01-02 12:30:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:15:29 2022' --  timestamp  : 2015-01-02 12:30:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 11:15:29 2022' -- timestamp  : 2015-01-02 12:30:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 11:15:29 2022' --  timestamp  : 2015-01-02 12:30:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:15:29 2022' -- timestamp  : 2015-01-02 12:30:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 12:30:00' and '2015-01-02 12:40:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:15:39 2022' timestamp  : 2015-01-02 12:40:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:15:39 2022' --  timestamp  : 2015-01-02 12:40:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 11:15:39 2022' -- timestamp  : 2015-01-02 12:40:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 11:15:39 2022' --  timestamp  : 2015-01-02 12:40:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:15:39 2022' -- timestamp  : 2015-01-02 12:40:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 12:40:00' and '2015-01-02 12:50:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:15:49 2022' timestamp  : 2015-01-02 12:50:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:15:49 2022' --  timestamp  : 2015-01-02 12:50:00 
+INFO:root:	 1 conversations inserted
+INFO:root: --3. running for leads at 'Tue May 31 11:15:49 2022' -- timestamp  : 2015-01-02 12:50:00 
+INFO:root:	 1 leads inserted
+INFO:root: --4. running for invoice items at 'Tue May 31 11:15:49 2022' --  timestamp  : 2015-01-02 12:50:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:15:49 2022' -- timestamp  : 2015-01-02 12:50:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 12:50:00' and '2015-01-02 13:00:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:15:59 2022' timestamp  : 2015-01-02 13:00:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:15:59 2022' --  timestamp  : 2015-01-02 13:00:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 11:15:59 2022' -- timestamp  : 2015-01-02 13:00:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 11:15:59 2022' --  timestamp  : 2015-01-02 13:00:00 
+INFO:root:	 1 invoice items inserted
+INFO:root: --5. running for invoice info at 'Tue May 31 11:15:59 2022' -- timestamp  : 2015-01-02 13:00:00 
+INFO:root:	 1 invoice info inserted
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 13:00:00' and '2015-01-02 13:10:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:16:09 2022' timestamp  : 2015-01-02 13:10:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:16:09 2022' --  timestamp  : 2015-01-02 13:10:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 11:16:09 2022' -- timestamp  : 2015-01-02 13:10:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 11:16:09 2022' --  timestamp  : 2015-01-02 13:10:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:16:09 2022' -- timestamp  : 2015-01-02 13:10:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 13:10:00' and '2015-01-02 13:20:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:16:19 2022' timestamp  : 2015-01-02 13:20:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:16:19 2022' --  timestamp  : 2015-01-02 13:20:00 
+INFO:root:	 1 conversations inserted
+INFO:root: --3. running for leads at 'Tue May 31 11:16:19 2022' -- timestamp  : 2015-01-02 13:20:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 11:16:19 2022' --  timestamp  : 2015-01-02 13:20:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:16:19 2022' -- timestamp  : 2015-01-02 13:20:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 13:20:00' and '2015-01-02 13:30:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:16:29 2022' timestamp  : 2015-01-02 13:30:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:16:29 2022' --  timestamp  : 2015-01-02 13:30:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 11:16:29 2022' -- timestamp  : 2015-01-02 13:30:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 11:16:29 2022' --  timestamp  : 2015-01-02 13:30:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:16:29 2022' -- timestamp  : 2015-01-02 13:30:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 13:30:00' and '2015-01-02 13:40:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:16:39 2022' timestamp  : 2015-01-02 13:40:00 --
+INFO:root:	 1 clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:16:39 2022' --  timestamp  : 2015-01-02 13:40:00 
+INFO:root:	 2 conversations inserted
+INFO:root: --3. running for leads at 'Tue May 31 11:16:39 2022' -- timestamp  : 2015-01-02 13:40:00 
+INFO:root:	 1 leads inserted
+INFO:root: --4. running for invoice items at 'Tue May 31 11:16:39 2022' --  timestamp  : 2015-01-02 13:40:00 
+INFO:root:	 1 invoice items inserted
+INFO:root: --5. running for invoice info at 'Tue May 31 11:16:39 2022' -- timestamp  : 2015-01-02 13:40:00 
+INFO:root:	 1 invoice info inserted
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 13:40:00' and '2015-01-02 13:50:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:16:49 2022' timestamp  : 2015-01-02 13:50:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:16:49 2022' --  timestamp  : 2015-01-02 13:50:00 
+INFO:root:	 1 conversations inserted
+INFO:root: --3. running for leads at 'Tue May 31 11:16:49 2022' -- timestamp  : 2015-01-02 13:50:00 
+INFO:root:	 1 leads inserted
+INFO:root: --4. running for invoice items at 'Tue May 31 11:16:49 2022' --  timestamp  : 2015-01-02 13:50:00 
+INFO:root:	 1 invoice items inserted
+INFO:root: --5. running for invoice info at 'Tue May 31 11:16:49 2022' -- timestamp  : 2015-01-02 13:50:00 
+INFO:root:	 1 invoice info inserted
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 13:50:00' and '2015-01-02 14:00:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:16:59 2022' timestamp  : 2015-01-02 14:00:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:16:59 2022' --  timestamp  : 2015-01-02 14:00:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 11:16:59 2022' -- timestamp  : 2015-01-02 14:00:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 11:16:59 2022' --  timestamp  : 2015-01-02 14:00:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:16:59 2022' -- timestamp  : 2015-01-02 14:00:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 14:00:00' and '2015-01-02 14:10:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:17:09 2022' timestamp  : 2015-01-02 14:10:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:17:09 2022' --  timestamp  : 2015-01-02 14:10:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 11:17:09 2022' -- timestamp  : 2015-01-02 14:10:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 11:17:09 2022' --  timestamp  : 2015-01-02 14:10:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:17:09 2022' -- timestamp  : 2015-01-02 14:10:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 14:10:00' and '2015-01-02 14:20:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:17:19 2022' timestamp  : 2015-01-02 14:20:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:17:19 2022' --  timestamp  : 2015-01-02 14:20:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 11:17:19 2022' -- timestamp  : 2015-01-02 14:20:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 11:17:19 2022' --  timestamp  : 2015-01-02 14:20:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:17:19 2022' -- timestamp  : 2015-01-02 14:20:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 14:20:00' and '2015-01-02 14:30:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:17:29 2022' timestamp  : 2015-01-02 14:30:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:17:29 2022' --  timestamp  : 2015-01-02 14:30:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 11:17:29 2022' -- timestamp  : 2015-01-02 14:30:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 11:17:29 2022' --  timestamp  : 2015-01-02 14:30:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:17:29 2022' -- timestamp  : 2015-01-02 14:30:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 14:30:00' and '2015-01-02 14:40:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:17:39 2022' timestamp  : 2015-01-02 14:40:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:17:39 2022' --  timestamp  : 2015-01-02 14:40:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 11:17:39 2022' -- timestamp  : 2015-01-02 14:40:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 11:17:39 2022' --  timestamp  : 2015-01-02 14:40:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:17:39 2022' -- timestamp  : 2015-01-02 14:40:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 14:40:00' and '2015-01-02 14:50:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:17:49 2022' timestamp  : 2015-01-02 14:50:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:17:49 2022' --  timestamp  : 2015-01-02 14:50:00 
+INFO:root:	 1 conversations inserted
+INFO:root: --3. running for leads at 'Tue May 31 11:17:49 2022' -- timestamp  : 2015-01-02 14:50:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 11:17:49 2022' --  timestamp  : 2015-01-02 14:50:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:17:49 2022' -- timestamp  : 2015-01-02 14:50:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 14:50:00' and '2015-01-02 15:00:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:17:59 2022' timestamp  : 2015-01-02 15:00:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:17:59 2022' --  timestamp  : 2015-01-02 15:00:00 
+INFO:root:	 5 conversations inserted
+INFO:root: --3. running for leads at 'Tue May 31 11:17:59 2022' -- timestamp  : 2015-01-02 15:00:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 11:17:59 2022' --  timestamp  : 2015-01-02 15:00:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:17:59 2022' -- timestamp  : 2015-01-02 15:00:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 15:00:00' and '2015-01-02 15:10:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:18:09 2022' timestamp  : 2015-01-02 15:10:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:18:09 2022' --  timestamp  : 2015-01-02 15:10:00 
+INFO:root:	 4 conversations inserted
+INFO:root: --3. running for leads at 'Tue May 31 11:18:09 2022' -- timestamp  : 2015-01-02 15:10:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 11:18:09 2022' --  timestamp  : 2015-01-02 15:10:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:18:09 2022' -- timestamp  : 2015-01-02 15:10:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 15:10:00' and '2015-01-02 15:20:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:18:19 2022' timestamp  : 2015-01-02 15:20:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:18:19 2022' --  timestamp  : 2015-01-02 15:20:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 11:18:19 2022' -- timestamp  : 2015-01-02 15:20:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 11:18:19 2022' --  timestamp  : 2015-01-02 15:20:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:18:19 2022' -- timestamp  : 2015-01-02 15:20:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 15:20:00' and '2015-01-02 15:30:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:18:29 2022' timestamp  : 2015-01-02 15:30:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:18:29 2022' --  timestamp  : 2015-01-02 15:30:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 11:18:29 2022' -- timestamp  : 2015-01-02 15:30:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 11:18:29 2022' --  timestamp  : 2015-01-02 15:30:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:18:29 2022' -- timestamp  : 2015-01-02 15:30:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 15:30:00' and '2015-01-02 15:40:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:18:39 2022' timestamp  : 2015-01-02 15:40:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:18:39 2022' --  timestamp  : 2015-01-02 15:40:00 
+INFO:root:	 3 conversations inserted
+INFO:root: --3. running for leads at 'Tue May 31 11:18:39 2022' -- timestamp  : 2015-01-02 15:40:00 
+INFO:root:	 1 leads inserted
+INFO:root: --4. running for invoice items at 'Tue May 31 11:18:39 2022' --  timestamp  : 2015-01-02 15:40:00 
+INFO:root:	 1 invoice items inserted
+INFO:root: --5. running for invoice info at 'Tue May 31 11:18:39 2022' -- timestamp  : 2015-01-02 15:40:00 
+INFO:root:	 1 invoice info inserted
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 15:40:00' and '2015-01-02 15:50:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:18:49 2022' timestamp  : 2015-01-02 15:50:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:18:49 2022' --  timestamp  : 2015-01-02 15:50:00 
+INFO:root:	 3 conversations inserted
+INFO:root: --3. running for leads at 'Tue May 31 11:18:49 2022' -- timestamp  : 2015-01-02 15:50:00 
+INFO:root:	 1 leads inserted
+INFO:root: --4. running for invoice items at 'Tue May 31 11:18:49 2022' --  timestamp  : 2015-01-02 15:50:00 
+INFO:root:	 1 invoice items inserted
+INFO:root: --5. running for invoice info at 'Tue May 31 11:18:49 2022' -- timestamp  : 2015-01-02 15:50:00 
+INFO:root:	 1 invoice info inserted
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 15:50:00' and '2015-01-02 16:00:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:18:59 2022' timestamp  : 2015-01-02 16:00:00 --
+INFO:root:	 1 clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:18:59 2022' --  timestamp  : 2015-01-02 16:00:00 
+INFO:root:	 2 conversations inserted
+INFO:root: --3. running for leads at 'Tue May 31 11:18:59 2022' -- timestamp  : 2015-01-02 16:00:00 
+INFO:root:	 1 leads inserted
+INFO:root: --4. running for invoice items at 'Tue May 31 11:18:59 2022' --  timestamp  : 2015-01-02 16:00:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:18:59 2022' -- timestamp  : 2015-01-02 16:00:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 16:00:00' and '2015-01-02 16:10:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:19:09 2022' timestamp  : 2015-01-02 16:10:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:19:09 2022' --  timestamp  : 2015-01-02 16:10:00 
+INFO:root:	 2 conversations inserted
+INFO:root: --3. running for leads at 'Tue May 31 11:19:09 2022' -- timestamp  : 2015-01-02 16:10:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 11:19:09 2022' --  timestamp  : 2015-01-02 16:10:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:19:09 2022' -- timestamp  : 2015-01-02 16:10:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 16:10:00' and '2015-01-02 16:20:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:19:19 2022' timestamp  : 2015-01-02 16:20:00 --
+INFO:root:	 1 clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:19:19 2022' --  timestamp  : 2015-01-02 16:20:00 
+INFO:root:	 1 conversations inserted
+INFO:root: --3. running for leads at 'Tue May 31 11:19:19 2022' -- timestamp  : 2015-01-02 16:20:00 
+INFO:root:	 1 leads inserted
+INFO:root: --4. running for invoice items at 'Tue May 31 11:19:19 2022' --  timestamp  : 2015-01-02 16:20:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:19:19 2022' -- timestamp  : 2015-01-02 16:20:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 16:20:00' and '2015-01-02 16:30:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:19:29 2022' timestamp  : 2015-01-02 16:30:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:19:29 2022' --  timestamp  : 2015-01-02 16:30:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 11:19:29 2022' -- timestamp  : 2015-01-02 16:30:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 11:19:29 2022' --  timestamp  : 2015-01-02 16:30:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:19:29 2022' -- timestamp  : 2015-01-02 16:30:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 16:30:00' and '2015-01-02 16:40:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:19:39 2022' timestamp  : 2015-01-02 16:40:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:19:39 2022' --  timestamp  : 2015-01-02 16:40:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 11:19:39 2022' -- timestamp  : 2015-01-02 16:40:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 11:19:39 2022' --  timestamp  : 2015-01-02 16:40:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:19:39 2022' -- timestamp  : 2015-01-02 16:40:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 16:40:00' and '2015-01-02 16:50:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:19:49 2022' timestamp  : 2015-01-02 16:50:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:19:49 2022' --  timestamp  : 2015-01-02 16:50:00 
+INFO:root:	 2 conversations inserted
+INFO:root: --3. running for leads at 'Tue May 31 11:19:49 2022' -- timestamp  : 2015-01-02 16:50:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 11:19:49 2022' --  timestamp  : 2015-01-02 16:50:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:19:49 2022' -- timestamp  : 2015-01-02 16:50:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 16:50:00' and '2015-01-02 17:00:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:19:59 2022' timestamp  : 2015-01-02 17:00:00 --
+INFO:root:	 2 clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:19:59 2022' --  timestamp  : 2015-01-02 17:00:00 
+INFO:root:	 5 conversations inserted
+INFO:root: --3. running for leads at 'Tue May 31 11:19:59 2022' -- timestamp  : 2015-01-02 17:00:00 
+INFO:root:	 2 leads inserted
+INFO:root: --4. running for invoice items at 'Tue May 31 11:19:59 2022' --  timestamp  : 2015-01-02 17:00:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:19:59 2022' -- timestamp  : 2015-01-02 17:00:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 17:00:00' and '2015-01-02 17:10:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:20:09 2022' timestamp  : 2015-01-02 17:10:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:20:09 2022' --  timestamp  : 2015-01-02 17:10:00 
+INFO:root:	 3 conversations inserted
+INFO:root: --3. running for leads at 'Tue May 31 11:20:09 2022' -- timestamp  : 2015-01-02 17:10:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 11:20:09 2022' --  timestamp  : 2015-01-02 17:10:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:20:09 2022' -- timestamp  : 2015-01-02 17:10:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 17:10:00' and '2015-01-02 17:20:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:20:19 2022' timestamp  : 2015-01-02 17:20:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:20:19 2022' --  timestamp  : 2015-01-02 17:20:00 
+INFO:root:	 1 conversations inserted
+INFO:root: --3. running for leads at 'Tue May 31 11:20:19 2022' -- timestamp  : 2015-01-02 17:20:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 11:20:19 2022' --  timestamp  : 2015-01-02 17:20:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:20:19 2022' -- timestamp  : 2015-01-02 17:20:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 17:20:00' and '2015-01-02 17:30:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:20:29 2022' timestamp  : 2015-01-02 17:30:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:20:29 2022' --  timestamp  : 2015-01-02 17:30:00 
+INFO:root:	 1 conversations inserted
+INFO:root: --3. running for leads at 'Tue May 31 11:20:29 2022' -- timestamp  : 2015-01-02 17:30:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 11:20:29 2022' --  timestamp  : 2015-01-02 17:30:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:20:29 2022' -- timestamp  : 2015-01-02 17:30:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 17:30:00' and '2015-01-02 17:40:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:20:39 2022' timestamp  : 2015-01-02 17:40:00 --
+INFO:root:	 1 clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:20:39 2022' --  timestamp  : 2015-01-02 17:40:00 
+INFO:root:	 2 conversations inserted
+INFO:root: --3. running for leads at 'Tue May 31 11:20:39 2022' -- timestamp  : 2015-01-02 17:40:00 
+INFO:root:	 2 leads inserted
+INFO:root: --4. running for invoice items at 'Tue May 31 11:20:39 2022' --  timestamp  : 2015-01-02 17:40:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:20:39 2022' -- timestamp  : 2015-01-02 17:40:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 17:40:00' and '2015-01-02 17:50:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:20:49 2022' timestamp  : 2015-01-02 17:50:00 --
+INFO:root:	 5 clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:20:49 2022' --  timestamp  : 2015-01-02 17:50:00 
+INFO:root:	 15 conversations inserted
+INFO:root: --3. running for leads at 'Tue May 31 11:20:49 2022' -- timestamp  : 2015-01-02 17:50:00 
+INFO:root:	 5 leads inserted
+INFO:root: --4. running for invoice items at 'Tue May 31 11:20:49 2022' --  timestamp  : 2015-01-02 17:50:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:20:49 2022' -- timestamp  : 2015-01-02 17:50:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 17:50:00' and '2015-01-02 18:00:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:20:59 2022' timestamp  : 2015-01-02 18:00:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:20:59 2022' --  timestamp  : 2015-01-02 18:00:00 
+INFO:root:	 2 conversations inserted
+INFO:root: --3. running for leads at 'Tue May 31 11:20:59 2022' -- timestamp  : 2015-01-02 18:00:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 11:20:59 2022' --  timestamp  : 2015-01-02 18:00:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:20:59 2022' -- timestamp  : 2015-01-02 18:00:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 18:00:00' and '2015-01-02 18:10:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:21:10 2022' timestamp  : 2015-01-02 18:10:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:21:10 2022' --  timestamp  : 2015-01-02 18:10:00 
+INFO:root:	 15 conversations inserted
+INFO:root: --3. running for leads at 'Tue May 31 11:21:10 2022' -- timestamp  : 2015-01-02 18:10:00 
+INFO:root:	 1 leads inserted
+INFO:root: --4. running for invoice items at 'Tue May 31 11:21:10 2022' --  timestamp  : 2015-01-02 18:10:00 
+INFO:root:	 1 invoice items inserted
+INFO:root: --5. running for invoice info at 'Tue May 31 11:21:10 2022' -- timestamp  : 2015-01-02 18:10:00 
+INFO:root:	 1 invoice info inserted
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 18:10:00' and '2015-01-02 18:20:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 11:21:20 2022' timestamp  : 2015-01-02 18:20:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 11:21:20 2022' --  timestamp  : 2015-01-02 18:20:00 
+INFO:root:	 1 conversations inserted
+INFO:root: --3. running for leads at 'Tue May 31 11:21:20 2022' -- timestamp  : 2015-01-02 18:20:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 11:21:20 2022' --  timestamp  : 2015-01-02 18:20:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 11:21:20 2022' -- timestamp  : 2015-01-02 18:20:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root: --exiting at 'Tue May 31 11:21:20 2022' timestamp : 2015-01-02 18:10:00 --
+INFO:root:closed conection

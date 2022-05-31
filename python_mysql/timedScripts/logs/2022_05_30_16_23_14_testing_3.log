@@ -1,0 +1,25 @@
+INFO:root:-- operations started at Mon May 30 16:23:14 2022 (test time = 2015 Jan 6 10:00) --
+INFO:root: oauth generation at Mon May 30 16:23:14 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- response to oauth request at <built-in function ctime> --- 
+ {"access_token":"1000.f69b02bf74c3234cc2e40549d709b893.8bf0555f007924fc08813cc27f1abbb9","refresh_token":"1000.c66c75350fd4b999b4ae6d5e4f5e1aa1.4a4d34ad7757bc65f3554a38a28d51e8","api_domain":"https://www.zohoapis.in","token_type":"Bearer","expires_in":3600}
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root: -> refreshing tokens at Mon May 30 16:23:19 2022 
+INFO:root: writing refresh token request response at Mon May 30 16:23:19 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- response to refresh request at Mon May 30 16:23:19 2022 --- 
+ {"access_token":"1000.518db76ae0fda972bb7d63b9a1e64885.24a35abfda50c13c5d9c99d41852d455","api_domain":"https://www.zohoapis.in","token_type":"Bearer","expires_in":3600}
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root: --connection successful at 'Mon May 30 16:23:19 2022' --
+INFO:root:		running for Leads
+INFO:root:--MySQL connection is closed at Mon May 30 16:23:29 2022--

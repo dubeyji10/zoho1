@@ -1,0 +1,51 @@
+id,client_id,lead_source,importance,added_on,user_id,requirement,report_type,time_from,time_to,opening_price,closing_price,status,causes,invoice_id,temp
+9,13,Email,High,"2013-07-24 19:12:44",vishal,"International Importer",,NULL,NULL,60000,,Followup,,NULL,NULL
+10,14,Email,High,"2013-07-25 11:58:25",vishal,"Need details of importers of Unstitched Dress Material from Sri Lanka, Malesia and other Asian countries ",,NULL,NULL,,,Followup,,NULL,NULL
+13,18,Email,Medium,"2013-07-26 13:25:01",vishal,"we are interested in import data for HS CODE 110422,110412 FOR India,Malaysia Indonesia send me a window of what you can offer and i will consider it.",,NULL,NULL,,,Followup,,NULL,NULL
+14,17,Email,Medium,"2013-07-26 13:25:39",vishal,"We are looking for a reliable & comprehensive import trade database/services where we can get import trade data of UK, Spain, Germany, France, Italy and Brazil for Chapter 29 - Organic Chemicals",,NULL,NULL,,,Followup,,NULL,NULL
+15,20,"Self Generated",High,"2013-07-26 14:09:37",vishal,"want to get Chap 29 Import report",,NULL,NULL,,,Followup,,NULL,NULL
+16,19,Email,Low,"2013-07-26 14:11:09",pankaj,"USA Import Ceramic tiles",,NULL,NULL,"15,000 for 12 months",,Pending,"Price Issue",NULL,NULL
+17,21,Email,High,"2013-07-26 14:12:09",vishal,"i am interested to find out import/export data on buyers/sellers, quantities and countries. can you provide that ",,NULL,NULL,,,Followup,,NULL,NULL
+18,22,Email,Medium,"2013-07-26 14:34:18",pankaj,"JNPT export red chillies, Ground nut",,NULL,NULL,,,Pending,,NULL,NULL
+23,29,Email,Medium,"2013-07-26 17:52:56",vishal,,,NULL,NULL,,,Followup,,NULL,NULL
+24,29,Email,Medium,"2013-07-26 17:53:10",vishal,,,NULL,NULL,,,Followup,,NULL,NULL
+25,24,Email,Low,"2013-07-26 18:11:27",pankaj,,,NULL,NULL,,,Pending,,NULL,NULL
+26,30,Email,Medium,"2013-07-26 18:42:00",vishal,,,NULL,NULL,,,Followup,,NULL,NULL
+27,31,Email,High,"2013-07-30 13:15:33",pankaj,"UK Export Report",,NULL,NULL,"8000 USD",,"Not Intrested","Not Required",NULL,NULL
+28,32,Email,High,"2013-07-30 15:51:38",vishal,"we are interested in Ukraine customs data. What is price for one month imports",,NULL,NULL,$120,,"Not Intrested","Not Required",NULL,NULL
+29,32,Email,High,"2013-07-30 15:51:44",vishal,"we are interested in Ukraine customs data. What is price for one month imports",,NULL,NULL,$120/Month,,"Not Intrested","Not Required",NULL,NULL
+30,34,Email,High,"2013-07-30 16:32:15",vishal,"need yearly import figures of polywster staple fiber into pakistan from vietnam ",,NULL,NULL,,,Followup,,NULL,NULL
+31,35,Email,Medium,"2013-07-30 17:03:10",vishal,"Required Garment buyers in Brazil",,NULL,NULL,,,Followup,,NULL,NULL
+32,35,Email,Medium,"2013-07-30 17:03:11",vishal,"Required Garment buyers in Brazil",,NULL,NULL,,,Followup,,NULL,NULL
+33,36,Email,High,"2013-07-31 17:17:58",vishal,"Want Mexico Import report on 3906",,NULL,NULL,$6200,,Followup,,NULL,NULL
+34,51,Email,High,"2013-08-05 17:32:32",Aashita_8,,,NULL,NULL,,,"Not Intrested",,NULL,fgsjdfjrgdhk/jaihdhfgfd
+36,54,Email,High,"2013-08-05 17:51:16",Aashita_8,,,NULL,NULL,,,"Not Intrested",,NULL,"Sample was sent on 5-aug-2013"
+37,59,Email,Low,"2013-08-07 14:49:50",pankaj,,,NULL,NULL,,,Pending,,NULL,"he just needs formalities.  thank you./he just needs formalities"
+38,60,Email,Medium,"2013-08-07 17:04:26",vishal,"interested for Kandla, Mundra POrt for Quartz product. they are going to start Export- Import Business . Need to call after aug 13",,NULL,NULL,"82k/1 year",,"Not Intrested","Not Required",NULL,NULL
+39,61,Email,Medium,"2013-08-07 17:12:20",vishal,"Interested for Nigeria import report. said he will discuss with their team then let us know final country list",,NULL,NULL,,,Followup,,NULL,NULL
+40,63,Email,Medium,"2013-08-08 14:59:38",vishal,"We need export data, HS code 7214 /7228 . Said he will get back to us after 3-4 days",,NULL,NULL,"Rs.85,000",,Followup,,NULL,NULL
+41,64,Email,Low,"2013-08-08 15:14:12",pankaj,,,NULL,NULL,,,Pending,,NULL,"wrong phone number, never talk on mail"
+42,62,Email,Low,"2013-08-08 15:16:18",pankaj,,,NULL,NULL,,,Pending,,NULL,"Haan, Na, Haan, Na, and nothing/haan na -2 and nothing"
+43,65,Email,High,"2013-08-09 11:49:44",vishal," Mexico related to custom tarif number 28.36.50.00.. Price gave $800//$1500,,/$2100",,NULL,NULL,"$800 to $2200",,Followup,,NULL,NULL
+44,66,Email,Medium,"2013-08-09 11:53:33",vishal,"want Import normal data price gave 92k",,NULL,NULL,Rs.92000,,Followup,,NULL,NULL
+45,67,Email,High,"2013-08-09 11:56:25",vishal,,,NULL,NULL,,,Followup,,NULL,"not picking up the call"
+46,64,Email,Low,"2013-08-09 17:55:49",pankaj,,,NULL,NULL,,,Pending,,NULL,"Wrong Phone number. no mail received also./wrong phone number, never talk on mail"
+47,59,Email,Low,"2013-08-09 17:56:54",pankaj,,,NULL,NULL,,,Pending,,NULL,"just looking for formalities/he just needs formalities"
+48,19,Email,Low,"2013-08-09 17:58:44",pankaj,"USA Import Ceramic tiles",,NULL,NULL,"15,000 for 12 months",,Pending,"Price Issue",NULL,"Company Drop the project for a while/Company Drop the project for a while/Not useful /price issue/price issue"
+49,68,Email,High,"2013-08-13 17:19:08",aashita_8,,,NULL,NULL,,,"Not Intrested",,NULL,"13 aug 2013"
+50,69,Email,High,"2013-08-13 17:19:56",aashita_8,,"chennai and mundra export data of ch-25",2013-07-01,2013-07-31,,NULL,"Close Successfully",,2,NULL
+51,70,Email,Medium,"2013-08-14 16:08:48",aashita_8,"veitnam import",,NULL,NULL,"usd 800 of 1 hs code for 12 month",,Followup,,NULL,"14 aug 13"
+52,71,Email,Medium,"2013-08-16 17:05:41",aashita_8,"INDONESIA IMPORT DATA",,NULL,NULL,"1600 USD FOR 1 HS CODE (8 DIGIT)",,Followup,,NULL,NULL
+53,72,Email,High,"2013-08-19 17:34:38",aashita_8,"china export 2918 malic acid",,NULL,NULL,"usd 150 for 1 month & USD 1000 for 12 months",,Followup,,NULL,NULL
+54,37,Email,High,"2013-08-19 20:13:58",pankaj,,"Russia Import",2012-06-01,2013-05-31,,"800 USD","Close Successfully",,NULL,NULL
+55,73,Email,Medium,"2013-08-22 12:42:42",aashita_8,"argentina import sample of shirting fabric",,NULL,NULL,"399 usd for 12 months",,Followup,,NULL,NULL
+56,74,Email,Medium,"2013-08-22 12:45:11",aashita_8,"india import sample of nitrocellulose",,NULL,NULL,"2500 for 1 month,per port,per ch and 10000 for all port for per hs code per ch",,Followup,,NULL,NULL
+57,75,Email,Low,"2013-08-22 12:46:02",aashita_8,"india import data",,NULL,NULL,,,Followup,,NULL,NULL
+58,76,Email,Medium,"2013-08-22 18:54:12",aashita_8,"India Export data of foging ",,NULL,NULL,"2500 for per port per ch per month for both side and for Jnpt 5000/- for 4 digit hs code per month ",,Followup,,NULL,NULL
+59,76,Email,Medium,"2013-08-22 18:54:13",aashita_8,"India Export data of foging ",,NULL,NULL,"2500 for per port per ch per month for both side and for Jnpt 5000/- for 4 digit hs code per month ",,Followup,,NULL,NULL
+60,22,Email,Medium,"2013-08-26 13:39:29",pankaj,"JNPT export red chillies, Ground nut",,NULL,NULL,,,Pending,,NULL,"Do not know much about report/Not Required"
+61,50,Email,High,"2013-08-26 13:42:59",pankaj,,"Chennai, Delhi TKD, Kandla, JNPT Import 1702",2012-01-01,2013-12-31,,"89,888","Close Successfully",,NULL,NULL
+62,78,Email,Medium,"2013-08-26 16:01:53",vishal,"We are manufacturer supplier and exporter of all types concrete mixer and construction machinery so we want database for importers of our machinery in over the world ",,NULL,NULL,5000,,Followup,,NULL,"Send sample report for JNPT."
+63,78,Email,Medium,"2013-08-26 16:02:34",vishal,"We are manufacturer supplier and exporter of all types concrete mixer and construction machinery so we want database for importers of our machinery in over the world ",,NULL,NULL,5000,,Followup,,NULL,"Send sample report for JNPT."
+64,79,"Self Generated",High,"2013-08-26 16:08:28",vishal,"We are interested in Pharmaceuticals companies which does import and export.",,NULL,NULL,,,Followup,,NULL,NULL
+65,80,"Self Generated",High,"2013-08-26 16:25:14",vishal,"We are interested to receive this report for all items from JNPT for each month because we are a  general trading company and deal with so many items.",,NULL,NULL,,,Followup,,NULL,NULL

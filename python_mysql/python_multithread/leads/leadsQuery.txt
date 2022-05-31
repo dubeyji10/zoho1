@@ -1,0 +1,70 @@
+SELECT 
+  concat(
+    '{', 
+    '"', 
+    'data', 
+    '"', 
+    ':', 
+    '[', 
+    regexp_replace(
+      group_concat(
+        json_object(
+          'Name', 
+          cast(
+            `leads`.`id` as char charset utf8mb4
+          ), 
+          'Last_Name', 
+          '(lead)', 
+          'local_id', 
+          `leads`.`id`, 
+          'user_id', 
+          `leads`.`user_id`, 
+          'client_id', 
+          `leads`.`client_id`, 
+          'status', 
+          `leads`.`status`, 
+          'requirement', 
+          `leads`.`requirement`, 
+          'importance', 
+          `leads`.`importance`, 
+          'report_type', 
+          `leads`.`report_type`, 
+          'source', 
+          `leads`.`lead_source`, 
+          'causes', 
+          `leads`.`causes`, 
+          'invoice_id', 
+          `leads`.`invoice_id`, 
+          'temp', 
+          `leads`.`temp`, 
+          'opening_price', 
+          `leads`.`opening_price`, 
+          'closing_price', 
+          `leads`.`closing_price`, 
+          'time_from', 
+          date_format(`leads`.`time_from`, '%Y-%m-%d'), 
+          'time_to', 
+          date_format(`leads`.`time_to`, '%Y-%m-%d'), 
+          'added_on', 
+          concat(
+            concat(
+              replace(
+                date_format(
+                  `leads`.`added_on`, '%Y-%m-%d %T'
+                ), 
+                ' ', 
+                'T'
+              ), 
+              '+05:30'
+            )
+          )
+        ) separator ','
+      ), 
+      '(})', 
+      concat('}', '')
+    ), 
+    ']', 
+    '}'
+  ) 
+from 
+  `leads`

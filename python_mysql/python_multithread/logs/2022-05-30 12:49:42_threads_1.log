@@ -1,0 +1,22 @@
+INFO:root:-- operations started at Mon May 30 12:49:42 2022 --
+INFO:root: oauth generation at Mon May 30 12:49:42 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- response to oauth request at <built-in function ctime> --- 
+ {"access_token":"1000.261056517f73839fa5cb1b38a86e4e17.c69b0f04581cf4cc2a89e5d20e19db4a","refresh_token":"1000.cac6c7ccb9fef13eb52130a1d8c72631.1aa73572863bcef1ee10d52dea61345d","api_domain":"https://www.zohoapis.in","token_type":"Bearer","expires_in":3600}
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root: -> refreshing tokens at Mon May 30 12:49:48 2022 
+INFO:root: writing refresh token request response at Mon May 30 12:49:48 2022 
+INFO:root:
+ --------------------------------------------------- 
+
+INFO:root:
+ --- response to refresh request at Mon May 30 12:49:48 2022 --- 
+ {"access_token":"1000.3078d18279077db12cba9e4e9f21f8d7.0a528b171f77b782bd14436ce5379e54","api_domain":"https://www.zohoapis.in","token_type":"Bearer","expires_in":3600}
+INFO:root:
+ --------------------------------------------------- 
+

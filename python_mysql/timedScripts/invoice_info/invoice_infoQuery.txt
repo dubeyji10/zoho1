@@ -1,0 +1,90 @@
+SELECT 
+  concat(
+    '{', 
+    '"', 
+    'data', 
+    '"', 
+    ':', 
+    '[', 
+    REGEXP_REPLACE(
+      GROUP_CONCAT(
+        json_object (
+          'Name', 
+          CAST(id as CHAR), 
+          'Address', 
+          REGEXP_REPLACE(
+            invoice_info.Address, '([\"/])', 
+            ' '
+          ), 
+          'Email', 
+          invoice_info.Email, 
+          'user_id', 
+          user_id, 
+          'Company_name', 
+          Company_name, 
+          'Customer_name', 
+          Customer_name, 
+          'Customer_Designation', 
+          Customer_Designation, 
+          'City', 
+          City, 
+          'State', 
+          invoice_info.State, 
+          'immediate', 
+          invoice_info.immediate, 
+          'Tel_No', 
+          Tel_No, 
+          'invoice_no', 
+          invoice_no, 
+          'invoice_of', 
+          invoice_of, 
+          'data_detail', 
+          data_detail, 
+          'amount_recieved', 
+          amount_recieved, 
+          'Mob', 
+          Mob, 
+          'payment_detail', 
+          payment_detail, 
+          'payment_on', 
+          DATE_FORMAT(payment_on, '%Y-%m-%d'), 
+          'payment_in', 
+          payment_in, 
+          'tds_percentage', 
+          tds_percentage, 
+          'sale_rule', 
+          sale_rule, 
+          'sale_amount', 
+          sale_amount, 
+          'data_sent_on', 
+          concat(
+            CONCAT(
+              replace(
+                DATE_FORMAT(data_sent_on, '%Y-%m-%d %T'), 
+                ' ', 
+                'T'
+              ), 
+              "+05:30"
+            )
+          ), 
+          'added_on', 
+          concat(
+            CONCAT(
+              replace(
+                DATE_FORMAT(added_on, '%Y-%m-%d %T'), 
+                ' ', 
+                'T'
+              ), 
+              "+05:30"
+            )
+          )
+        )
+      ), 
+      '(})', 
+      concat('}', '')
+    ), 
+    ']', 
+    '}'
+  ) 
+from 
+  `invoice_info`;

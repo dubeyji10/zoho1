@@ -1,0 +1,13 @@
+{
+    "access_token": "1000.8f52f794a41e3a379791fcd1bb19b644.4e735a77b7f37cf665f5dbbb6163a062",
+    "refresh_token": "1000.f5f45a07f9bd30c76770b64605a63741.6c9c94cc33afcb1d28b320b3ba057a8d",
+    "api_domain": "https://www.zohoapis.in",
+    "token_type": "Bearer",
+    "expires_in": 3600
+}
+
+
+curl "https://www.zohoapis.com/crm/v2/Leads/270924000000716032" -X GET -H "Authorization: Zoho-oauthtoken 1000.8f52f794a41e3a379791fcd1bb19b644.4e735a77b7f37cf665f5dbbb6163a062"
+"Authorization: Zoho-oauthtoken 1000.8f52f794a41e3a379791fcd1bb19b644.4e735a77b7f37cf665f5dbbb6163a062"
+
+270924000000716032

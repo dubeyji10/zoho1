@@ -1,0 +1,132 @@
+{
+    "access_token": "1000.9742d51fb3c1024080d6e3c75d266b78.5166540b4cdf480cef23d5f822bc670b",
+    "refresh_token": "1000.e4cd09b77b372d1aed37ed0bf0bced81.af0fc021c33dd84b28d2f0ef41153003",
+    "api_domain": "https://www.zohoapis.in",
+    "token_type": "Bearer",
+    "expires_in": 3600
+}
+
+16 may 1st
+{
+    "access_token": "1000.a5e4d143279af05c6fc51cd766d18af5.e06b7a25827a2f9d571135f4df8f85d6",
+    "refresh_token": "1000.3313454f290ad37257f394ae17d3201b.eb03f9738e0a32176525d2021da94d54",
+    "api_domain": "https://www.zohoapis.in",
+    "token_type": "Bearer",
+    "expires_in": 3600
+}
+
+16 may 2nd
+1000.6716daf14d38e780aa48cdbf75562b8f.ea915efb43ac95197d155ff7bbdda819
+
+{
+    "access_token": "1000.c8a6a0c5583d71307adbde35a5dfb504.238dd85b084a1059bdb556ae454a63ef",
+    "refresh_token": "1000.b9fd4a338cd6fd0b81d9cd1d265944f3.f7189169e2885c2aad5f4985f8008e81",
+    "api_domain": "https://www.zohoapis.in",
+    "token_type": "Bearer",
+    "expires_in": 3600
+}
+
+    access_token refreshed successfull response below
+
+{
+    "access_token": "1000.61cb2f3f97e3decb984320c72bd1ce91.88cd6227368223dbba5441a122107e36",
+    "api_domain": "https://www.zohoapis.in",
+    "token_type": "Bearer",
+    "expires_in": 3600
+}
+
+    2nd access_token refreshed successfull response below
+
+{
+    "access_token": "1000.488275227f37ad5185e8c75e81174daf.ef759eeb9c2f00d21b74dda7b9d74453",
+    "api_domain": "https://www.zohoapis.in",
+    "token_type": "Bearer",
+    "expires_in": 3600
+}
+
+
+
+3rd try with insert scope for leads module
+
+code : 
+1000.35e35b52131a4cb0e70109663fd0b0f8.730348f716a2c7ce84e9ff776b45d20b
+response:
+
+{
+    "access_token": "1000.a4af27f184b7c414eecc81e155293c8c.89a1617aba09cdcf814e2ca5b3705622",
+    "refresh_token": "1000.2f98f222f1a32d1be93ff0674a090450.618b8be519717caaccb7f4f3fb1c2a28",
+    "api_domain": "https://www.zohoapis.in",
+    "token_type": "Bearer",
+    "expires_in": 3600
+}
+
+refresh the token before 1hr
+token refreshed
+
+{
+    "access_token": "1000.e36b9f42b557f961c1161eacf75eb069.a4aa6f20cdd246f28b77eaa8454351cd",
+    "api_domain": "https://www.zohoapis.in",
+    "token_type": "Bearer",
+    "expires_in": 3600
+}
+
+
+17 May custom module scope
+try 
+ZohoCRM.modules.CustomModule3.ALL
+used:
+ZohoCRM.modules.ALL,ZohoCRM.users.all,ZohoCRM.org.all,ZohoCRM.settings.all,ZohoCRM.modules.leads.ALL,ZohoCRM.modules.CustomModule3.ALL
+more scopes
+
+ZohoCRM.modules.ALL,ZohoCRM.org.ALL,ZohoCRM.modules.custom.all
+
+
+current usage : ZohoCRM.modules.custom.all
+
+17May access token:
+
+{
+    "access_token": "1000.de072a638ca34f11d5813f2f0a085d99.2db6d00df4bccb40c2300b0625d219f2",
+    "refresh_token": "1000.4828bbdb80581288e33a0fcb42a61314.43e0da25c872d32065a832976cc06174",
+    "api_domain": "https://www.zohoapis.in",
+    "token_type": "Bearer",
+    "expires_in": 3600
+}
+
+
+-> successfull in inserting data into CustomModule3 - use convsersation
+-> or create variables for custom modules in environment
+-> like right now {{custom-module-name}} is convsersation
+refresh token used at 12:35
+new access token     
+"access_token": "1000.314036e77b8c79f1b67239a09c9a38e9.1ae0cdcad4211bdfb8992efd6aa09edb",
+
+
+
+LATER : webhooks 2-way sync
+https://stackoverflow.com/questions/38342186/zoho-crm-webhook-fails-with-http-error-1?rq=1
+
+
+new access token 14:11pm
+{
+    "access_token": "1000.895077a6efaa15992ca9b78f3ba44cb4.46aa1bf6590e606050513f7be0f876e1",
+    "api_domain": "https://www.zohoapis.in",
+    "token_type": "Bearer",
+    "expires_in": 3600
+}
+
+new access token 15:17pm
+{
+    "access_token": "1000.23e67f3696d1507b89173a122252d4ed.19f4d0c69d5dcd79b244eab50e138368",
+    "api_domain": "https://www.zohoapis.in",
+    "token_type": "Bearer",
+    "expires_in": 3600
+}
+
+new access token 16:17pm
+{
+    "access_token": "1000.28ce3327e05adb1c48ad0452cd6a89e3.9c7b45ec8bf904ee1ba8ac2b2973454d",
+    "api_domain": "https://www.zohoapis.in",
+    "token_type": "Bearer",
+    "expires_in": 3600
+}
