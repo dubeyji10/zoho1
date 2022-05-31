@@ -1,3 +1,4 @@
+from cmath import log
 from datetime import date, datetime ,timedelta
 from email.policy import default
 import sys
@@ -7,7 +8,7 @@ import mysql.connector
 from mysql.connector import Error
 import json
 import re
-
+from apiCall import pushInto
 query = "select * FROM clients"
 queryLeads = "select * FROM leads"
 queryConversation = "select * FROM conversation"
@@ -129,6 +130,19 @@ try:
             
             cursor.close()
             logging.info('\t {} clients inserted'.format(len(client_collection_list)))
+            logging.info('____________________________________________')
+            logging.info("| caling api to push clients |")
+            responseClient = pushInto('clients',json.dumps(
+                    {"data":client_collection_list},indent=4,default=str,sort_keys=True
+                    ))
+                # print('-'*50)
+            # logging.info("\n\n\n>>>calling generic module api {}\n\n\n".format(time.ctime()))
+            # responseReturned = pushIntoModule(module_name=modulesList[index],payload=leadsJson)
+            responseText = ''
+            responseText = "\n -- reponse recieved at {} -- \n {} ".format(time.ctime(),responseClient.text)
+            logging.info(responseText)
+            logging.info('____________________________________________')
+
             print('cursor closed at ',time.ctime())
             print("done check - ",fileName)
         # ------------------------------------------------------------------------------
@@ -169,10 +183,22 @@ try:
                 conversationJson.write(json.dumps(
                     {"data":conversation_collection_list},indent=4,default=str,sort_keys=True
                     ))
-            
+            logging.info('\t {} conversation inserted'.format(len(conversation_collection_list)))
+            logging.info('____________________________________________')
+            logging.info("| caling api to push conversations |")
+            responseConversation = pushInto('conversation',json.dumps(
+                    {"data":conversation_collection_list},indent=4,default=str,sort_keys=True
+                    ))
+                # print('-'*50)
+            # logging.info("\n\n\n>>>calling generic module api {}\n\n\n".format(time.ctime()))
+            # responseReturned = pushIntoModule(module_name=modulesList[index],payload=leadsJson)
+            responseText = ''
+            responseText = "\n -- reponse recieved at {} -- \n {} ".format(time.ctime(),responseConversation.text)
+            logging.info(responseText)
+            logging.info('____________________________________________')
+
             cursor.close()
             print('cursor closed at ',time.ctime())
-            logging.info('\t {} conversations inserted'.format(len(conversation_collection_list)))
 
             print("done check - ",fileName)
         # ------------------------------------------------------------------------------
@@ -226,9 +252,22 @@ try:
                 leadsJson.write(json.dumps(
                     {"data":leads_collection_list},indent=4,default=str,sort_keys=True
                     ))
+
+            logging.info('\t {} leads inserted'.format(len(leads_collection_list)))
+            logging.info('____________________________________________')
+            logging.info("| caling api to push leads |")
+            responseLeads = pushInto('Leads',json.dumps(
+                    {"data":leads_collection_list},indent=4,default=str,sort_keys=True
+                    ))
+                # print('-'*50)
+            # logging.info("\n\n\n>>>calling generic module api {}\n\n\n".format(time.ctime()))
+            # responseReturned = pushIntoModule(module_name=modulesList[index],payload=leadsJson)
+            responseText = ''
+            responseText = "\n -- reponse recieved at {} -- \n {} ".format(time.ctime(),responseLeads.text)
+            logging.info(responseText)
+            logging.info('____________________________________________')
             
             cursor.close()
-            logging.info('\t {} leads inserted'.format(len(leads_collection_list)))
             print('cursor closed at ',time.ctime())
             print("done check - ",fileName)
 
@@ -257,7 +296,8 @@ try:
                 Query_items = rows[4]
                 amount = rows[7]
                 importance = rows[3]
-                added_on = str(rows[4])
+                # added_on = str(rows[4])
+                added_on = str(rows[11])
                 user_id = rows[12]
                 payment_status = rows[13]
                 invoiceItems_collection['Name'] = name
@@ -278,6 +318,19 @@ try:
                     ))
         
             logging.info('\t {} invoice items inserted'.format(len(invoiceItems_collection_list)))
+            logging.info('____________________________________________')
+            logging.info("| caling api to push invoice items |")
+            responseInvoiceItems = pushInto('invoice_items',json.dumps(
+                    {"data":invoiceItems_collection_list},indent=4,default=str,sort_keys=True
+                    ))
+                # print('-'*50)
+            # logging.info("\n\n\n>>>calling generic module api {}\n\n\n".format(time.ctime()))
+            # responseReturned = pushIntoModule(module_name=modulesList[index],payload=leadsJson)
+            responseText = ''
+            responseText = "\n -- reponse recieved at {} -- \n {} ".format(time.ctime(),responseInvoiceItems.text)
+            logging.info(responseText)
+            logging.info('____________________________________________')
+            
             print('cursor closed at ',time.ctime())
             print("done check - ",fileName)
         # -----------------------------invoice info -------------------------------------------------
@@ -330,8 +383,22 @@ try:
                 invoiceInfoJson.write(json.dumps(
                     {"data":invoiceInfo_collection_list},indent=4,default=str,sort_keys=True
                     ))
-                    
-            logging.info('\t {} invoice info inserted'.format(len(invoiceInfo_collection_list)))
+        
+            logging.info('\t {} invoice items inserted'.format(len(invoiceItems_collection_list)))
+            logging.info('____________________________________________')
+            logging.info("| caling api to push invoice info |")
+            responseInvoiceInfo = pushInto('invoice_info',json.dumps(
+                    {"data":invoiceInfo_collection_list},indent=4,default=str,sort_keys=True
+                    ))
+                # print('-'*50)
+            # logging.info("\n\n\n>>>calling generic module api {}\n\n\n".format(time.ctime()))
+            # responseReturned = pushIntoModule(module_name=modulesList[index],payload=leadsJson)
+            responseText = ''
+            responseText = "\n -- reponse recieved at {} -- \n {} ".format(time.ctime(),responseInvoiceInfo.text)
+            logging.info(responseText)
+            logging.info('____________________________________________')
+            
+      
             print('cursor closed at ',time.ctime())
             print("done check - ",fileName)
 

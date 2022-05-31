@@ -1,0 +1,502 @@
+INFO:root:-- operations started at Tue May 31 12:20:25 2022 (test time = 2015 Jan 2 11:00) --
+INFO:root: --connection successful at 'Tue May 31 12:20:25 2022' --
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 11:00:00' and '2015-01-02 11:10:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 12:20:35 2022' timestamp  : 2015-01-02 11:10:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 12:20:35 2022' --  timestamp  : 2015-01-02 11:10:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 12:20:35 2022' -- timestamp  : 2015-01-02 11:10:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 12:20:35 2022' --  timestamp  : 2015-01-02 11:10:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 12:20:35 2022' -- timestamp  : 2015-01-02 11:10:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 11:10:00' and '2015-01-02 11:20:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 12:20:45 2022' timestamp  : 2015-01-02 11:20:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 12:20:45 2022' --  timestamp  : 2015-01-02 11:20:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 12:20:45 2022' -- timestamp  : 2015-01-02 11:20:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 12:20:45 2022' --  timestamp  : 2015-01-02 11:20:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 12:20:45 2022' -- timestamp  : 2015-01-02 11:20:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 11:20:00' and '2015-01-02 11:30:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 12:20:55 2022' timestamp  : 2015-01-02 11:30:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 12:20:55 2022' --  timestamp  : 2015-01-02 11:30:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 12:20:55 2022' -- timestamp  : 2015-01-02 11:30:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 12:20:55 2022' --  timestamp  : 2015-01-02 11:30:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 12:20:55 2022' -- timestamp  : 2015-01-02 11:30:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 11:30:00' and '2015-01-02 11:40:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 12:21:05 2022' timestamp  : 2015-01-02 11:40:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 12:21:05 2022' --  timestamp  : 2015-01-02 11:40:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 12:21:05 2022' -- timestamp  : 2015-01-02 11:40:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 12:21:05 2022' --  timestamp  : 2015-01-02 11:40:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 12:21:05 2022' -- timestamp  : 2015-01-02 11:40:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 11:40:00' and '2015-01-02 11:50:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 12:21:15 2022' timestamp  : 2015-01-02 11:50:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 12:21:15 2022' --  timestamp  : 2015-01-02 11:50:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 12:21:15 2022' -- timestamp  : 2015-01-02 11:50:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 12:21:15 2022' --  timestamp  : 2015-01-02 11:50:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 12:21:15 2022' -- timestamp  : 2015-01-02 11:50:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 11:50:00' and '2015-01-02 12:00:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 12:21:25 2022' timestamp  : 2015-01-02 12:00:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 12:21:25 2022' --  timestamp  : 2015-01-02 12:00:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 12:21:25 2022' -- timestamp  : 2015-01-02 12:00:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 12:21:25 2022' --  timestamp  : 2015-01-02 12:00:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 12:21:25 2022' -- timestamp  : 2015-01-02 12:00:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 12:00:00' and '2015-01-02 12:10:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 12:21:35 2022' timestamp  : 2015-01-02 12:10:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 12:21:35 2022' --  timestamp  : 2015-01-02 12:10:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 12:21:35 2022' -- timestamp  : 2015-01-02 12:10:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 12:21:35 2022' --  timestamp  : 2015-01-02 12:10:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 12:21:35 2022' -- timestamp  : 2015-01-02 12:10:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 12:10:00' and '2015-01-02 12:20:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 12:21:45 2022' timestamp  : 2015-01-02 12:20:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 12:21:45 2022' --  timestamp  : 2015-01-02 12:20:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 12:21:45 2022' -- timestamp  : 2015-01-02 12:20:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 12:21:45 2022' --  timestamp  : 2015-01-02 12:20:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 12:21:45 2022' -- timestamp  : 2015-01-02 12:20:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 12:20:00' and '2015-01-02 12:30:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 12:21:55 2022' timestamp  : 2015-01-02 12:30:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 12:21:55 2022' --  timestamp  : 2015-01-02 12:30:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 12:21:55 2022' -- timestamp  : 2015-01-02 12:30:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 12:21:55 2022' --  timestamp  : 2015-01-02 12:30:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 12:21:55 2022' -- timestamp  : 2015-01-02 12:30:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 12:30:00' and '2015-01-02 12:40:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 12:22:05 2022' timestamp  : 2015-01-02 12:40:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 12:22:05 2022' --  timestamp  : 2015-01-02 12:40:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 12:22:05 2022' -- timestamp  : 2015-01-02 12:40:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 12:22:05 2022' --  timestamp  : 2015-01-02 12:40:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 12:22:05 2022' -- timestamp  : 2015-01-02 12:40:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 12:40:00' and '2015-01-02 12:50:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 12:22:15 2022' timestamp  : 2015-01-02 12:50:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 12:22:15 2022' --  timestamp  : 2015-01-02 12:50:00 
+INFO:root:	 1 conversation inserted
+INFO:root:____________________________________________
+INFO:root:| caling api to push conversations |
+INFO:root:
+ -- reponse recieved at Tue May 31 12:22:20 2022 -- 
+ {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2022-05-31T12:22:19+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-31T12:22:19+05:30","id":"348488000000276002","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"}]} 
+INFO:root:____________________________________________
+INFO:root: --3. running for leads at 'Tue May 31 12:22:20 2022' -- timestamp  : 2015-01-02 12:50:00 
+INFO:root:	 1 leads inserted
+INFO:root:____________________________________________
+INFO:root:| caling api to push leads |
+INFO:root:
+ -- reponse recieved at Tue May 31 12:22:24 2022 -- 
+ {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2022-05-31T12:22:23+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-31T12:22:23+05:30","id":"348488000000277001","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"}]} 
+INFO:root:____________________________________________
+INFO:root: --4. running for invoice items at 'Tue May 31 12:22:24 2022' --  timestamp  : 2015-01-02 12:50:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 12:22:24 2022' -- timestamp  : 2015-01-02 12:50:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 12:50:00' and '2015-01-02 13:00:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 12:22:34 2022' timestamp  : 2015-01-02 13:00:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 12:22:34 2022' --  timestamp  : 2015-01-02 13:00:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 12:22:34 2022' -- timestamp  : 2015-01-02 13:00:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 12:22:34 2022' --  timestamp  : 2015-01-02 13:00:00 
+INFO:root:	 1 invoice items inserted
+INFO:root:____________________________________________
+INFO:root:| caling api to push invoice items |
+INFO:root:
+ -- reponse recieved at Tue May 31 12:22:38 2022 -- 
+ {"data":[{"code":"INVALID_DATA","details":{"expected_data_type":"datetime","api_name":"added_on"},"message":"invalid data","status":"error"}]} 
+INFO:root:____________________________________________
+INFO:root: --5. running for invoice info at 'Tue May 31 12:22:38 2022' -- timestamp  : 2015-01-02 13:00:00 
+INFO:root:	 1 invoice items inserted
+INFO:root:____________________________________________
+INFO:root:| caling api to push invoice info |
+INFO:root:
+ -- reponse recieved at Tue May 31 12:22:40 2022 -- 
+ {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2022-05-31T12:22:39+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-31T12:22:39+05:30","id":"348488000000278001","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"}]} 
+INFO:root:____________________________________________
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 13:00:00' and '2015-01-02 13:10:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 12:22:50 2022' timestamp  : 2015-01-02 13:10:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 12:22:50 2022' --  timestamp  : 2015-01-02 13:10:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 12:22:50 2022' -- timestamp  : 2015-01-02 13:10:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 12:22:50 2022' --  timestamp  : 2015-01-02 13:10:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 12:22:50 2022' -- timestamp  : 2015-01-02 13:10:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 13:10:00' and '2015-01-02 13:20:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 12:23:00 2022' timestamp  : 2015-01-02 13:20:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 12:23:00 2022' --  timestamp  : 2015-01-02 13:20:00 
+INFO:root:	 1 conversation inserted
+INFO:root:____________________________________________
+INFO:root:| caling api to push conversations |
+INFO:root:
+ -- reponse recieved at Tue May 31 12:23:08 2022 -- 
+ {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2022-05-31T12:23:08+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-31T12:23:08+05:30","id":"348488000000279001","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"}]} 
+INFO:root:____________________________________________
+INFO:root: --3. running for leads at 'Tue May 31 12:23:08 2022' -- timestamp  : 2015-01-02 13:20:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 12:23:08 2022' --  timestamp  : 2015-01-02 13:20:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 12:23:08 2022' -- timestamp  : 2015-01-02 13:20:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 13:20:00' and '2015-01-02 13:30:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 12:23:18 2022' timestamp  : 2015-01-02 13:30:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 12:23:18 2022' --  timestamp  : 2015-01-02 13:30:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 12:23:18 2022' -- timestamp  : 2015-01-02 13:30:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 12:23:18 2022' --  timestamp  : 2015-01-02 13:30:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 12:23:18 2022' -- timestamp  : 2015-01-02 13:30:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 13:30:00' and '2015-01-02 13:40:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 12:23:28 2022' timestamp  : 2015-01-02 13:40:00 --
+INFO:root:	 1 clients inserted
+INFO:root:____________________________________________
+INFO:root:| caling api to push clients |
+INFO:root:
+ -- reponse recieved at Tue May 31 12:23:34 2022 -- 
+ {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2022-05-31T12:23:34+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-31T12:23:34+05:30","id":"348488000000276007","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"}]} 
+INFO:root:____________________________________________
+INFO:root: --2. running for conversation at 'Tue May 31 12:23:34 2022' --  timestamp  : 2015-01-02 13:40:00 
+INFO:root:	 2 conversation inserted
+INFO:root:____________________________________________
+INFO:root:| caling api to push conversations |
+INFO:root:
+ -- reponse recieved at Tue May 31 12:23:35 2022 -- 
+ {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2022-05-31T12:23:34+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-31T12:23:34+05:30","id":"348488000000280001","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"},{"code":"SUCCESS","details":{"Modified_Time":"2022-05-31T12:23:34+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-31T12:23:34+05:30","id":"348488000000280002","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"}]} 
+INFO:root:____________________________________________
+INFO:root: --3. running for leads at 'Tue May 31 12:23:35 2022' -- timestamp  : 2015-01-02 13:40:00 
+INFO:root:	 1 leads inserted
+INFO:root:____________________________________________
+INFO:root:| caling api to push leads |
+INFO:root:
+ -- reponse recieved at Tue May 31 12:23:36 2022 -- 
+ {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2022-05-31T12:23:36+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-31T12:23:36+05:30","id":"348488000000281001","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"}]} 
+INFO:root:____________________________________________
+INFO:root: --4. running for invoice items at 'Tue May 31 12:23:36 2022' --  timestamp  : 2015-01-02 13:40:00 
+INFO:root:	 1 invoice items inserted
+INFO:root:____________________________________________
+INFO:root:| caling api to push invoice items |
+INFO:root:
+ -- reponse recieved at Tue May 31 12:23:38 2022 -- 
+ {"data":[{"code":"INVALID_DATA","details":{"expected_data_type":"datetime","api_name":"added_on"},"message":"invalid data","status":"error"}]} 
+INFO:root:____________________________________________
+INFO:root: --5. running for invoice info at 'Tue May 31 12:23:38 2022' -- timestamp  : 2015-01-02 13:40:00 
+INFO:root:	 1 invoice items inserted
+INFO:root:____________________________________________
+INFO:root:| caling api to push invoice info |
+INFO:root:
+ -- reponse recieved at Tue May 31 12:23:38 2022 -- 
+ {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2022-05-31T12:23:38+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-31T12:23:38+05:30","id":"348488000000282001","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"}]} 
+INFO:root:____________________________________________
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 13:40:00' and '2015-01-02 13:50:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 12:23:48 2022' timestamp  : 2015-01-02 13:50:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 12:23:48 2022' --  timestamp  : 2015-01-02 13:50:00 
+INFO:root:	 1 conversation inserted
+INFO:root:____________________________________________
+INFO:root:| caling api to push conversations |
+INFO:root:
+ -- reponse recieved at Tue May 31 12:23:55 2022 -- 
+ {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2022-05-31T12:23:54+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-31T12:23:54+05:30","id":"348488000000283001","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"}]} 
+INFO:root:____________________________________________
+INFO:root: --3. running for leads at 'Tue May 31 12:23:55 2022' -- timestamp  : 2015-01-02 13:50:00 
+INFO:root:	 1 leads inserted
+INFO:root:____________________________________________
+INFO:root:| caling api to push leads |
+INFO:root:
+ -- reponse recieved at Tue May 31 12:23:55 2022 -- 
+ {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2022-05-31T12:23:55+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-31T12:23:55+05:30","id":"348488000000278006","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"}]} 
+INFO:root:____________________________________________
+INFO:root: --4. running for invoice items at 'Tue May 31 12:23:55 2022' --  timestamp  : 2015-01-02 13:50:00 
+INFO:root:	 1 invoice items inserted
+INFO:root:____________________________________________
+INFO:root:| caling api to push invoice items |
+INFO:root:
+ -- reponse recieved at Tue May 31 12:23:56 2022 -- 
+ {"data":[{"code":"INVALID_DATA","details":{"expected_data_type":"datetime","api_name":"added_on"},"message":"invalid data","status":"error"}]} 
+INFO:root:____________________________________________
+INFO:root: --5. running for invoice info at 'Tue May 31 12:23:56 2022' -- timestamp  : 2015-01-02 13:50:00 
+INFO:root:	 1 invoice items inserted
+INFO:root:____________________________________________
+INFO:root:| caling api to push invoice info |
+INFO:root:
+ -- reponse recieved at Tue May 31 12:23:57 2022 -- 
+ {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2022-05-31T12:23:57+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-31T12:23:57+05:30","id":"348488000000284001","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"}]} 
+INFO:root:____________________________________________
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 13:50:00' and '2015-01-02 14:00:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 12:24:07 2022' timestamp  : 2015-01-02 14:00:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 12:24:07 2022' --  timestamp  : 2015-01-02 14:00:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 12:24:07 2022' -- timestamp  : 2015-01-02 14:00:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 12:24:07 2022' --  timestamp  : 2015-01-02 14:00:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 12:24:07 2022' -- timestamp  : 2015-01-02 14:00:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 14:00:00' and '2015-01-02 14:10:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 12:24:17 2022' timestamp  : 2015-01-02 14:10:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 12:24:17 2022' --  timestamp  : 2015-01-02 14:10:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 12:24:17 2022' -- timestamp  : 2015-01-02 14:10:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 12:24:17 2022' --  timestamp  : 2015-01-02 14:10:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 12:24:17 2022' -- timestamp  : 2015-01-02 14:10:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 14:10:00' and '2015-01-02 14:20:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 12:24:27 2022' timestamp  : 2015-01-02 14:20:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 12:24:27 2022' --  timestamp  : 2015-01-02 14:20:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 12:24:27 2022' -- timestamp  : 2015-01-02 14:20:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 12:24:27 2022' --  timestamp  : 2015-01-02 14:20:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 12:24:27 2022' -- timestamp  : 2015-01-02 14:20:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 14:20:00' and '2015-01-02 14:30:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 12:24:37 2022' timestamp  : 2015-01-02 14:30:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 12:24:37 2022' --  timestamp  : 2015-01-02 14:30:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 12:24:37 2022' -- timestamp  : 2015-01-02 14:30:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 12:24:37 2022' --  timestamp  : 2015-01-02 14:30:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 12:24:37 2022' -- timestamp  : 2015-01-02 14:30:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 14:30:00' and '2015-01-02 14:40:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 12:24:47 2022' timestamp  : 2015-01-02 14:40:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 12:24:47 2022' --  timestamp  : 2015-01-02 14:40:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 12:24:47 2022' -- timestamp  : 2015-01-02 14:40:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 12:24:47 2022' --  timestamp  : 2015-01-02 14:40:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 12:24:47 2022' -- timestamp  : 2015-01-02 14:40:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 14:40:00' and '2015-01-02 14:50:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 12:24:57 2022' timestamp  : 2015-01-02 14:50:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 12:24:57 2022' --  timestamp  : 2015-01-02 14:50:00 
+INFO:root:	 1 conversation inserted
+INFO:root:____________________________________________
+INFO:root:| caling api to push conversations |
+INFO:root:
+ -- reponse recieved at Tue May 31 12:24:58 2022 -- 
+ {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2022-05-31T12:24:58+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-31T12:24:58+05:30","id":"348488000000280010","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"}]} 
+INFO:root:____________________________________________
+INFO:root: --3. running for leads at 'Tue May 31 12:24:58 2022' -- timestamp  : 2015-01-02 14:50:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 12:24:58 2022' --  timestamp  : 2015-01-02 14:50:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 12:24:58 2022' -- timestamp  : 2015-01-02 14:50:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 14:50:00' and '2015-01-02 15:00:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 12:25:08 2022' timestamp  : 2015-01-02 15:00:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 12:25:08 2022' --  timestamp  : 2015-01-02 15:00:00 
+INFO:root:	 5 conversation inserted
+INFO:root:____________________________________________
+INFO:root:| caling api to push conversations |
+INFO:root:
+ -- reponse recieved at Tue May 31 12:25:09 2022 -- 
+ {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2022-05-31T12:25:08+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-31T12:25:08+05:30","id":"348488000000281006","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"},{"code":"SUCCESS","details":{"Modified_Time":"2022-05-31T12:25:08+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-31T12:25:08+05:30","id":"348488000000281007","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"},{"code":"SUCCESS","details":{"Modified_Time":"2022-05-31T12:25:08+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-31T12:25:08+05:30","id":"348488000000281008","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"},{"code":"SUCCESS","details":{"Modified_Time":"2022-05-31T12:25:08+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-31T12:25:08+05:30","id":"348488000000281009","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"},{"code":"SUCCESS","details":{"Modified_Time":"2022-05-31T12:25:08+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-31T12:25:08+05:30","id":"348488000000281010","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"}]} 
+INFO:root:____________________________________________
+INFO:root: --3. running for leads at 'Tue May 31 12:25:09 2022' -- timestamp  : 2015-01-02 15:00:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 12:25:09 2022' --  timestamp  : 2015-01-02 15:00:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 12:25:09 2022' -- timestamp  : 2015-01-02 15:00:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 15:00:00' and '2015-01-02 15:10:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 12:25:19 2022' timestamp  : 2015-01-02 15:10:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 12:25:19 2022' --  timestamp  : 2015-01-02 15:10:00 
+INFO:root:	 4 conversation inserted
+INFO:root:____________________________________________
+INFO:root:| caling api to push conversations |
+INFO:root:
+ -- reponse recieved at Tue May 31 12:25:21 2022 -- 
+ {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2022-05-31T12:25:21+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-31T12:25:21+05:30","id":"348488000000285001","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"},{"code":"SUCCESS","details":{"Modified_Time":"2022-05-31T12:25:21+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-31T12:25:21+05:30","id":"348488000000285002","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"},{"code":"SUCCESS","details":{"Modified_Time":"2022-05-31T12:25:21+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-31T12:25:21+05:30","id":"348488000000285003","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"},{"code":"SUCCESS","details":{"Modified_Time":"2022-05-31T12:25:21+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-31T12:25:21+05:30","id":"348488000000285004","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"}]} 
+INFO:root:____________________________________________
+INFO:root: --3. running for leads at 'Tue May 31 12:25:21 2022' -- timestamp  : 2015-01-02 15:10:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 12:25:21 2022' --  timestamp  : 2015-01-02 15:10:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 12:25:21 2022' -- timestamp  : 2015-01-02 15:10:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 15:10:00' and '2015-01-02 15:20:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 12:25:31 2022' timestamp  : 2015-01-02 15:20:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 12:25:31 2022' --  timestamp  : 2015-01-02 15:20:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 12:25:31 2022' -- timestamp  : 2015-01-02 15:20:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 12:25:31 2022' --  timestamp  : 2015-01-02 15:20:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 12:25:31 2022' -- timestamp  : 2015-01-02 15:20:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 15:20:00' and '2015-01-02 15:30:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 12:25:41 2022' timestamp  : 2015-01-02 15:30:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 12:25:41 2022' --  timestamp  : 2015-01-02 15:30:00 
+INFO:root: 	 no records created for conversation 
+INFO:root: --3. running for leads at 'Tue May 31 12:25:41 2022' -- timestamp  : 2015-01-02 15:30:00 
+INFO:root: 	 no records created for leads 
+INFO:root: --4. running for invoice items at 'Tue May 31 12:25:41 2022' --  timestamp  : 2015-01-02 15:30:00 
+INFO:root: 	 no records created for invoiceItems 
+INFO:root: --5. running for invoice info at 'Tue May 31 12:25:41 2022' -- timestamp  : 2015-01-02 15:30:00 
+INFO:root: 	 no records created for invoice info at 
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 15:30:00' and '2015-01-02 15:40:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 12:25:51 2022' timestamp  : 2015-01-02 15:40:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 12:25:51 2022' --  timestamp  : 2015-01-02 15:40:00 
+INFO:root:	 3 conversation inserted
+INFO:root:____________________________________________
+INFO:root:| caling api to push conversations |
+INFO:root:
+ -- reponse recieved at Tue May 31 12:25:52 2022 -- 
+ {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2022-05-31T12:25:51+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-31T12:25:51+05:30","id":"348488000000286001","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"},{"code":"SUCCESS","details":{"Modified_Time":"2022-05-31T12:25:51+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-31T12:25:51+05:30","id":"348488000000286002","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"},{"code":"SUCCESS","details":{"Modified_Time":"2022-05-31T12:25:51+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-31T12:25:51+05:30","id":"348488000000286003","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"}]} 
+INFO:root:____________________________________________
+INFO:root: --3. running for leads at 'Tue May 31 12:25:52 2022' -- timestamp  : 2015-01-02 15:40:00 
+INFO:root:	 1 leads inserted
+INFO:root:____________________________________________
+INFO:root:| caling api to push leads |
+INFO:root:
+ -- reponse recieved at Tue May 31 12:25:57 2022 -- 
+ {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2022-05-31T12:25:57+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-31T12:25:57+05:30","id":"348488000000278011","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"}]} 
+INFO:root:____________________________________________
+INFO:root: --4. running for invoice items at 'Tue May 31 12:25:57 2022' --  timestamp  : 2015-01-02 15:40:00 
+INFO:root:	 1 invoice items inserted
+INFO:root:____________________________________________
+INFO:root:| caling api to push invoice items |
+INFO:root:
+ -- reponse recieved at Tue May 31 12:25:58 2022 -- 
+ {"data":[{"code":"INVALID_DATA","details":{"expected_data_type":"datetime","api_name":"added_on"},"message":"invalid data","status":"error"}]} 
+INFO:root:____________________________________________
+INFO:root: --5. running for invoice info at 'Tue May 31 12:25:58 2022' -- timestamp  : 2015-01-02 15:40:00 
+INFO:root:	 1 invoice items inserted
+INFO:root:____________________________________________
+INFO:root:| caling api to push invoice info |
+INFO:root:
+ -- reponse recieved at Tue May 31 12:25:58 2022 -- 
+ {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2022-05-31T12:25:58+05:30","Modified_By":{"name":"Jitendra Kumar","id":"348488000000231001"},"Created_Time":"2022-05-31T12:25:58+05:30","id":"348488000000279006","Created_By":{"name":"Jitendra Kumar","id":"348488000000231001"}},"message":"record added","status":"success"}]} 
+INFO:root:____________________________________________
+INFO:root:
+ -- condition :  WHERE added_on between '2015-01-02 15:40:00' and '2015-01-02 15:50:00' --
+
+INFO:root: --1. running for clients at 'Tue May 31 12:26:08 2022' timestamp  : 2015-01-02 15:50:00 --
+INFO:root:	no clients inserted
+INFO:root: --2. running for conversation at 'Tue May 31 12:26:08 2022' --  timestamp  : 2015-01-02 15:50:00 
+INFO:root:	 3 conversation inserted
+INFO:root:____________________________________________
+INFO:root:| caling api to push conversations |
+INFO:root:closed conection
