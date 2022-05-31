@@ -21,7 +21,7 @@ alpha = re.compile(r"[a-z|A-Z]|[!@#$%^&*/]")
 now = datetime.now()
 fileName = now.strftime('%Y_%m_%d_%H_%M_%S')
 logging.basicConfig(filename="outputs2/"+fileName+"_testing_3"+".log", level=logging.INFO)
-logging.info("-- operations started at {} (test time = 2015 Jan 2 11:00) --".format(time.ctime()))
+logging.info("-- operations started at {} (test time = 2015 Jan 3 11:00) --".format(time.ctime()))
 
 
 '''
