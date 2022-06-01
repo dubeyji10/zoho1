@@ -41,8 +41,9 @@ insertionsInvoiceInfo = 0
 # secondDate is the result of timedelta
 '''
     second run 10:00 Jan 2 2015
+    third run 10:00 Jan 3 2015
 '''
-aDate = datetime(2015,1,2,11,00)
+aDate = datetime(2015,1,3,11,00)
 secondDate = aDate
 
 
@@ -67,7 +68,7 @@ try:
 
     while True:
 
-        if aDate > datetime(2015,1,2,18,00):
+        if aDate > datetime(2015,1,3,20,00):
             print("done exiting now at {}".format(datetime(2015,1,2,18,00).strftime('%Y-%m-%d %H:%M:%S')))
             logging.info(' --exiting at \'{}\' timestamp : {} --'.format(time.ctime(),aDate))
             break

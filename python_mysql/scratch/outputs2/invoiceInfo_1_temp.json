@@ -1,15 +1,15 @@
 {
     "data": [
         {
-            "Name": "601",
-            "added_on": "2015-01-02T12:55:00+05:30",
-            "amount_recieved": "1124",
-            "invoice_id": 601,
-            "local_id": 601,
-            "payment_detail": "neft",
+            "Name": "608",
+            "added_on": "2015-01-03T16:24:21+05:30",
+            "amount_recieved": "8989",
+            "invoice_id": 608,
+            "local_id": 608,
+            "payment_detail": "cq- 020296",
             "payment_in": "PNB - ExportGenius",
-            "sale_amount": 1000.0,
-            "user_id": "barkha"
+            "sale_amount": 8000.0,
+            "user_id": "bhawna"
         }
     ]
 }

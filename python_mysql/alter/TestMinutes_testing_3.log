@@ -1,0 +1,7 @@
+INFO:root:-- operations started at Wed Jun  1 11:59:12 2022 (test time = 2015 Jan 3 10:00) --
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------

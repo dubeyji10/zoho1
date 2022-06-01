@@ -1,0 +1,33 @@
+INFO:root:-- operations started at Wed Jun  1 13:14:13 2022 (test time = 2015 Jan 3 10:00) --
+INFO:root:-- generating access tokens at Wed Jun  1 13:14:13 2022 (test time = 2015 Jan 3 10:00) --
+INFO:root:-- response recieved : 
+ {"error":"invalid_code"} 
+
+ -- at Wed Jun  1 13:14:14 2022  --
+INFO:root:--------------------- 10 minute wait ----------------------------
+counter = 1
+INFO:root:minutes passed = 20 counter = 2
+INFO:root: --connection established at 'Wed Jun  1 13:14:24 2022' timestamp  : 2015-01-03 10:10:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+counter = 3
+INFO:root:
+
+now counter is set to 0
+
+
+INFO:root: - - - - refreshing tokens at Wed Jun  1 13:14:34 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"invalid_code"}
+
+ -- at Wed Jun  1 13:14:34 2022  --
+INFO:root: --connection established at 'Wed Jun  1 13:14:34 2022' timestamp  : 2015-01-03 10:20:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+counter = 1

@@ -1,0 +1,504 @@
+INFO:root:-- operations started at Wed Jun  1 13:00:43 2022 (test time = 2015 Jan 3 10:00) --
+INFO:root:-- generating access tokens at Wed Jun  1 13:00:43 2022 (test time = 2015 Jan 3 10:00) --
+INFO:root:-- response recieved : 
+ {"error":"invalid_code"} 
+
+ -- at Wed Jun  1 13:00:44 2022  --
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Wed Jun  1 13:00:46 2022' timestamp  : 2015-01-03 10:10:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root:minutes passed = 40 counter = 4
+INFO:root: - - - - refreshing tokens at Wed Jun  1 13:00:48 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"invalid_code"}
+
+ -- at Wed Jun  1 13:00:48 2022  --
+INFO:root: --connection established at 'Wed Jun  1 13:00:48 2022' timestamp  : 2015-01-03 10:20:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Wed Jun  1 13:00:50 2022' timestamp  : 2015-01-03 10:30:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root:minutes passed = 80 counter = 8
+INFO:root: - - - - refreshing tokens at Wed Jun  1 13:00:52 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"invalid_code"}
+
+ -- at Wed Jun  1 13:00:53 2022  --
+INFO:root: --connection established at 'Wed Jun  1 13:00:53 2022' timestamp  : 2015-01-03 10:40:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Wed Jun  1 13:00:55 2022' timestamp  : 2015-01-03 10:50:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root:minutes passed = 120 counter = 12
+INFO:root: - - - - refreshing tokens at Wed Jun  1 13:00:57 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"invalid_code"}
+
+ -- at Wed Jun  1 13:00:57 2022  --
+INFO:root: --connection established at 'Wed Jun  1 13:00:57 2022' timestamp  : 2015-01-03 11:00:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Wed Jun  1 13:00:59 2022' timestamp  : 2015-01-03 11:10:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root:minutes passed = 160 counter = 16
+INFO:root: - - - - refreshing tokens at Wed Jun  1 13:01:01 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"invalid_code"}
+
+ -- at Wed Jun  1 13:01:01 2022  --
+INFO:root: --connection established at 'Wed Jun  1 13:01:01 2022' timestamp  : 2015-01-03 11:20:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Wed Jun  1 13:01:03 2022' timestamp  : 2015-01-03 11:30:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root:minutes passed = 200 counter = 20
+INFO:root: - - - - refreshing tokens at Wed Jun  1 13:01:05 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"invalid_code"}
+
+ -- at Wed Jun  1 13:01:06 2022  --
+INFO:root: --connection established at 'Wed Jun  1 13:01:06 2022' timestamp  : 2015-01-03 11:40:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Wed Jun  1 13:01:08 2022' timestamp  : 2015-01-03 11:50:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root:minutes passed = 240 counter = 24
+INFO:root: - - - - refreshing tokens at Wed Jun  1 13:01:10 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"invalid_code"}
+
+ -- at Wed Jun  1 13:01:10 2022  --
+INFO:root: --connection established at 'Wed Jun  1 13:01:10 2022' timestamp  : 2015-01-03 12:00:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Wed Jun  1 13:01:12 2022' timestamp  : 2015-01-03 12:10:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root:minutes passed = 280 counter = 28
+INFO:root: - - - - refreshing tokens at Wed Jun  1 13:01:14 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"invalid_code"}
+
+ -- at Wed Jun  1 13:01:14 2022  --
+INFO:root: --connection established at 'Wed Jun  1 13:01:14 2022' timestamp  : 2015-01-03 12:20:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Wed Jun  1 13:01:16 2022' timestamp  : 2015-01-03 12:30:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root:minutes passed = 320 counter = 32
+INFO:root: - - - - refreshing tokens at Wed Jun  1 13:01:18 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"invalid_code"}
+
+ -- at Wed Jun  1 13:01:19 2022  --
+INFO:root: --connection established at 'Wed Jun  1 13:01:19 2022' timestamp  : 2015-01-03 12:40:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Wed Jun  1 13:01:21 2022' timestamp  : 2015-01-03 12:50:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root:minutes passed = 360 counter = 36
+INFO:root: - - - - refreshing tokens at Wed Jun  1 13:01:23 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"invalid_code"}
+
+ -- at Wed Jun  1 13:01:23 2022  --
+INFO:root: --connection established at 'Wed Jun  1 13:01:23 2022' timestamp  : 2015-01-03 13:00:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Wed Jun  1 13:01:25 2022' timestamp  : 2015-01-03 13:10:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root:minutes passed = 400 counter = 40
+INFO:root: - - - - refreshing tokens at Wed Jun  1 13:01:27 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"invalid_code"}
+
+ -- at Wed Jun  1 13:01:27 2022  --
+INFO:root: --connection established at 'Wed Jun  1 13:01:28 2022' timestamp  : 2015-01-03 13:20:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Wed Jun  1 13:01:30 2022' timestamp  : 2015-01-03 13:30:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root:minutes passed = 440 counter = 44
+INFO:root: - - - - refreshing tokens at Wed Jun  1 13:01:32 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"invalid_code"}
+
+ -- at Wed Jun  1 13:01:32 2022  --
+INFO:root: --connection established at 'Wed Jun  1 13:01:32 2022' timestamp  : 2015-01-03 13:40:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Wed Jun  1 13:01:34 2022' timestamp  : 2015-01-03 13:50:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root:minutes passed = 480 counter = 48
+INFO:root: - - - - refreshing tokens at Wed Jun  1 13:01:36 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"invalid_code"}
+
+ -- at Wed Jun  1 13:01:36 2022  --
+INFO:root: --connection established at 'Wed Jun  1 13:01:36 2022' timestamp  : 2015-01-03 14:00:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Wed Jun  1 13:01:38 2022' timestamp  : 2015-01-03 14:10:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root:minutes passed = 520 counter = 52
+INFO:root: - - - - refreshing tokens at Wed Jun  1 13:01:40 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"invalid_code"}
+
+ -- at Wed Jun  1 13:01:41 2022  --
+INFO:root: --connection established at 'Wed Jun  1 13:01:41 2022' timestamp  : 2015-01-03 14:20:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Wed Jun  1 13:01:43 2022' timestamp  : 2015-01-03 14:30:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root:minutes passed = 560 counter = 56
+INFO:root: - - - - refreshing tokens at Wed Jun  1 13:01:45 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"invalid_code"}
+
+ -- at Wed Jun  1 13:01:45 2022  --
+INFO:root: --connection established at 'Wed Jun  1 13:01:45 2022' timestamp  : 2015-01-03 14:40:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Wed Jun  1 13:01:47 2022' timestamp  : 2015-01-03 14:50:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root:minutes passed = 600 counter = 60
+INFO:root: - - - - refreshing tokens at Wed Jun  1 13:01:49 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"access_denied"}
+
+ -- at Wed Jun  1 13:01:50 2022  --
+INFO:root: --connection established at 'Wed Jun  1 13:01:50 2022' timestamp  : 2015-01-03 15:00:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Wed Jun  1 13:01:52 2022' timestamp  : 2015-01-03 15:10:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root:minutes passed = 640 counter = 64
+INFO:root: - - - - refreshing tokens at Wed Jun  1 13:01:54 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"invalid_code"}
+
+ -- at Wed Jun  1 13:01:54 2022  --
+INFO:root: --connection established at 'Wed Jun  1 13:01:54 2022' timestamp  : 2015-01-03 15:20:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Wed Jun  1 13:01:56 2022' timestamp  : 2015-01-03 15:30:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root:minutes passed = 680 counter = 68
+INFO:root: - - - - refreshing tokens at Wed Jun  1 13:01:58 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"access_denied"}
+
+ -- at Wed Jun  1 13:02:11 2022  --
+INFO:root: --connection established at 'Wed Jun  1 13:02:11 2022' timestamp  : 2015-01-03 15:40:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Wed Jun  1 13:02:13 2022' timestamp  : 2015-01-03 15:50:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root:minutes passed = 720 counter = 72
+INFO:root: - - - - refreshing tokens at Wed Jun  1 13:02:15 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"access_denied"}
+
+ -- at Wed Jun  1 13:02:15 2022  --
+INFO:root: --connection established at 'Wed Jun  1 13:02:15 2022' timestamp  : 2015-01-03 16:00:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Wed Jun  1 13:02:17 2022' timestamp  : 2015-01-03 16:10:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root:minutes passed = 760 counter = 76
+INFO:root: - - - - refreshing tokens at Wed Jun  1 13:02:19 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"access_denied"}
+
+ -- at Wed Jun  1 13:02:20 2022  --
+INFO:root: --connection established at 'Wed Jun  1 13:02:20 2022' timestamp  : 2015-01-03 16:20:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Wed Jun  1 13:02:22 2022' timestamp  : 2015-01-03 16:30:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root:minutes passed = 800 counter = 80
+INFO:root: - - - - refreshing tokens at Wed Jun  1 13:02:24 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"access_denied"}
+
+ -- at Wed Jun  1 13:02:24 2022  --
+INFO:root: --connection established at 'Wed Jun  1 13:02:24 2022' timestamp  : 2015-01-03 16:40:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Wed Jun  1 13:02:26 2022' timestamp  : 2015-01-03 16:50:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root:minutes passed = 840 counter = 84
+INFO:root: - - - - refreshing tokens at Wed Jun  1 13:02:28 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"invalid_code"}
+
+ -- at Wed Jun  1 13:02:29 2022  --
+INFO:root: --connection established at 'Wed Jun  1 13:02:29 2022' timestamp  : 2015-01-03 17:00:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Wed Jun  1 13:02:31 2022' timestamp  : 2015-01-03 17:10:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root:minutes passed = 880 counter = 88
+INFO:root: - - - - refreshing tokens at Wed Jun  1 13:02:33 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"invalid_code"}
+
+ -- at Wed Jun  1 13:02:33 2022  --
+INFO:root: --connection established at 'Wed Jun  1 13:02:33 2022' timestamp  : 2015-01-03 17:20:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Wed Jun  1 13:02:35 2022' timestamp  : 2015-01-03 17:30:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root:minutes passed = 920 counter = 92
+INFO:root: - - - - refreshing tokens at Wed Jun  1 13:02:37 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"access_denied"}
+
+ -- at Wed Jun  1 13:02:38 2022  --
+INFO:root: --connection established at 'Wed Jun  1 13:02:38 2022' timestamp  : 2015-01-03 17:40:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Wed Jun  1 13:02:40 2022' timestamp  : 2015-01-03 17:50:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root:minutes passed = 960 counter = 96
+INFO:root: - - - - refreshing tokens at Wed Jun  1 13:02:42 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"access_denied"}
+
+ -- at Wed Jun  1 13:02:43 2022  --
+INFO:root: --connection established at 'Wed Jun  1 13:02:43 2022' timestamp  : 2015-01-03 18:00:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Wed Jun  1 13:02:45 2022' timestamp  : 2015-01-03 18:10:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root:minutes passed = 1000 counter = 100
+INFO:root: - - - - refreshing tokens at Wed Jun  1 13:02:47 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"access_denied"}
+
+ -- at Wed Jun  1 13:02:47 2022  --
+INFO:root: --connection established at 'Wed Jun  1 13:02:47 2022' timestamp  : 2015-01-03 18:20:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Wed Jun  1 13:02:49 2022' timestamp  : 2015-01-03 18:30:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root:minutes passed = 1040 counter = 104
+INFO:root: - - - - refreshing tokens at Wed Jun  1 13:02:51 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"access_denied"}
+
+ -- at Wed Jun  1 13:02:52 2022  --
+INFO:root: --connection established at 'Wed Jun  1 13:02:52 2022' timestamp  : 2015-01-03 18:40:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Wed Jun  1 13:02:54 2022' timestamp  : 2015-01-03 18:50:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root:minutes passed = 1080 counter = 108
+INFO:root: - - - - refreshing tokens at Wed Jun  1 13:02:56 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"access_denied"}
+
+ -- at Wed Jun  1 13:02:56 2022  --
+INFO:root: --connection established at 'Wed Jun  1 13:02:56 2022' timestamp  : 2015-01-03 19:00:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Wed Jun  1 13:02:58 2022' timestamp  : 2015-01-03 19:10:00 --
+INFO:root:1. fetching clients
+INFO:root:2. fetching conversations
+INFO:root:3. fetching leads
+INFO:root:4. fetching invoice info
+INFO:root:-- operations closed at Wed Jun  1 13:02:58 2022 (test time = 2015 Jan 3 10:00) --
+INFO:root:total
+ clients 6 ,
+ conversations 23 ,
+ leads 8,
+ invoice info 1
