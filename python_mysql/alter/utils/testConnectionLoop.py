@@ -1,4 +1,3 @@
-from cmath import log
 from datetime import date, datetime ,timedelta
 import sys
 import time
@@ -80,7 +79,7 @@ while aDate < datetime(2015,1,3,19,00):
     '''
     if counter%4==0:
         logging.info('|-----------------------------------------------------------------------|')
-        print("minutes passed = ",10*counter,'(counter = ',counter,')')
+        print('minutes passed = {} , counter = '.format(10*counter, counter))
         # logging.info('\n\nnow counter is set to {}\n\n'.format(0))
         logging.info(" - - - - refreshing tokens at {} - - - - - ".format(time.ctime()))
         refreshResponse = refreshTokens()

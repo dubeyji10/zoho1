@@ -22,12 +22,6 @@ refresh token response
 urlRefresh = "https://accounts.zoho.in/oauth/v2/token?"
 urlGenerate =  "https://accounts.zoho.in/oauth/v2/token"
 
-payloadRefresh={
-  'client_id': 'your-client-id',
-  'client_secret': 'your-client-secret',
-  'refresh_token': 'your-refresh-token',
-  'grant_type': 'refresh_token'
-}
 files=[]
 headers = {}
 
@@ -40,25 +34,18 @@ fileName = './self_client.json'
 with open(fileName,'r') as client:
     payload = json.load(client)
 
-accessToken_1 = './oauthResponse.json'
-with open(accessToken_1,'r') as t:
-    OauthResponse = json.load(t)
-
-payloadRefresh['client_id'] = payload['client_id']
-payloadRefresh['client_secret'] = payload['client_secret']
-payloadRefresh['refresh_token'] = OauthResponse['refresh_token']
-print("payload for refreshing access token : ",payloadRefresh)
 
 def generateAccessTokens():
-    print('payload : \n',payload)
-    print('making post request')
+    print('>payload : \n',payload)
+    print('>making post request to create access token and refresh token')
     response = requests.request("POST", urlGenerate, headers=headers, data=payload, files=files)
-    print('saving response to oauthResponse.json')
-    with open('./oauthResponse.json','w',encoding='utf8') as oauthResponse:
-        oauthResponse.write(response.text)
-    print('a copy in accessToken.json')
-    with open('./accessToken.json','w',encoding='utf8') as oauthResponse:
-        oauthResponse.write(response.text)
+    print('>saving response to oauthResponse.json')
+    # with open('oauthResponse.json','w',encoding='utf8') as oauthResponse:
+        # oauthResponse.write(response.text)
+    print('>a copy in accessToken.json')
+
+    # with open('accessToken.json','w',encoding='utf8') as oauthResponse:
+    #     oauthResponse.write(response.text)
     print('______________________________________')
 
     return response
@@ -66,10 +53,28 @@ def generateAccessTokens():
 first call generateAccessTokens()
 '''
 def refreshTokens():
+    payloadRefresh={
+        'client_id': 'your-client-id',
+        'client_secret': 'your-client-secret',
+        'refresh_token': 'your-refresh-token',
+        'grant_type': 'refresh_token'
+        }
+
+    accessToken_1 = 'oauthResponse.json'
+    with open(accessToken_1,'r') as t:
+        OauthResponse = json.load(t)
+
+    payloadRefresh['client_id'] = payload['client_id']
+    payloadRefresh['client_secret'] = payload['client_secret']
+    payloadRefresh['refresh_token'] = OauthResponse['refresh_token']
+    print("payload for refreshing access token : ",payloadRefresh)
+
     print('refreshing access tokens')
     response = requests.request("POST", urlRefresh, headers=headers, data=payloadRefresh, files=files)
-    with open('./accessToken.json','w',encoding='utf8') as refreshResponse:
-        refreshResponse.write(response.text)
+    
+    # with open('accessToken.json','w',encoding='utf8') as refreshResponse:
+        # refreshResponse.write(response.text)
+
     print('token refreshed and saved in accessToken.json')
     return response
 

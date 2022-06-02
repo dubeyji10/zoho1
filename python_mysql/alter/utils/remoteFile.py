@@ -1,31 +1,37 @@
-from audioop import add
+'''
+    from remote desktop connection
+'''
+
+
 from datetime import date, datetime ,timedelta
 import sys
 import time
 import logging
-
 from requests import request
 import mysql.connector
 from mysql.connector import Error
 import json
 import re
-from utils.authentication import generateAccessTokens
-from utils.authentication import refreshTokens
+from authentication import generateAccessTokens
+from authentication import refreshTokens
 
-
+from apiCall import pushInto
+#
+# pushInto(moduleName , payload):
 # from apiCall import pushInto
-
+#
 global clientCounter, convCounter , leadsCounter ,invoiceInfoCounter
 
 '''logging'''
 now = datetime.now()
 fileName = now.strftime('%Y_%m_%d_%H_%M_%S')
-logging.basicConfig(filename="Version_3"+fileName+"_LOGS.log", level=logging.INFO, datefmt='%Y-%m-%d %H:%M:%S')
-logging.info("-- operations started at {} (test time = 2015 Jan 3 10:00) --".format(time.ctime()))
+logging.basicConfig(filename="Version_4"+fileName+"_LOGS.log", level=logging.INFO, datefmt='%Y-%m-%d %H:%M:%S')
+#aDate = datetime(2013,7,26,10,00)
+logging.info("-- operations started at {} (test time = 2014 09 23  10:00) --".format(time.ctime()))
 
-logging.info("-- generating access tokens at {} (test time = 2015 Jan 3 10:00) --".format(time.ctime()))
-oauthResponse = generateAccessTokens()
-logging.info("-- response recieved : \n {} \n\n -- at {}  --".format(oauthResponse.text,time.ctime()))
+logging.info("-- not calling generateAccessToken because already called  (test time = 2014 09 23  10:00) --")
+#oauthResponse = generateAccessTokens()
+#logging.info("-- response recieved : \n {} \n\n -- at {}  --".format(oauthResponse.text,time.ctime()))
 
 
 
@@ -49,7 +55,13 @@ invoiceInfoCounter = 0
 ''' date variables '''
 
 # aDate = datetime(2015,1,3,11,00)
-aDate = datetime(2015,1,3,10,00)
+#aDate = datetime(2015,1,3,10,00)
+#aDate = datetime(2013,7,26,10,00)
+#"2014-09-23"
+aDate = datetime(2014,9,23,10,00)
+#
+# 2013-07-26
+#
 secondDate = aDate
 
 # 480 minutes - till 19:00 so loop breaks at counter = 49
@@ -68,9 +80,8 @@ def updateTime():
 
 ''' refresh token every 40 minutes '''
 
-while aDate < datetime(2015,1,3,19,00):
-    counter+=1
-
+while aDate < datetime(2014,9,23,20,00):
+    # counter is incremented in updateTime function
     print('--in the loop--')
     print('waiting for 10 minutes')
     logging.info('--------------------- 10 minute wait ----------------------------')
@@ -84,7 +95,8 @@ while aDate < datetime(2015,1,3,19,00):
     '''
     if counter%4==0:
         print("minutes passed = ",10*counter,'(counter = ',counter,')')
-        logging.info("minutes passed = ",10*counter,'(counter = ',counter,')')
+        logging.info('minutes passed = {} , counter = {} '.format(10*counter , counter))
+        
         logging.info(" - - - - refreshing tokens at {} - - - - - ".format(time.ctime()))
         refreshResponse = refreshTokens()
         logging.info("-- response recieved : \n {}\n\n -- at {}  --".format(refreshResponse.text,time.ctime()))
@@ -107,6 +119,7 @@ while aDate < datetime(2015,1,3,19,00):
                 logging.info('__________  no clients created in the last 10 minutes  __________')
 
             else:
+                clientCounter+=1
                 # create clients payload ------------------  id,company_name,company_grade,phone_no,email,user_id,added_on
                 client_collection_list = []
                 for rows in result:
@@ -139,9 +152,23 @@ while aDate < datetime(2015,1,3,19,00):
                         {"data":client_collection_list},indent=4,default=str,sort_keys=True
                         ))
                 
-                logging.info("\n\n{} clients inserted \n\n".format(len(client_collection_list)))
-                print('inserted clients in ',fileName)
+                logging.info("\n\n{} clients crated \n\n".format(len(client_collection_list)))
+                responseClient = pushInto('clients',json.dumps(
+                    {"data":client_collection_list},indent=4,default=str,sort_keys=True
+                    ))
+                print('response to  clients api call : \n\n ',responseClient.text)
+                responseText = ''
+                responseText = "\n -- reponse recieved at {} -- \n {} ".format(time.ctime(),responseClient.text)
+                logging.info(responseText)
+                logging.info('____________________________________________')
+
+    print('connection closed now')
+    logging.info("------------------ connection closed at {} -----------------------".format(time.ctime()))
                 # -----------------------------------------
+    # a new connection
+    with mysql.connector.connect(host='localhost',database='test_export_genius_2',user='dubeyji',password='password') as connectPointer:
+        print('-> connection established at timestamp = {}',timestamp2)
+        logging.info(' --connection established at \'{}\' timestamp  : {} --'.format(time.ctime(),timestamp2))
         # conversations
         with connectPointer.cursor() as aCursor:
             print('2. fetching conversations')
@@ -153,6 +180,7 @@ while aDate < datetime(2015,1,3,19,00):
                 logging.info('__________  no conversations created in the last 10 minutes  __________')
 
             else:
+                convCounter+=1
                 conv_Collection_List = []
                 # create payloads for conversations -------------------- s_n,with_email,user_id,added_on,msg
                 for rows in result:
@@ -161,10 +189,10 @@ while aDate < datetime(2015,1,3,19,00):
                     s_n = rows[0]
                     with_email = rows[1]
                     user_id = rows[2]
-                    added_on = rows[3]
+                    added_on = str(rows[3])
                     msg = rows[4]
                     convCollection['Name'] = name
-                    convCollection['added_on'] = added_on
+                    convCollection['added_on'] = added_on.replace(' ','T') + '+05:30'
                     convCollection['s_n'] = s_n
                     convCollection['msg'] = msg
                     convCollection['user_id'] = user_id
@@ -177,12 +205,32 @@ while aDate < datetime(2015,1,3,19,00):
                     clientJson.write(json.dumps(
                         {"data":conv_Collection_List},indent=4,default=str,sort_keys=True
                         ))
+
+                logging.info('____________________________________________')
+                logging.info("| caling api to push conversations |")
+                responseConversation = pushInto('conversation',json.dumps(
+                        {"data":conv_Collection_List},indent=4,default=str,sort_keys=True
+                        ))
+                    # print('-'*50)
+                # logging.info("\n\n\n>>>calling generic module api {}\n\n\n".format(time.ctime()))
+                # responseReturned = pushIntoModule(module_name=modulesList[index],payload=leadsJson)
+                responseText = ''
+                responseText = "\n -- reponse recieved at {} -- \n {} ".format(time.ctime(),responseConversation.text)
+                logging.info(responseText)
+                logging.info('____________________________________________')
                 
+
                 logging.info("\n\n{} conversations inserted \n\n".format(len(conv_Collection_List)))
                 print('inserted conversations in ',fileName)
             
-                #  -----------------------------------------------------
 
+    print('connection closed now')
+    logging.info("------------------ connection closed at {} -----------------------".format(time.ctime()))
+    
+            #  -----------------------------------------------------
+    with mysql.connector.connect(host='localhost',database='test_export_genius_2',user='dubeyji',password='password') as connectPointer:
+        print('-> connection established at timestamp = {}',timestamp2)
+        logging.info(' --connection established at \'{}\' timestamp  : {} --'.format(time.ctime(),timestamp2))
         # leads
         with connectPointer.cursor() as aCursor:
             print('3. fetching leads')
@@ -194,6 +242,7 @@ while aDate < datetime(2015,1,3,19,00):
                 logging.info('__________  no leads created in the last 10 minutes  __________')
 
             else:
+                leadsCounter+=1
                 # payloads for leads ---------------------------------
                 # id,client_id,lead_source,importance,added_on,user_id,requirement,status,invoice_id
                 leadsCollList = []
@@ -204,7 +253,7 @@ while aDate < datetime(2015,1,3,19,00):
                     client_id = rows[1]
                     lead_source = rows[2]
                     importance = rows[3]
-                    added_on = rows[4]
+                    added_on = str(rows[4])
                     user_id = rows[5]
                     requirement = rows[5]
                     status = rows[6]
@@ -214,7 +263,7 @@ while aDate < datetime(2015,1,3,19,00):
                     leadsColl['client_id'] = client_id
                     leadsColl['lead_source'] = lead_source
                     leadsColl['importance'] = importance
-                    leadsColl['added_on'] = added_on
+                    leadsColl['added_on'] = added_on.replace(' ','T') + '+05:30'
                     leadsColl['requirement'] = requirement
                     leadsColl['status'] = status
                     leadsColl['invoice_id'] = invoice_id
@@ -230,10 +279,30 @@ while aDate < datetime(2015,1,3,19,00):
                     clientJson.write(json.dumps(
                         {"data":leadsCollList},indent=4,default=str,sort_keys=True
                         ))
+            
+                logging.info('____________________________________________')
+                logging.info("| caling api to push leads |")
+                responseLeads = pushInto('Leads',json.dumps(
+                        {"data":leadsCollList},indent=4,default=str,sort_keys=True
+                        ))
+                # print('-'*50)
+                # logging.info("\n\n\n>>>calling generic module api {}\n\n\n".format(time.ctime()))
+                # responseReturned = pushIntoModule(module_name=modulesList[index],payload=leadsJson)
+                responseText = ''
+                responseText = "\n -- reponse recieved at {} -- \n {} ".format(time.ctime(),responseLeads.text)
+                logging.info(responseText)
+                logging.info('____________________________________________')
+            
                 
                 logging.info("\n\n{} leads inserted \n\n".format(len(leadsCollList)))
                 print('inserted leads in ',fileName)
 
+    print('connection closed now')
+    logging.info("------------------ connection closed at {} -----------------------".format(time.ctime()))
+    
+    with mysql.connector.connect(host='localhost',database='test_export_genius_2',user='dubeyji',password='password') as connectPointer:
+        print('-> connection established at timestamp = {}',timestamp2)
+        logging.info(' --connection established at \'{}\' timestamp  : {} --'.format(time.ctime(),timestamp2))        
         # invoice info
         with connectPointer.cursor() as aCursor:
             print('4. fetching invoice info')
@@ -245,6 +314,7 @@ while aDate < datetime(2015,1,3,19,00):
                 print('--> no invoice info created in the last 10 minutes <--')
                 logging.info('__________  no invoice info created in the last 10 minutes  __________')
             else:
+                invoiceInfoCounter+=1
                 # payloads for invoice info ---------------------------------
                 # Id,invoice_no,invoice_of,user_id,added_on,Email,payment_in,sale_rule,sale_amount 
                 invoiceInfoCollList = []
@@ -254,7 +324,8 @@ while aDate < datetime(2015,1,3,19,00):
                     invInfoColl['invoice_no'] = rows[1]
                     invInfoColl['invoice_of'] = rows[2]
                     invInfoColl['user_id'] = rows[3]
-                    invInfoColl['added_on'] = rows[4]
+                    added_on = str(rows[4])
+                    invInfoColl['added_on'] = added_on.replace(' ','T') + '+05:30'
                     invInfoColl['Email'] = rows[5]
                     invInfoColl['payment_in'] = rows[6]
                     invInfoColl['sale_rule'] = rows[7]
@@ -270,20 +341,31 @@ while aDate < datetime(2015,1,3,19,00):
                     clientJson.write(json.dumps(
                         {"data":invoiceInfoCollList},indent=4,default=str,sort_keys=True
                         ))
-                
-                logging.info("\n\n{} leads inserted \n\n".format(len(leadsCollList)))
-                print('inserted leads in ',fileName)
 
-            for rows in result:
-                invoiceInfoCounter+=1
-                print(rows,'\n',type(rows))
+                logging.info('____________________________________________')
+                logging.info("| caling api to push invoice info |")
+                responseInvoiceInfo = pushInto('invoice_info',json.dumps(
+                        {"data":invoiceInfoCollList},indent=4,default=str,sort_keys=True
+                        ))
+                    # print('-'*50)
+                # logging.info("\n\n\n>>>calling generic module api {}\n\n\n".format(time.ctime()))
+                # responseReturned = pushIntoModule(module_name=modulesList[index],payload=leadsJson)
+                responseText = ''
+                responseText = "\n -- reponse recieved at {} -- \n {} ".format(time.ctime(),responseInvoiceInfo.text)
+                logging.info(responseText)
+                logging.info('____________________________________________')
+
                 
-        
+                logging.info("\n\n{} invoice info inserted \n\n".format(len(leadsCollList)))
+                print('inserted invoice info in ',fileName)
+    print('connection closed now')
+    logging.info("------------------ connection closed at {} -----------------------".format(time.ctime()))
+    
     print('[]'*50)
-
+    logging.info('_______________________________________________________________________\n')
 
 print('total\n clients {} ,\n conversations {} ,\n leads {},\n invoice info {}'.format(clientCounter,convCounter,leadsCounter,invoiceInfoCounter))
 logging.info("-- operations closed at {} (test time = 2015 Jan 3 10:00) --".format(time.ctime()))
-logging.info('total\n clients {} ,\n conversations {} ,\n leads {},\n invoice info {}'.format(clientCounter,convCounter,leadsCounter,invoiceInfoCounter))
+logging.info('\ntotal:\n clients {} ,\n conversations {} ,\n leads {},\n invoice info {}'.format(clientCounter,convCounter,leadsCounter,invoiceInfoCounter))
 
 

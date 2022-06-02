@@ -1,0 +1,811 @@
+INFO:root:-- operations started at Thu Jun  2 11:01:48 2022 (test time = 2014 09 23  10:00) --
+INFO:root:-- not calling generateAccessToken because already called  (test time = 2014 09 23  10:00) --
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Thu Jun  2 11:01:50 2022' timestamp  : 2013-01-23 10:10:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:01:50 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:01:50 2022' timestamp  : 2013-01-23 10:10:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:01:50 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:01:50 2022' timestamp  : 2013-01-23 10:10:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:01:50 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:01:50 2022' timestamp  : 2013-01-23 10:10:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:01:50 2022 -----------------------
+INFO:root:_____________________________ >1< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Thu Jun  2 11:01:52 2022' timestamp  : 2013-01-23 10:20:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:01:52 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:01:52 2022' timestamp  : 2013-01-23 10:20:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:01:52 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:01:52 2022' timestamp  : 2013-01-23 10:20:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:01:52 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:01:52 2022' timestamp  : 2013-01-23 10:20:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:01:52 2022 -----------------------
+INFO:root:_____________________________ >2< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Thu Jun  2 11:01:54 2022' timestamp  : 2013-01-23 10:30:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:01:54 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:01:54 2022' timestamp  : 2013-01-23 10:30:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:01:54 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:01:54 2022' timestamp  : 2013-01-23 10:30:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:01:54 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:01:54 2022' timestamp  : 2013-01-23 10:30:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:01:54 2022 -----------------------
+INFO:root:_____________________________ >3< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Thu Jun  2 11:01:56 2022' timestamp  : 2013-01-23 10:40:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:01:56 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:01:56 2022' timestamp  : 2013-01-23 10:40:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:01:56 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:01:56 2022' timestamp  : 2013-01-23 10:40:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:01:56 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:01:56 2022' timestamp  : 2013-01-23 10:40:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:01:56 2022 -----------------------
+INFO:root:_____________________________ >4< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: - - - - - - - - - - - - - - - - - - - - - - - 
+INFO:root:refreshing tokens at 2013-01-23 10:50:00 
+INFO:root:minutes passed = 50 , counter = 5 
+INFO:root: - - - - refreshing tokens at Thu Jun  2 11:01:58 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"invalid_client"}
+
+ -- at Thu Jun  2 11:02:04 2022  --
+INFO:root: - - - - - - - - - - - - - - - - - - - - - - - 
+INFO:root: --connection established at 'Thu Jun  2 11:02:04 2022' timestamp  : 2013-01-23 10:50:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:04 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:04 2022' timestamp  : 2013-01-23 10:50:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:04 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:04 2022' timestamp  : 2013-01-23 10:50:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:04 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:04 2022' timestamp  : 2013-01-23 10:50:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:04 2022 -----------------------
+INFO:root:_____________________________ >5< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:06 2022' timestamp  : 2013-01-23 11:00:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:06 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:06 2022' timestamp  : 2013-01-23 11:00:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:06 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:06 2022' timestamp  : 2013-01-23 11:00:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:06 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:06 2022' timestamp  : 2013-01-23 11:00:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:06 2022 -----------------------
+INFO:root:_____________________________ >6< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:08 2022' timestamp  : 2013-01-23 11:10:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:08 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:08 2022' timestamp  : 2013-01-23 11:10:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:08 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:08 2022' timestamp  : 2013-01-23 11:10:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:08 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:08 2022' timestamp  : 2013-01-23 11:10:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:08 2022 -----------------------
+INFO:root:_____________________________ >7< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:10 2022' timestamp  : 2013-01-23 11:20:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:10 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:10 2022' timestamp  : 2013-01-23 11:20:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:10 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:10 2022' timestamp  : 2013-01-23 11:20:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:10 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:10 2022' timestamp  : 2013-01-23 11:20:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:10 2022 -----------------------
+INFO:root:_____________________________ >8< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:12 2022' timestamp  : 2013-01-23 11:30:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:12 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:12 2022' timestamp  : 2013-01-23 11:30:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:12 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:12 2022' timestamp  : 2013-01-23 11:30:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:12 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:12 2022' timestamp  : 2013-01-23 11:30:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:12 2022 -----------------------
+INFO:root:_____________________________ >9< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: - - - - - - - - - - - - - - - - - - - - - - - 
+INFO:root:refreshing tokens at 2013-01-23 11:40:00 
+INFO:root:minutes passed = 100 , counter = 10 
+INFO:root: - - - - refreshing tokens at Thu Jun  2 11:02:14 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"invalid_client"}
+
+ -- at Thu Jun  2 11:02:14 2022  --
+INFO:root: - - - - - - - - - - - - - - - - - - - - - - - 
+INFO:root: --connection established at 'Thu Jun  2 11:02:14 2022' timestamp  : 2013-01-23 11:40:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:14 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:14 2022' timestamp  : 2013-01-23 11:40:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:14 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:14 2022' timestamp  : 2013-01-23 11:40:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:14 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:14 2022' timestamp  : 2013-01-23 11:40:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:14 2022 -----------------------
+INFO:root:_____________________________ >10< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:16 2022' timestamp  : 2013-01-23 11:50:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:16 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:16 2022' timestamp  : 2013-01-23 11:50:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:16 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:16 2022' timestamp  : 2013-01-23 11:50:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:16 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:16 2022' timestamp  : 2013-01-23 11:50:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:16 2022 -----------------------
+INFO:root:_____________________________ >11< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:18 2022' timestamp  : 2013-01-23 12:00:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:18 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:18 2022' timestamp  : 2013-01-23 12:00:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:18 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:18 2022' timestamp  : 2013-01-23 12:00:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:18 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:18 2022' timestamp  : 2013-01-23 12:00:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:18 2022 -----------------------
+INFO:root:_____________________________ >12< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:20 2022' timestamp  : 2013-01-23 12:10:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:20 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:20 2022' timestamp  : 2013-01-23 12:10:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:20 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:20 2022' timestamp  : 2013-01-23 12:10:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:20 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:20 2022' timestamp  : 2013-01-23 12:10:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:20 2022 -----------------------
+INFO:root:_____________________________ >13< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:22 2022' timestamp  : 2013-01-23 12:20:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:22 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:22 2022' timestamp  : 2013-01-23 12:20:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:22 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:22 2022' timestamp  : 2013-01-23 12:20:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:22 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:22 2022' timestamp  : 2013-01-23 12:20:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:22 2022 -----------------------
+INFO:root:_____________________________ >14< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: - - - - - - - - - - - - - - - - - - - - - - - 
+INFO:root:refreshing tokens at 2013-01-23 12:30:00 
+INFO:root:minutes passed = 150 , counter = 15 
+INFO:root: - - - - refreshing tokens at Thu Jun  2 11:02:24 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"invalid_client"}
+
+ -- at Thu Jun  2 11:02:25 2022  --
+INFO:root: - - - - - - - - - - - - - - - - - - - - - - - 
+INFO:root: --connection established at 'Thu Jun  2 11:02:25 2022' timestamp  : 2013-01-23 12:30:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:25 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:25 2022' timestamp  : 2013-01-23 12:30:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:25 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:25 2022' timestamp  : 2013-01-23 12:30:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:25 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:25 2022' timestamp  : 2013-01-23 12:30:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:25 2022 -----------------------
+INFO:root:_____________________________ >15< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:27 2022' timestamp  : 2013-01-23 12:40:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:27 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:27 2022' timestamp  : 2013-01-23 12:40:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:27 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:27 2022' timestamp  : 2013-01-23 12:40:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:27 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:27 2022' timestamp  : 2013-01-23 12:40:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:27 2022 -----------------------
+INFO:root:_____________________________ >16< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:29 2022' timestamp  : 2013-01-23 12:50:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:29 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:29 2022' timestamp  : 2013-01-23 12:50:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:29 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:29 2022' timestamp  : 2013-01-23 12:50:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:29 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:29 2022' timestamp  : 2013-01-23 12:50:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:29 2022 -----------------------
+INFO:root:_____________________________ >17< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:31 2022' timestamp  : 2013-01-23 13:00:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:31 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:31 2022' timestamp  : 2013-01-23 13:00:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:31 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:31 2022' timestamp  : 2013-01-23 13:00:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:31 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:31 2022' timestamp  : 2013-01-23 13:00:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:31 2022 -----------------------
+INFO:root:_____________________________ >18< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:33 2022' timestamp  : 2013-01-23 13:10:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:33 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:33 2022' timestamp  : 2013-01-23 13:10:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:33 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:33 2022' timestamp  : 2013-01-23 13:10:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:33 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:33 2022' timestamp  : 2013-01-23 13:10:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:33 2022 -----------------------
+INFO:root:_____________________________ >19< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: - - - - - - - - - - - - - - - - - - - - - - - 
+INFO:root:refreshing tokens at 2013-01-23 13:20:00 
+INFO:root:minutes passed = 200 , counter = 20 
+INFO:root: - - - - refreshing tokens at Thu Jun  2 11:02:35 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"invalid_client"}
+
+ -- at Thu Jun  2 11:02:35 2022  --
+INFO:root: - - - - - - - - - - - - - - - - - - - - - - - 
+INFO:root: --connection established at 'Thu Jun  2 11:02:35 2022' timestamp  : 2013-01-23 13:20:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:35 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:35 2022' timestamp  : 2013-01-23 13:20:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:35 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:35 2022' timestamp  : 2013-01-23 13:20:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:35 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:35 2022' timestamp  : 2013-01-23 13:20:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:35 2022 -----------------------
+INFO:root:_____________________________ >20< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:37 2022' timestamp  : 2013-01-23 13:30:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:37 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:37 2022' timestamp  : 2013-01-23 13:30:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:37 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:37 2022' timestamp  : 2013-01-23 13:30:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:37 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:37 2022' timestamp  : 2013-01-23 13:30:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:37 2022 -----------------------
+INFO:root:_____________________________ >21< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:39 2022' timestamp  : 2013-01-23 13:40:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:39 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:39 2022' timestamp  : 2013-01-23 13:40:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:39 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:39 2022' timestamp  : 2013-01-23 13:40:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:39 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:39 2022' timestamp  : 2013-01-23 13:40:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:39 2022 -----------------------
+INFO:root:_____________________________ >22< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:41 2022' timestamp  : 2013-01-23 13:50:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:41 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:41 2022' timestamp  : 2013-01-23 13:50:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:41 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:41 2022' timestamp  : 2013-01-23 13:50:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:41 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:41 2022' timestamp  : 2013-01-23 13:50:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:41 2022 -----------------------
+INFO:root:_____________________________ >23< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:43 2022' timestamp  : 2013-01-23 14:00:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:43 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:43 2022' timestamp  : 2013-01-23 14:00:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:43 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:43 2022' timestamp  : 2013-01-23 14:00:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:43 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:43 2022' timestamp  : 2013-01-23 14:00:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:43 2022 -----------------------
+INFO:root:_____________________________ >24< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: - - - - - - - - - - - - - - - - - - - - - - - 
+INFO:root:refreshing tokens at 2013-01-23 14:10:00 
+INFO:root:minutes passed = 250 , counter = 25 
+INFO:root: - - - - refreshing tokens at Thu Jun  2 11:02:45 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"invalid_client"}
+
+ -- at Thu Jun  2 11:02:46 2022  --
+INFO:root: - - - - - - - - - - - - - - - - - - - - - - - 
+INFO:root: --connection established at 'Thu Jun  2 11:02:46 2022' timestamp  : 2013-01-23 14:10:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:46 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:46 2022' timestamp  : 2013-01-23 14:10:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:46 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:46 2022' timestamp  : 2013-01-23 14:10:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:46 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:46 2022' timestamp  : 2013-01-23 14:10:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:46 2022 -----------------------
+INFO:root:_____________________________ >25< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:48 2022' timestamp  : 2013-01-23 14:20:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:48 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:48 2022' timestamp  : 2013-01-23 14:20:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:48 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:48 2022' timestamp  : 2013-01-23 14:20:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:48 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:48 2022' timestamp  : 2013-01-23 14:20:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:48 2022 -----------------------
+INFO:root:_____________________________ >26< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:50 2022' timestamp  : 2013-01-23 14:30:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:50 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:50 2022' timestamp  : 2013-01-23 14:30:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:50 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:50 2022' timestamp  : 2013-01-23 14:30:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:50 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:50 2022' timestamp  : 2013-01-23 14:30:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:50 2022 -----------------------
+INFO:root:_____________________________ >27< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:52 2022' timestamp  : 2013-01-23 14:40:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:52 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:52 2022' timestamp  : 2013-01-23 14:40:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:52 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:52 2022' timestamp  : 2013-01-23 14:40:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:52 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:52 2022' timestamp  : 2013-01-23 14:40:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:52 2022 -----------------------
+INFO:root:_____________________________ >28< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:54 2022' timestamp  : 2013-01-23 14:50:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:54 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:54 2022' timestamp  : 2013-01-23 14:50:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:54 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:54 2022' timestamp  : 2013-01-23 14:50:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:54 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:54 2022' timestamp  : 2013-01-23 14:50:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:54 2022 -----------------------
+INFO:root:_____________________________ >29< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: - - - - - - - - - - - - - - - - - - - - - - - 
+INFO:root:refreshing tokens at 2013-01-23 15:00:00 
+INFO:root:minutes passed = 300 , counter = 30 
+INFO:root: - - - - refreshing tokens at Thu Jun  2 11:02:56 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"invalid_client"}
+
+ -- at Thu Jun  2 11:02:56 2022  --
+INFO:root: - - - - - - - - - - - - - - - - - - - - - - - 
+INFO:root: --connection established at 'Thu Jun  2 11:02:56 2022' timestamp  : 2013-01-23 15:00:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:56 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:56 2022' timestamp  : 2013-01-23 15:00:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:56 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:56 2022' timestamp  : 2013-01-23 15:00:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:56 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:56 2022' timestamp  : 2013-01-23 15:00:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:56 2022 -----------------------
+INFO:root:_____________________________ >30< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:58 2022' timestamp  : 2013-01-23 15:10:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:58 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:58 2022' timestamp  : 2013-01-23 15:10:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:58 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:58 2022' timestamp  : 2013-01-23 15:10:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:58 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:02:58 2022' timestamp  : 2013-01-23 15:10:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:02:58 2022 -----------------------
+INFO:root:_____________________________ >31< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Thu Jun  2 11:03:00 2022' timestamp  : 2013-01-23 15:20:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:03:00 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:03:00 2022' timestamp  : 2013-01-23 15:20:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:03:00 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:03:00 2022' timestamp  : 2013-01-23 15:20:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:03:00 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:03:00 2022' timestamp  : 2013-01-23 15:20:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:03:00 2022 -----------------------
+INFO:root:_____________________________ >32< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Thu Jun  2 11:03:02 2022' timestamp  : 2013-01-23 15:30:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:03:02 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:03:02 2022' timestamp  : 2013-01-23 15:30:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:03:02 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:03:02 2022' timestamp  : 2013-01-23 15:30:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:03:02 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:03:02 2022' timestamp  : 2013-01-23 15:30:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:03:02 2022 -----------------------
+INFO:root:_____________________________ >33< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Thu Jun  2 11:03:04 2022' timestamp  : 2013-01-23 15:40:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:03:04 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:03:04 2022' timestamp  : 2013-01-23 15:40:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:03:04 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:03:04 2022' timestamp  : 2013-01-23 15:40:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:03:04 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:03:04 2022' timestamp  : 2013-01-23 15:40:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:03:04 2022 -----------------------
+INFO:root:_____________________________ >34< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: - - - - - - - - - - - - - - - - - - - - - - - 
+INFO:root:refreshing tokens at 2013-01-23 15:50:00 
+INFO:root:minutes passed = 350 , counter = 35 
+INFO:root: - - - - refreshing tokens at Thu Jun  2 11:03:06 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"invalid_client"}
+
+ -- at Thu Jun  2 11:03:16 2022  --
+INFO:root: - - - - - - - - - - - - - - - - - - - - - - - 
+INFO:root: --connection established at 'Thu Jun  2 11:03:17 2022' timestamp  : 2013-01-23 15:50:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:03:17 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:03:17 2022' timestamp  : 2013-01-23 15:50:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:03:17 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:03:17 2022' timestamp  : 2013-01-23 15:50:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:03:17 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:03:17 2022' timestamp  : 2013-01-23 15:50:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:03:17 2022 -----------------------
+INFO:root:_____________________________ >35< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Thu Jun  2 11:03:19 2022' timestamp  : 2013-01-23 16:00:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:03:19 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:03:19 2022' timestamp  : 2013-01-23 16:00:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:03:19 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:03:19 2022' timestamp  : 2013-01-23 16:00:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:03:19 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:03:19 2022' timestamp  : 2013-01-23 16:00:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:03:19 2022 -----------------------
+INFO:root:_____________________________ >36< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Thu Jun  2 11:03:21 2022' timestamp  : 2013-01-23 16:10:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:03:21 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:03:21 2022' timestamp  : 2013-01-23 16:10:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:03:21 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:03:21 2022' timestamp  : 2013-01-23 16:10:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:03:21 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:03:21 2022' timestamp  : 2013-01-23 16:10:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:03:21 2022 -----------------------
+INFO:root:_____________________________ >37< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Thu Jun  2 11:03:23 2022' timestamp  : 2013-01-23 16:20:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:03:23 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:03:23 2022' timestamp  : 2013-01-23 16:20:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:03:23 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:03:23 2022' timestamp  : 2013-01-23 16:20:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:03:23 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:03:23 2022' timestamp  : 2013-01-23 16:20:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:03:23 2022 -----------------------
+INFO:root:_____________________________ >38< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Thu Jun  2 11:03:25 2022' timestamp  : 2013-01-23 16:30:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:03:25 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:03:25 2022' timestamp  : 2013-01-23 16:30:00 --
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:03:25 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:03:25 2022' timestamp  : 2013-01-23 16:30:00 --
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:03:25 2022 -----------------------
+INFO:root: --connection established at 'Thu Jun  2 11:03:25 2022' timestamp  : 2013-01-23 16:30:00 --
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:------------------ connection closed at Thu Jun  2 11:03:25 2022 -----------------------
+INFO:root:_____________________________ >39< ___________________________________
+
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: - - - - - - - - - - - - - - - - - - - - - - - 
+INFO:root:refreshing tokens at 2013-01-23 16:40:00 
+INFO:root:minutes passed = 400 , counter = 40 
+INFO:root: - - - - refreshing tokens at Thu Jun  2 11:03:27 2022 - - - - - 

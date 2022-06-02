@@ -1,0 +1,5 @@
+queryClients = "select id,company_name,company_grade,phone_no,email,user_id,added_on FROM clients"
+queryConversation = "select s_n,with_email,user_id,added_on,msg FROM conversation"
+queryLeads = "select id,client_id,lead_source,importance,added_on,user_id,requirement,status,invoice_id FROM leads"
+queryInvoiceInfo = "select Id,invoice_no,invoice_of,user_id,added_on,Email,payment_in,sale_rule,sale_amount FROM invoice_info"
+

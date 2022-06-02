@@ -1,0 +1,47 @@
+INFO:root:-- operations started at Wed Jun  1 14:52:52 2022 (test time = 2015 Jan 3 10:00) --
+INFO:root:-- generating access tokens at Wed Jun  1 14:52:52 2022 (test time = 2015 Jan 3 10:00) --
+INFO:root:-- response recieved : 
+ {"error":"invalid_code"} 
+
+ -- at Wed Jun  1 14:52:57 2022  --
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Wed Jun  1 14:52:59 2022' timestamp  : 2015-01-03 10:10:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Wed Jun  1 14:53:01 2022' timestamp  : 2015-01-03 10:20:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root: --connection established at 'Wed Jun  1 14:53:03 2022' timestamp  : 2015-01-03 10:30:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:2. fetching conversations
+INFO:root:__________  no conversations created in the last 10 minutes  __________
+INFO:root:3. fetching leads
+INFO:root:__________  no leads created in the last 10 minutes  __________
+INFO:root:4. fetching invoice info
+INFO:root:__________  no invoice info created in the last 10 minutes  __________
+INFO:root:--------------------- 10 minute wait ----------------------------
+INFO:root:minutes passed = 40 , counter = 4 
+INFO:root: - - - - refreshing tokens at Wed Jun  1 14:53:05 2022 - - - - - 
+INFO:root:-- response recieved : 
+ {"error":"invalid_code"}
+
+ -- at Wed Jun  1 14:53:05 2022  --
+INFO:root: --connection established at 'Wed Jun  1 14:53:05 2022' timestamp  : 2015-01-03 10:40:00 --
+INFO:root:1. fetching clients
+INFO:root:__________  no clients created in the last 10 minutes  __________
+INFO:root:2. fetching conversations
